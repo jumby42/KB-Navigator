@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "KB Navigator",
+    "baseUrl": "http://localhost:3000",
+    "trustProxy": false
+  },
+  "paths": {
+    "kbRoot": "./data/Knowledgebase",
+    "dataDir": "./data",
+    "logsDir": "./data/logs",
+    "draftsDir": "./data/drafts",
+    "sessionsDir": "./data/sessions"
+  },
+  "auth": {
+    "mode": "optional",
+    "rememberMeDays": 7,
+    "loginRateLimit": {
+      "windowMinutes": 15,
+      "maxAttempts": 10
+    }
+  },
+  "security": {
+    "sessionSecret": "",
+    "bcryptRounds": 12
+  },
+  "locks": {
+    "solutionLockTtlMinutes": 30,
+    "heartbeatSeconds": 120
+  },
+  "trash": {
+    "retentionDays": 30
+  },
+  "logging": {
+    "level": "info",
+    "fileOnly": true,
+    "consoleMinimal": true,
+    "format": "plain",
+    "rotation": "daily",
+    "retentionDays": 30
+  },
+  "uploads": {
+    "maxImageBytes": 10485760,
+    "allowedImageExtensions": [
+      "png",
+      "jpg",
+      "jpeg",
+      "gif",
+      "webp"
+    ]
+  },
+  "passwordPolicy": {
+    "minLength": 8,
+    "requireCategories": 3,
+    "categories": [
+      "lower",
+      "upper",
+      "number",
+      "symbol"
+    ],
+    "allowedSymbols": "`~!@#$%^&*()-=_+[]\\{}|;':\\\",./<>?"
+  },
+  "users": {
+    "allowSelfDelete": false,
+    "enforceCaseInsensitiveUsernames": true
+  }
+}

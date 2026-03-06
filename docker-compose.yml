@@ -1,0 +1,14 @@
+services:
+  kbnavigator:
+    image: ${KBNAVIGATOR_IMAGE:-ghcr.io/jumby42/kbnavigator:v1.0.0}
+    platform: linux/amd64
+    env_file:
+      - .env
+    ports:
+      - "${KBNAVIGATOR_PORT:-3000}:3000"
+    volumes:
+      - kbn_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  kbn_data:

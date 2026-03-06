@@ -1,0 +1,1395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KB Navigator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-bs5.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/css/app.css" />
+  </head>
+  <body>
+    <a class="kbn-skip-link" href="#mainContent">Skip to main content</a>
+    <nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary">
+      <div class="container-fluid gap-2 kbn-nav-shell">
+        <div class="d-flex align-items-center gap-2 flex-grow-1 kbn-nav-left">
+          <div class="kbn-nav-search position-relative">
+            <form id="navSearchForm" class="d-flex" role="search" autocomplete="off">
+              <div class="input-group input-group-sm">
+                <span class="input-group-text"><i class="bi bi-search" aria-hidden="true"></i></span>
+                <input
+                  id="navSearchInput"
+                  class="form-control"
+                  type="search"
+                  placeholder="Search solutions"
+                  aria-label="Search solutions"
+                />
+              </div>
+            </form>
+            <div id="navSearchResults" class="kbn-search-results d-none" role="region" aria-label="Search results" aria-live="polite" aria-busy="false"></div>
+          </div>
+          <a class="navbar-brand fw-semibold mb-0" href="/">KB Navigator</a>
+        </div>
+        <div class="d-flex gap-2 ms-auto" id="navActions"></div>
+      </div>
+    </nav>
+
+    <main id="mainContent" class="container py-4" tabindex="-1">
+      <section id="setupSection" class="d-none">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header fw-semibold">Setup Superadmin</div>
+              <div class="card-body">
+                <p class="text-secondary">
+                  A superadmin account is required before the app can be used.
+                </p>
+                <form id="setupForm" class="vstack gap-3">
+                  <div>
+                    <label class="form-label" for="setupUsername">Username</label>
+                    <input id="setupUsername" name="username" class="form-control" required />
+                  </div>
+                  <div>
+                    <label class="form-label" for="setupPassword">Password</label>
+                    <input
+                      id="setupPassword"
+                      name="password"
+                      type="password"
+                      class="form-control"
+                      minlength="8"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label class="form-label" for="setupConfirmPassword">Confirm Password</label>
+                    <input
+                      id="setupConfirmPassword"
+                      name="confirmPassword"
+                      type="password"
+                      class="form-control"
+                      minlength="8"
+                      required
+                    />
+                  </div>
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-primary" type="submit">Create Superadmin</button>
+                  </div>
+                  <div id="setupMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="appSection" class="d-none">
+        <section id="landingSection" class="d-none">
+          <div class="kbn-landing-hero card border-0 mb-3">
+            <div class="card-body p-4 p-lg-5">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-8">
+                  <p class="kbn-landing-eyebrow mb-2">Guided Troubleshooter</p>
+                  <h1 id="landingTitle" class="h2 mb-3">Welcome to KB Navigator</h1>
+                  <p id="landingSubtitle" class="text-secondary mb-0">Find and resolve common IT issues with a guided path.</p>
+                  <div class="d-flex flex-wrap gap-2 mt-4">
+                    <button id="landingPrimaryBtn" type="button" class="btn btn-primary">Start Troubleshooting</button>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="kbn-landing-stat card border-0">
+                    <div class="card-body py-3 px-4">
+                      <div class="small text-uppercase text-secondary mb-1">Available solutions</div>
+                      <div id="landingTopicCount" class="display-6 fw-semibold lh-1">0</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3 mb-3">
+            <div class="col-lg-7">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h2 class="h5 mb-3">How It Works</h2>
+                  <div class="row g-2">
+                    <div class="col-md-4">
+                      <div class="kbn-landing-step h-100">
+                        <i class="bi bi-diagram-3 mb-2" aria-hidden="true"></i>
+                        <div class="fw-semibold small">Choose a topic</div>
+                        <div class="small text-secondary">Start with the issue category that matches your problem.</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="kbn-landing-step h-100">
+                        <i class="bi bi-signpost-split mb-2" aria-hidden="true"></i>
+                        <div class="fw-semibold small">Follow prompts</div>
+                        <div class="small text-secondary">Answer each step to narrow down the exact scenario.</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="kbn-landing-step h-100">
+                        <i class="bi bi-check2-circle mb-2" aria-hidden="true"></i>
+                        <div class="fw-semibold small">Apply solution</div>
+                        <div class="small text-secondary">Use the final guidance and flags to resolve safely.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h2 class="h5 mb-3">Popular Topics</h2>
+                  <div id="landingTopicsList" class="d-grid gap-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="troubleshooterFlow">
+          <div class="mb-3" id="breadcrumbs"></div>
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div id="steps" class="vstack gap-3"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div id="solutionPane" class="text-secondary">Select a topic to begin.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="toastContainer" class="toast-container position-fixed bottom-0 end-0 p-3"></div>
+
+    <section id="adminOverlay" class="app-overlay d-none" role="dialog" aria-modal="true" aria-labelledby="adminOverlayTitle" aria-hidden="true" tabindex="-1">
+      <div class="app-overlay__header border-bottom">
+        <div>
+          <h2 id="adminOverlayTitle" class="h5 mb-0">Admin Editor</h2>
+          <small class="text-secondary">Knowledgebase and Trash management</small>
+        </div>
+        <div class="d-flex gap-2 kbn-admin-header-actions">
+          <button id="adminIntegrityScanBtn" class="btn btn-outline-warning btn-sm" type="button">Integrity Scan</button>
+          <button id="adminMySubmissionsBtn" class="btn btn-outline-primary btn-sm" type="button">My Submissions</button>
+          <button id="adminRefreshBtn" class="btn btn-outline-secondary btn-sm" type="button">Refresh</button>
+          <button id="adminCloseBtn" class="btn btn-outline-danger btn-sm" type="button">Close</button>
+        </div>
+      </div>
+      <div id="adminCompactPaneSwitch" class="kbn-admin-compact-switch d-none border-bottom p-2" role="tablist" aria-label="Admin panes">
+        <div class="btn-group btn-group-sm" role="group" aria-label="Switch between tree and editor panes">
+          <button id="adminPaneTreeBtn" type="button" class="btn btn-outline-secondary active" role="tab" aria-selected="true" aria-controls="adminTreePane">Tree</button>
+          <button id="adminPaneEditorBtn" type="button" class="btn btn-outline-secondary" role="tab" aria-selected="false" aria-controls="adminEditorPane">Editor</button>
+        </div>
+      </div>
+      <div class="app-overlay__body">
+        <div class="row g-3 kbn-admin-workspace">
+          <div id="adminTreePane" class="col-lg-4 kbn-admin-pane">
+            <div class="card h-100">
+              <div class="card-header d-flex align-items-center justify-content-between gap-2">
+                <span class="fw-semibold">Tree</span>
+                <div class="d-flex flex-wrap gap-1 justify-content-end kbn-admin-tree-controls" role="group" aria-label="Tree controls">
+                  <button id="adminTreeExpandAllBtn" class="btn btn-outline-secondary btn-sm" type="button">Expand all</button>
+                  <button id="adminTreeCollapseAllBtn" class="btn btn-outline-secondary btn-sm" type="button">Collapse all</button>
+                  <button id="adminTreeClearIntegrityBtn" class="btn btn-outline-danger btn-sm" type="button">Clear indicators</button>
+                </div>
+              </div>
+              <div class="card-body tree-panel">
+                <div class="mb-3">
+                  <div id="adminKbTree" aria-label="Knowledgebase tree"></div>
+                </div>
+                <div>
+                  <div id="adminTrashTree" aria-label="Trash tree"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="adminEditorPane" class="col-lg-8 kbn-admin-pane">
+            <div class="card h-100">
+              <div class="card-header">
+                <div id="adminSelectionTitle" class="fw-semibold">Select an item</div>
+                <div id="adminSelectionSub" class="small text-secondary"></div>
+              </div>
+              <div class="card-body d-flex flex-column gap-3 overflow-auto">
+                <div id="adminActionBar" class="d-flex flex-wrap gap-2"></div>
+                <div id="adminPanelBody" class="small"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="adminIntegrityModal" tabindex="-1" aria-hidden="true" aria-labelledby="adminIntegrityModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="adminIntegrityModalTitle" class="modal-title fs-5">Admin Integrity Scan</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-2">
+            <div id="adminIntegrityMessage" class="small text-secondary" role="status" aria-live="polite" aria-atomic="true"></div>
+            <div id="adminIntegritySummary" class="border rounded p-2 small text-secondary">No scan results yet.</div>
+            <div class="table-responsive border rounded kbn-integrity-table-wrap">
+              <table class="table table-sm align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">Path</th>
+                    <th scope="col">Issue</th>
+                    <th scope="col">Date Found</th>
+                  </tr>
+                </thead>
+                <tbody id="adminIntegrityRows"></tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="adminIntegrityClearHistoryBtn" type="button" class="btn btn-outline-danger btn-sm">Clear History</button>
+            <button id="adminIntegrityExportBtn" type="button" class="btn btn-outline-secondary btn-sm">Export CSV</button>
+            <button id="adminIntegrityRescanBtn" type="button" class="btn btn-primary btn-sm">Rescan</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="usersOverlay" class="app-overlay d-none" role="dialog" aria-modal="true" aria-labelledby="usersOverlayTitle" aria-hidden="true" tabindex="-1">
+      <div class="app-overlay__header border-bottom">
+        <div>
+          <h2 id="usersOverlayTitle" class="h5 mb-0">Users</h2>
+          <small class="text-secondary">Superadmin user management</small>
+        </div>
+        <div class="d-flex gap-2">
+          <button id="usersRefreshBtn" class="btn btn-outline-secondary btn-sm" type="button">Refresh</button>
+          <button id="usersCloseBtn" class="btn btn-outline-danger btn-sm" type="button">Close</button>
+        </div>
+      </div>
+      <div class="app-overlay__body">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column gap-3">
+            <form id="createUserForm" class="row g-2 align-items-end border rounded p-2">
+              <div class="col-lg-2">
+                <label class="form-label form-label-sm">Username</label>
+                <input id="createUsername" name="username" class="form-control form-control-sm" required />
+              </div>
+              <div class="col-lg-2">
+                <label class="form-label form-label-sm">Role</label>
+                <select id="createRole" name="role" class="form-select form-select-sm">
+                  <option value="user">user</option>
+                  <option value="admin">admin</option>
+                  <option value="superadmin">superadmin</option>
+                </select>
+              </div>
+              <div class="col-lg-1">
+                <label class="form-label form-label-sm">Approver</label>
+                <div class="form-check form-switch mt-1">
+                  <input id="createCanApprove" name="canApprove" class="form-check-input" type="checkbox" role="switch" />
+                </div>
+              </div>
+              <div class="col-lg-1">
+                <label class="form-label form-label-sm">Audit Log</label>
+                <div class="form-check form-switch mt-1">
+                  <input id="createCanViewAudit" name="canViewAudit" class="form-check-input" type="checkbox" role="switch" />
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <label class="form-label form-label-sm">Password</label>
+                <input id="createPassword" name="password" type="password" class="form-control form-control-sm" required />
+              </div>
+              <div class="col-lg-2">
+                <label class="form-label form-label-sm">Confirm</label>
+                <input id="createConfirmPassword" name="confirmPassword" type="password" class="form-control form-control-sm" required />
+              </div>
+              <div class="col-lg-2 d-grid">
+                <button class="btn btn-primary btn-sm" type="submit">Add</button>
+              </div>
+              <div id="usersCreateMessage" class="col-12 small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </form>
+
+            <div id="usersTempPasswordBox" class="alert alert-warning d-none"></div>
+
+            <div class="small text-secondary">
+              Self-delete/self-demotion and deleting/demoting the last remaining superadmin are blocked.
+            </div>
+
+            <div class="table-responsive flex-grow-1">
+              <table class="table table-sm align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col">Username</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Approver</th>
+                    <th scope="col">Audit Log</th>
+                    <th scope="col">Created</th>
+                    <th scope="col">Last Login</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="usersTableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <div class="modal fade" id="settingsModal" tabindex="-1" aria-hidden="true" aria-labelledby="settingsModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="settingsModalTitle" class="modal-title fs-5">Settings</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-3">
+            <form id="settingsForm" class="border rounded p-3 vstack gap-2">
+              <div class="small fw-semibold">Change Password</div>
+              <div>
+                <label class="form-label" for="settingsCurrentPassword">Current password</label>
+                <input class="form-control" id="settingsCurrentPassword" name="oldPassword" type="password" autocomplete="current-password" />
+              </div>
+              <div class="row g-2">
+                <div class="col-md-6">
+                  <label class="form-label" for="settingsNewPassword">New password</label>
+                  <input class="form-control" id="settingsNewPassword" name="newPassword" type="password" autocomplete="new-password" />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="settingsConfirmPassword">Confirm new password</label>
+                  <input class="form-control" id="settingsConfirmPassword" name="confirmPassword" type="password" autocomplete="new-password" />
+                </div>
+              </div>
+              <div id="settingsMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+              <div>
+                <button type="submit" class="btn btn-primary btn-sm">Save Password</button>
+              </div>
+            </form>
+            <section id="settingsDisplaySection" class="border rounded p-3 vstack gap-2">
+              <div class="small fw-semibold">Display</div>
+              <div class="border rounded p-2 kbn-settings-display-card vstack gap-2">
+                <div class="vstack gap-1">
+                  <label class="small text-secondary mb-0" for="settingsThemeMode">Theme</label>
+                  <select class="form-select form-select-sm" id="settingsThemeMode" aria-label="Theme mode">
+                    <option value="light">Light</option>
+                    <option value="dim">Dim</option>
+                    <option value="dark">Dark</option>
+                    <option value="black">Black</option>
+                  </select>
+                </div>
+                <div id="settingsTreeAppearanceSection" class="vstack gap-3 d-none">
+                  <div class="form-check form-switch mb-0">
+                    <input class="form-check-input" type="checkbox" role="switch" id="settingsShowQuestionTextInTree" />
+                    <label class="form-check-label" for="settingsShowQuestionTextInTree">Show question text in editor tree</label>
+                  </div>
+                  <div class="row g-2 align-items-end">
+                    <div class="col-md-6">
+                      <label class="small text-secondary mb-1" for="settingsTreeHighlightColor">Tree highlight color</label>
+                      <input class="form-control form-control-color form-control-sm w-100" id="settingsTreeHighlightColor" type="color" value="#e9ecef" />
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end">
+                      <button id="settingsTreeResetDefaultsBtn" type="button" class="btn btn-outline-secondary btn-sm">Reset to defaults</button>
+                    </div>
+                  </div>
+
+                  <div class="kbn-tree-style-grid">
+                    <section class="border rounded p-2 vstack gap-2">
+                      <div class="small fw-semibold">Question node name</div>
+                      <div class="row g-2 align-items-end">
+                        <div class="col-6">
+                          <label class="small text-secondary mb-1" for="settingsTreeQuestionColor">Color</label>
+                          <input class="form-control form-control-color form-control-sm w-100" id="settingsTreeQuestionColor" type="color" value="#000000" />
+                        </div>
+                        <div class="col-6">
+                          <label class="small text-secondary mb-1" for="settingsTreeQuestionSize">Size (px)</label>
+                          <select class="form-select form-select-sm" id="settingsTreeQuestionSize" aria-label="Question node font size"></select>
+                        </div>
+                      </div>
+                      <div class="btn-group btn-group-sm" role="group" aria-label="Question node style controls">
+                        <button id="settingsTreeQuestionBold" type="button" class="btn btn-outline-secondary" title="Bold" aria-label="Bold">B</button>
+                        <button id="settingsTreeQuestionItalic" type="button" class="btn btn-outline-secondary" title="Italic" aria-label="Italic"><i>I</i></button>
+                        <button id="settingsTreeQuestionUnderline" type="button" class="btn btn-outline-secondary" title="Underline" aria-label="Underline"><u>U</u></button>
+                      </div>
+                    </section>
+
+                    <section class="border rounded p-2 vstack gap-2">
+                      <div class="small fw-semibold">Solution node name</div>
+                      <div class="row g-2 align-items-end">
+                        <div class="col-6">
+                          <label class="small text-secondary mb-1" for="settingsTreeSolutionColor">Color</label>
+                          <input class="form-control form-control-color form-control-sm w-100" id="settingsTreeSolutionColor" type="color" value="#000000" />
+                        </div>
+                        <div class="col-6">
+                          <label class="small text-secondary mb-1" for="settingsTreeSolutionSize">Size (px)</label>
+                          <select class="form-select form-select-sm" id="settingsTreeSolutionSize" aria-label="Solution node font size"></select>
+                        </div>
+                      </div>
+                      <div class="btn-group btn-group-sm" role="group" aria-label="Solution node style controls">
+                        <button id="settingsTreeSolutionBold" type="button" class="btn btn-outline-secondary" title="Bold" aria-label="Bold">B</button>
+                        <button id="settingsTreeSolutionItalic" type="button" class="btn btn-outline-secondary" title="Italic" aria-label="Italic"><i>I</i></button>
+                        <button id="settingsTreeSolutionUnderline" type="button" class="btn btn-outline-secondary" title="Underline" aria-label="Underline"><u>U</u></button>
+                      </div>
+                    </section>
+
+                    <section id="settingsTreeQuestionTextSection" class="border rounded p-2 vstack gap-2">
+                      <div class="small fw-semibold">Question text (subline)</div>
+                      <div class="row g-2 align-items-end">
+                        <div class="col-6">
+                          <label class="small text-secondary mb-1" for="settingsTreeQuestionTextColor">Color</label>
+                          <input class="form-control form-control-color form-control-sm w-100" id="settingsTreeQuestionTextColor" type="color" value="#444444" />
+                        </div>
+                        <div class="col-6">
+                          <label class="small text-secondary mb-1" for="settingsTreeQuestionTextSize">Size (px)</label>
+                          <select class="form-select form-select-sm" id="settingsTreeQuestionTextSize" aria-label="Question text font size"></select>
+                        </div>
+                      </div>
+                      <div class="btn-group btn-group-sm" role="group" aria-label="Question text style controls">
+                        <button id="settingsTreeQuestionTextBold" type="button" class="btn btn-outline-secondary" title="Bold" aria-label="Bold">B</button>
+                        <button id="settingsTreeQuestionTextItalic" type="button" class="btn btn-outline-secondary" title="Italic" aria-label="Italic"><i>I</i></button>
+                        <button id="settingsTreeQuestionTextUnderline" type="button" class="btn btn-outline-secondary" title="Underline" aria-label="Underline"><u>U</u></button>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="form-text mt-0 mb-0">Tree appearance settings are saved per account.</div>
+                </div>
+              </div>
+            </section>
+
+            <section id="settingsFlagsSection" class="border rounded p-3 vstack gap-3 d-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="small fw-semibold">Flag Settings</div>
+                <small class="text-secondary">Superadmin only</small>
+              </div>
+
+              <div class="border rounded p-2 kbn-settings-display-card vstack gap-2">
+                <div class="kbn-settings-display-grid">
+                  <div class="vstack gap-1">
+                    <div class="form-check form-switch mb-0">
+                      <input class="form-check-input" type="checkbox" role="switch" id="settingsAutoContrastFlagBackground" />
+                      <label class="form-check-label" for="settingsAutoContrastFlagBackground">Auto Contrast Flag Background</label>
+                    </div>
+                    <div class="form-text mt-0 mb-0">Automatically adds a background to flag labels when text contrast is too low.</div>
+                  </div>
+                  <div id="settingsAutoContrastStrictnessWrap" class="vstack gap-1">
+                    <div class="small text-secondary">Auto Contrast Strictness</div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="small text-secondary">Less</span>
+                      <input
+                        class="form-range kbn-contrast-strictness mb-0"
+                        id="settingsAutoContrastStrictness"
+                        type="range"
+                        min="2.5"
+                        max="7.0"
+                        step="0.1"
+                        value="4.5"
+                        aria-label="Auto contrast strictness"
+                      />
+                      <span class="small text-secondary">More</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="settingsFlagsMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+              <div class="border rounded p-2 vstack gap-1">
+                <div class="small fw-semibold">Approvals</div>
+                <div class="form-check form-switch mb-0">
+                  <input class="form-check-input" type="checkbox" role="switch" id="settingsFlagEditsRequireApproval" />
+                  <label class="form-check-label" for="settingsFlagEditsRequireApproval">Flag edits require approval</label>
+                </div>
+                <div class="form-text mt-0 mb-0">When enabled, non-approvers submit flag changes through solution approval.</div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="small fw-semibold">Flags</div>
+                <button id="settingsOpenCreateFlagBtn" type="button" class="btn btn-primary btn-sm">Create Flag</button>
+              </div>
+              <div id="settingsFlagsList" class="vstack gap-2"></div>
+            </section>
+            <section id="settingsBackupsSection" class="border rounded p-3 vstack gap-2 d-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="small fw-semibold">Backups and Restore</div>
+                <small class="text-secondary">Superadmin only</small>
+              </div>
+              <div id="settingsBackupsInlineRuntime" class="small text-secondary">Loading backup runtime...</div>
+              <div class="d-flex justify-content-end">
+                <button id="settingsOpenBackupManagerBtn" type="button" class="btn btn-outline-primary btn-sm">
+                  Open Backup Manager
+                </button>
+              </div>
+            </section>
+            <section id="settingsAuditSection" class="border rounded p-3 vstack gap-2 d-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="small fw-semibold">Audit Log</div>
+                <small id="settingsAuditRoleNote" class="text-secondary">Admins and superadmins with audit access</small>
+              </div>
+              <div id="settingsAuditRuntime" class="small text-secondary">Loading audit status...</div>
+              <div id="settingsAuditRetentionWrap" class="row g-2 align-items-end d-none">
+                <div class="col-sm-5 col-md-4">
+                  <label class="form-label form-label-sm" for="settingsAuditRetentionDays">Retention (days)</label>
+                  <input class="form-control form-control-sm" id="settingsAuditRetentionDays" type="number" min="1" max="3650" />
+                </div>
+                <div class="col-sm-7 col-md-8 small text-secondary">Events older than the retention period are automatically pruned.</div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button id="settingsOpenAuditLogBtn" type="button" class="btn btn-outline-primary btn-sm">Open Audit Log</button>
+              </div>
+            </section>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="backupManagerModal" tabindex="-1" aria-hidden="true" aria-labelledby="backupManagerModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="backupManagerModalTitle" class="modal-title fs-5">Backup Manager</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-3">
+            <ul class="nav nav-tabs" id="backupManagerTabList" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="backup-manager-backups-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#backup-manager-backups-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="backup-manager-backups-pane"
+                  aria-selected="true"
+                >
+                  Backups
+                </button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="backup-manager-history-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#backup-manager-history-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="backup-manager-history-pane"
+                  aria-selected="false"
+                >
+                  Restore/History
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content pt-3">
+              <section
+                class="tab-pane fade show active vstack gap-3"
+                id="backup-manager-backups-pane"
+                role="tabpanel"
+                aria-labelledby="backup-manager-backups-tab"
+                tabindex="0"
+              >
+                <div class="border rounded p-3 vstack gap-2">
+                  <div class="small fw-semibold">Schedule</div>
+                  <div class="row g-2 align-items-end">
+                    <div class="col-md-4">
+                      <div class="form-check form-switch mb-0">
+                        <input class="form-check-input" type="checkbox" role="switch" id="settingsBackupScheduleEnabled" />
+                        <label class="form-check-label" for="settingsBackupScheduleEnabled">Enable Scheduled Backups</label>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label form-label-sm" for="settingsBackupPreset">Preset</label>
+                      <select class="form-select form-select-sm" id="settingsBackupPreset">
+                        <option value="hourly">Hourly</option>
+                        <option value="every6hours">Every 6 hours</option>
+                        <option value="daily-02:00">Daily at 2:00 AM</option>
+                        <option value="weekly-sun-02:00">Weekly Sunday 2:00 AM</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label form-label-sm" for="settingsBackupRetentionMode">Retention mode</label>
+                      <select class="form-select form-select-sm" id="settingsBackupRetentionMode">
+                        <option value="count+age">Count + age</option>
+                        <option value="count-only">Count only</option>
+                        <option value="age-only">Age only</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6" id="settingsBackupKeepLastWrap">
+                      <label class="form-label form-label-sm" for="settingsBackupKeepLast">Keep last</label>
+                      <input class="form-control form-control-sm" id="settingsBackupKeepLast" type="number" min="1" max="10000" />
+                    </div>
+                    <div class="col-md-6" id="settingsBackupMaxAgeDaysWrap">
+                      <label class="form-label form-label-sm" for="settingsBackupMaxAgeDays">Max age (days)</label>
+                      <input class="form-control form-control-sm" id="settingsBackupMaxAgeDays" type="number" min="1" max="3650" />
+                    </div>
+                  </div>
+                  <div id="settingsBackupRuntime" class="small text-secondary"></div>
+                </div>
+                <div class="border rounded p-3 vstack gap-2">
+                  <div class="small fw-semibold">Manual Backup</div>
+                  <div class="row g-2 align-items-end">
+                    <div class="col-md-8">
+                      <label class="form-label form-label-sm" for="settingsBackupLabel">Label (optional)</label>
+                      <input class="form-control form-control-sm" id="settingsBackupLabel" maxlength="120" />
+                    </div>
+                    <div class="col-md-4 d-grid">
+                      <button id="settingsBackupCreateBtn" class="btn btn-primary btn-sm" type="button">Create Backup</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="tab-pane fade vstack gap-2"
+                id="backup-manager-history-pane"
+                role="tabpanel"
+                aria-labelledby="backup-manager-history-tab"
+                tabindex="0"
+              >
+                <div class="border rounded p-3 vstack gap-2">
+                  <div class="small fw-semibold">Restore</div>
+                  <div class="row g-2 align-items-end">
+                    <div class="col-md-9">
+                      <label class="form-label form-label-sm" for="settingsBackupRestoreFile">Upload ZIP archive</label>
+                      <input class="form-control form-control-sm" id="settingsBackupRestoreFile" type="file" accept=".zip,application/zip" />
+                    </div>
+                    <div class="col-md-3 text-md-end">
+                      <button id="settingsBackupRestoreBtn" class="btn btn-danger btn-sm" type="button">Restore Now</button>
+                    </div>
+                  </div>
+                  <div class="form-text">A safety snapshot is created automatically before apply.</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="small fw-semibold">History</div>
+                  <button id="settingsBackupRefreshBtn" class="btn btn-outline-secondary btn-sm" type="button">Refresh</button>
+                </div>
+                <div class="table-responsive border rounded kbn-backup-history-table">
+                  <table class="table table-sm align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Run</th>
+                        <th scope="col">Details</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Created</th>
+                        <th scope="col"># Files Archived</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="settingsBackupRunsBody"></tbody>
+                  </table>
+                </div>
+              </section>
+            </div>
+            <div id="settingsBackupsMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="backupRestoreConfirmModal" tabindex="-1" aria-hidden="true" aria-labelledby="backupRestoreConfirmModalTitle">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="backupRestoreConfirmModalTitle" class="modal-title fs-5 text-danger">Confirm Restore</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-2">
+            <p class="mb-1">This will replace the live knowledgebase and data (excluding sessions/logs/backups).</p>
+            <div id="settingsBackupRestoreConfirmSummary" class="small text-secondary"></div>
+            <div>
+              <label class="form-label form-label-sm" for="settingsBackupRestoreConfirmInput">Type RESTORE to confirm</label>
+              <input class="form-control form-control-sm" id="settingsBackupRestoreConfirmInput" autocomplete="off" />
+            </div>
+            <div id="settingsBackupRestoreConfirmMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Cancel</button>
+            <button id="settingsBackupRestoreConfirmSubmitBtn" type="button" class="btn btn-danger btn-sm">Start Restore</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="flagEditorModal" tabindex="-1" aria-hidden="true" aria-labelledby="settingsFlagFormTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="settingsFlagFormTitle" class="modal-title fs-5">Create Flag</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="settingsFlagForm">
+            <div class="modal-body vstack gap-3">
+              <div>
+                <label class="form-label form-label-sm" for="settingsFlagName">Flag filename</label>
+                <input class="form-control form-control-sm" id="settingsFlagName" name="name" placeholder=".needs-review" required />
+                <div class="form-text">Dot-prefixed marker filename. <code>.lock</code> is reserved.</div>
+              </div>
+              <div>
+                <label class="form-label form-label-sm" for="settingsFlagMessage">Message shown to users</label>
+                <textarea class="form-control form-control-sm" id="settingsFlagMessage" name="message" rows="2" required></textarea>
+              </div>
+              <div class="row g-2">
+                <div class="col-lg-2">
+                  <label class="form-label form-label-sm" for="settingsFlagColor">Text color</label>
+                  <input class="form-control form-control-color form-control-sm w-100" id="settingsFlagColor" name="colorClass" type="color" value="#6c757d" />
+                  <div id="settingsFlagBackgroundWrap" class="vstack gap-1 mt-2">
+                    <div class="form-check form-switch mb-0">
+                      <input class="form-check-input" type="checkbox" role="switch" id="settingsFlagBackgroundEnabled" />
+                      <label class="form-check-label" for="settingsFlagBackgroundEnabled">Custom background</label>
+                    </div>
+                    <input class="form-control form-control-color form-control-sm w-100" id="settingsFlagBackgroundColor" name="backgroundColor" type="color" value="#212529" disabled />
+                  </div>
+                  <label class="form-label form-label-sm mt-2" for="settingsFlagRestrictionType">Restriction</label>
+                  <select class="form-select form-select-sm" id="settingsFlagRestrictionType" name="restrictionType">
+                    <option value="none">None</option>
+                    <option value="roles">Allowed roles</option>
+                    <option value="users">Allowed users</option>
+                  </select>
+                </div>
+                <div class="col-lg-9">
+                  <label class="form-label form-label-sm" for="settingsFlagIconSearch">Icon</label>
+                  <input type="hidden" id="settingsFlagIcon" name="iconClass" />
+                  <div class="border rounded p-2 bg-body-tertiary">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                      <button id="settingsFlagIconClear" type="button" class="btn btn-outline-secondary btn-sm" title="No icon" aria-label="Clear icon">
+                        <i class="bi bi-x-circle" aria-hidden="true"></i>
+                      </button>
+                      <div id="settingsFlagIconCurrent" class="kbn-icon-current text-secondary" title="No icon" aria-label="Current icon">
+                        <i class="bi bi-dash" aria-hidden="true"></i>
+                      </div>
+                      <input class="form-control form-control-sm" id="settingsFlagIconSearch" type="search" placeholder="Search icons" autocomplete="off" />
+                    </div>
+                    <div id="settingsFlagIconGrid" class="kbn-icon-grid" aria-label="Icon grid"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="settingsFlagRolesWrap" class="d-none">
+                <div class="small mb-1">Allowed roles</div>
+                <div class="d-flex flex-wrap gap-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="user" id="settingsFlagRoleUser" />
+                    <label class="form-check-label" for="settingsFlagRoleUser">user</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="admin" id="settingsFlagRoleAdmin" />
+                    <label class="form-check-label" for="settingsFlagRoleAdmin">admin</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="superadmin" id="settingsFlagRoleSuperadmin" />
+                    <label class="form-check-label" for="settingsFlagRoleSuperadmin">superadmin</label>
+                  </div>
+                </div>
+              </div>
+
+              <div id="settingsFlagUsersWrap" class="d-none">
+                <div class="small mb-1">Allowed users</div>
+                <div id="settingsFlagUsersList" class="kbn-user-select-list border rounded p-2 bg-body-tertiary"></div>
+              </div>
+
+              <div class="border rounded p-2 bg-body-tertiary">
+                <div class="small fw-semibold mb-1">Preview</div>
+                <div id="settingsFlagPreview" class="small"></div>
+              </div>
+
+              <div id="settingsFlagFormMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button id="settingsFlagCancelBtn" type="button" class="btn btn-outline-secondary btn-sm">Cancel</button>
+              <button id="settingsFlagSaveBtn" type="submit" class="btn btn-primary btn-sm">Create Flag</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true" aria-labelledby="loginModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="loginModalTitle" class="modal-title fs-5">Log In</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="loginForm">
+            <div class="modal-body vstack gap-3">
+              <div>
+                <label class="form-label" for="loginUsername">Username</label>
+                <input class="form-control" id="loginUsername" name="username" required />
+              </div>
+              <div>
+                <label class="form-label" for="loginPassword">Password</label>
+                <input class="form-control" id="loginPassword" name="password" type="password" required />
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" id="rememberMe" name="rememberMe" />
+                <label class="form-check-label" for="rememberMe">Remember me</label>
+              </div>
+              <div id="loginMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Log In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="topicModal" tabindex="-1" aria-hidden="true" aria-labelledby="topicModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="topicModalTitle" class="modal-title fs-5">Create Topic</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="topicForm">
+            <div class="modal-body vstack gap-3">
+              <div>
+                <label class="form-label" for="topicName">Topic Name</label>
+                <input id="topicName" name="name" class="form-control" required />
+              </div>
+              <div>
+                <label class="form-label" for="topicQuestion">Question</label>
+                <textarea id="topicQuestion" name="question" class="form-control" rows="3"></textarea>
+              </div>
+              <div class="border rounded p-2">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="small fw-semibold">Initial Answers (optional)</div>
+                  <button id="topicAddAnswerRowBtn" type="button" class="btn btn-outline-secondary btn-sm" aria-label="Add initial answer row">
+                    <i class="bi bi-plus-lg" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div id="topicAnswerRows" class="vstack gap-2"></div>
+              </div>
+              <div id="topicMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button class="btn btn-primary" type="submit">Create</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="answerModal" tabindex="-1" aria-hidden="true" aria-labelledby="answerModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="answerModalTitle" class="modal-title fs-5">Add Answer</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="answerForm">
+            <div class="modal-body vstack gap-3">
+              <div class="border rounded p-2">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="small fw-semibold">Answers</div>
+                  <button id="answerAddRowBtn" type="button" class="btn btn-outline-secondary btn-sm" aria-label="Add answer row">
+                    <i class="bi bi-plus-lg" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div id="answerRows" class="vstack gap-2"></div>
+              </div>
+              <div id="answerMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button class="btn btn-primary" type="submit">Create</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="renameModal" tabindex="-1" aria-hidden="true" aria-labelledby="renameModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="renameModalTitle" class="modal-title fs-5">Rename Folder</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="renameForm">
+            <div class="modal-body vstack gap-3">
+              <div>
+                <label class="form-label" for="renameNewName">New Name</label>
+                <input id="renameNewName" name="newName" class="form-control" required />
+              </div>
+              <div id="renameMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button class="btn btn-primary" type="submit">Rename</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="moveQuestionModal" tabindex="-1" aria-hidden="true" aria-labelledby="moveQuestionModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="moveQuestionModalTitle" class="modal-title fs-5">Move Question Node</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="moveQuestionForm">
+            <div class="modal-body vstack gap-3">
+              <div>
+                <label class="form-label">Source path</label>
+                <div id="moveQuestionSource" class="small text-secondary"></div>
+              </div>
+              <div>
+                <label class="form-label" for="moveQuestionDestination">Destination question node</label>
+                <select id="moveQuestionDestination" class="form-select" required></select>
+              </div>
+              <div id="moveQuestionMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button class="btn btn-primary" type="submit">Move</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="questionModal" tabindex="-1" aria-hidden="true" aria-labelledby="questionModalTitle">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="questionModalTitle" class="modal-title fs-5">Edit Question</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="questionForm">
+            <div class="modal-body vstack gap-3">
+              <textarea id="questionText" name="question" class="form-control" rows="6"></textarea>
+              <div id="questionMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button class="btn btn-primary" type="submit">Save Question</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="solutionModal" tabindex="-1" aria-hidden="true" aria-labelledby="solutionModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="solutionModalTitle" class="modal-title fs-5">Edit Solution</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-3">
+            <div id="solutionReviewBanner" class="alert alert-info d-none mb-0"></div>
+            <div id="draftBanner" class="alert alert-warning d-none"></div>
+            <textarea id="solutionEditor"></textarea>
+            <section id="solutionFlagsSection" class="border rounded p-2 vstack gap-2">
+              <div class="fw-semibold">Flags</div>
+              <div id="solutionFlagsEditor" class="vstack gap-2"></div>
+              <div id="solutionFlagsMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </section>
+            <div id="solutionMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+          </div>
+          <div class="modal-footer">
+            <button id="solutionSaveDraftBtn" class="btn btn-outline-secondary" type="button">Save Draft</button>
+            <button id="solutionDiscardDraftBtn" class="btn btn-outline-warning" type="button">Discard Draft</button>
+            <button id="solutionPublishBtn" class="btn btn-success" type="button">Save</button>
+            <button id="solutionCloseBtn" class="btn btn-outline-danger" type="button">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="solutionExistingImagesModal" tabindex="-1" aria-hidden="true" aria-labelledby="solutionExistingImagesModalTitle">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="solutionExistingImagesModalTitle" class="modal-title fs-5">Insert Existing Image</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-2">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="small text-secondary">Images already stored in this solution folder.</div>
+              <button id="solutionExistingImagesRefreshBtn" class="btn btn-outline-secondary btn-sm" type="button">Refresh</button>
+            </div>
+            <div id="solutionExistingImagesMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            <div id="solutionExistingImagesList" class="kbn-existing-images-list"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="solutionDraftChoiceModal" tabindex="-1" aria-hidden="true" aria-labelledby="solutionDraftChoiceModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="solutionDraftChoiceModalTitle" class="modal-title fs-5">Draft Found</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-2">
+            <div id="solutionDraftChoiceMessage" class="small"></div>
+            <div class="small text-secondary">Choose which version to load into the editor.</div>
+          </div>
+          <div class="modal-footer">
+            <button id="solutionDraftChoiceCancelBtn" type="button" class="btn btn-outline-secondary">Cancel</button>
+            <button id="solutionDraftChoicePublishedBtn" type="button" class="btn btn-outline-primary">Edit Published</button>
+            <button id="solutionDraftChoiceDraftBtn" type="button" class="btn btn-primary">Edit Latest Draft</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="solutionReviewChoiceModal" tabindex="-1" aria-hidden="true" aria-labelledby="solutionReviewChoiceModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="solutionReviewChoiceModalTitle" class="modal-title fs-5">Rejected Submission Found</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-2">
+            <div id="solutionReviewChoiceMessage" class="small"></div>
+            <div class="small text-secondary">Choose which version to load into the editor.</div>
+          </div>
+          <div class="modal-footer">
+            <button id="solutionReviewChoiceCancelBtn" type="button" class="btn btn-outline-secondary">Cancel</button>
+            <button id="solutionReviewChoicePublishedBtn" type="button" class="btn btn-outline-primary">Edit Published Version</button>
+            <button id="solutionReviewChoiceRejectedBtn" type="button" class="btn btn-primary">Edit Rejected Version</button>
+          </div>
+        </div>
+      </div>
+    </div>    <div class="modal fade" id="lockModal" tabindex="-1" aria-hidden="true" aria-labelledby="lockModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="lockModalTitle" class="modal-title fs-5">Solution Locked</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="lockMessage" role="status" aria-live="polite" aria-atomic="true"></div>
+          </div>
+          <div class="modal-footer">
+            <button id="lockRefreshBtn" class="btn btn-outline-secondary" type="button">Refresh</button>
+            <button id="lockForceBtn" class="btn btn-outline-danger" type="button">Force Unlock</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="restoreModal" tabindex="-1" aria-hidden="true" aria-labelledby="restoreModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="restoreModalTitle" class="modal-title fs-5">Restore Trash Items</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="restoreForm">
+            <div class="modal-body vstack gap-3">
+              <div id="restoreItemLabel" class="small"></div>
+              <div class="row g-2">
+                <div class="col-md-6">
+                  <label class="form-label" for="restoreMode">Restore Mode</label>
+                  <select id="restoreMode" class="form-select form-select-sm">
+                    <option value="original">Original location</option>
+                    <option value="new-root">New root</option>
+                  </select>
+                </div>
+                <div id="restoreNewRootWrap" class="col-md-6 d-none">
+                  <label class="form-label" for="restoreDestination">New root destination</label>
+                  <select id="restoreDestination" class="form-select form-select-sm"></select>
+                </div>
+              </div>
+              <div class="border rounded p-2">
+                <div class="small fw-semibold mb-2">Preflight Plan</div>
+                <div class="table-responsive">
+                  <table class="table table-sm align-middle mb-0 kbn-restore-preflight-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Original Path</th>
+                        <th scope="col">Target Path</th>
+                        <th scope="col">Conflict</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="restorePreflightRows">
+                      <tr>
+                        <td colspan="5" class="small text-secondary">No restore plan generated yet.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div id="restoreMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button id="restoreSubmitBtn" class="btn btn-primary" type="submit" disabled>Restore Selected</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mySubmissionsModal" tabindex="-1" aria-hidden="true" aria-labelledby="mySubmissionsModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="mySubmissionsModalTitle" class="modal-title fs-5">Submissions</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-3">
+            <ul class="nav nav-tabs" id="mySubmissionsTabList" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="my-submissions-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#my-submissions-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="my-submissions-pane"
+                  aria-selected="true"
+                >
+                  My Submissions
+                </button>
+              </li>
+              <li id="reviewQueueTabWrap" class="nav-item d-none" role="presentation">
+                <button
+                  class="nav-link"
+                  id="review-queue-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#review-queue-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="review-queue-pane"
+                  aria-selected="false"
+                >
+                  Review Queue
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content pt-2">
+              <section
+                class="tab-pane fade show active vstack gap-2"
+                id="my-submissions-pane"
+                role="tabpanel"
+                aria-labelledby="my-submissions-tab"
+                tabindex="0"
+              >
+                <div class="d-flex justify-content-between align-items-center gap-2">
+                  <div id="mySubmissionsSummary" class="small text-secondary">Loading submissions...</div>
+                  <button id="mySubmissionsRefreshBtn" type="button" class="btn btn-outline-secondary btn-sm">Refresh</button>
+                </div>
+                <div class="table-responsive border rounded">
+                  <table class="table table-sm align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Path</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Submitted</th>
+                        <th scope="col">Reviewed</th>
+                        <th scope="col">Reason</th>
+                        <th scope="col">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="mySubmissionsRows"></tbody>
+                  </table>
+                </div>
+              </section>
+              <section
+                class="tab-pane fade vstack gap-2"
+                id="review-queue-pane"
+                role="tabpanel"
+                aria-labelledby="review-queue-tab"
+                tabindex="0"
+              >
+                <div class="d-flex justify-content-between align-items-center gap-2">
+                  <div id="reviewQueueSummary" class="small text-secondary">Pending reviews</div>
+                  <button id="reviewQueueRefreshBtn" type="button" class="btn btn-outline-secondary btn-sm">Refresh</button>
+                </div>
+                <div class="table-responsive border rounded">
+                  <table class="table table-sm align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Path</th>
+                        <th scope="col">Submitter</th>
+                        <th scope="col">Submitted</th>
+                        <th scope="col">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="reviewQueueRows"></tbody>
+                  </table>
+                </div>
+              </section>
+            </div>
+            <div id="mySubmissionsMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="submissionViewModal" tabindex="-1" aria-hidden="true" aria-labelledby="submissionViewModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="submissionViewModalTitle" class="modal-title fs-5">Submission Detail</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-2">
+            <div id="submissionViewMeta" class="small text-secondary"></div>
+            <div class="row g-2">
+              <div class="col-lg-6">
+                <div class="border rounded p-2">
+                  <div class="fw-semibold mb-2">Submitted Content</div>
+                  <div id="submissionViewSubmitted" class="kbn-submission-preview"></div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="border rounded p-2">
+                  <div class="fw-semibold mb-2">Published Content</div>
+                  <div id="submissionViewPublished" class="kbn-submission-preview"></div>
+                </div>
+              </div>
+            </div>
+            <div id="submissionViewMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="auditLogModal" tabindex="-1" aria-hidden="true" aria-labelledby="auditLogModalTitle">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="auditLogModalTitle" class="modal-title fs-5">Audit Log</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body vstack gap-3">
+            <div class="row g-2 align-items-end">
+              <div class="col-sm-6 col-md-3">
+                <label class="form-label form-label-sm" for="auditFilterActor">Actor</label>
+                <input id="auditFilterActor" class="form-control form-control-sm" type="text" />
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <label class="form-label form-label-sm" for="auditFilterAction">Action</label>
+                <input id="auditFilterAction" class="form-control form-control-sm" type="text" />
+              </div>
+              <div class="col-sm-6 col-md-2">
+                <label class="form-label form-label-sm" for="auditFilterStatus">Status</label>
+                <select id="auditFilterStatus" class="form-select form-select-sm">
+                  <option value="">Any</option>
+                  <option value="success">success</option>
+                  <option value="failure">failure</option>
+                  <option value="denied">denied</option>
+                  <option value="skipped">skipped</option>
+                </select>
+              </div>
+              <div class="col-sm-6 col-md-2">
+                <label class="form-label form-label-sm" for="auditFilterFrom">From</label>
+                <input id="auditFilterFrom" class="form-control form-control-sm" type="date" />
+              </div>
+              <div class="col-sm-6 col-md-2">
+                <label class="form-label form-label-sm" for="auditFilterTo">To</label>
+                <input id="auditFilterTo" class="form-control form-control-sm" type="date" />
+              </div>
+              <div class="col-sm-6 col-md-8">
+                <label class="form-label form-label-sm" for="auditFilterQuery">Search</label>
+                <input id="auditFilterQuery" class="form-control form-control-sm" type="text" placeholder="Target, reason, or IP" />
+              </div>
+              <div class="col-sm-6 col-md-4 d-flex gap-2 justify-content-md-end">
+                <button id="auditApplyBtn" type="button" class="btn btn-primary btn-sm">Apply</button>
+                <button id="auditResetBtn" type="button" class="btn btn-outline-secondary btn-sm">Reset</button>
+                <button id="auditExportBtn" type="button" class="btn btn-outline-primary btn-sm">Export CSV</button>
+              </div>
+            </div>
+
+            <div id="auditModalMessage" class="small text-danger" role="status" aria-live="polite" aria-atomic="true"></div>
+            <div class="small text-secondary" id="auditSummary">Loading audit events...</div>
+
+            <div class="table-responsive border rounded">
+              <table class="table table-sm align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Actor</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Action</th>
+                    <th scope="col">Target</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Reason</th>
+                    <th scope="col">IP</th>
+                  </tr>
+                </thead>
+                <tbody id="auditRows"></tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <div class="small text-secondary" id="auditPaginationLabel"></div>
+            <div class="d-flex gap-2">
+              <button id="auditPrevBtn" type="button" class="btn btn-outline-secondary btn-sm">Previous</button>
+              <button id="auditNextBtn" type="button" class="btn btn-outline-secondary btn-sm">Next</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="unsavedModal" tabindex="-1" aria-hidden="true" aria-labelledby="unsavedModalTitle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="unsavedModalTitle" class="modal-title fs-5">Unsaved Changes</h1>
+          </div>
+          <div class="modal-body">
+            Save draft before closing the solution editor?
+          </div>
+          <div class="modal-footer">
+            <button id="unsavedCancelBtn" type="button" class="btn btn-outline-secondary">Cancel</button>
+            <button id="unsavedDiscardBtn" type="button" class="btn btn-outline-warning">Discard</button>
+            <button id="unsavedSaveBtn" type="button" class="btn btn-primary">Save Draft</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-bs5.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
+

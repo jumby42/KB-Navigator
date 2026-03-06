@@ -1,0 +1,8202 @@
+[
+  {
+    "class": "bi-0-circle",
+    "codepoint": "f840"
+  },
+  {
+    "class": "bi-0-circle-fill",
+    "codepoint": "f83f"
+  },
+  {
+    "class": "bi-0-square",
+    "codepoint": "f842"
+  },
+  {
+    "class": "bi-0-square-fill",
+    "codepoint": "f841"
+  },
+  {
+    "class": "bi-1-circle",
+    "codepoint": "f797"
+  },
+  {
+    "class": "bi-1-circle-fill",
+    "codepoint": "f796"
+  },
+  {
+    "class": "bi-1-square",
+    "codepoint": "f799"
+  },
+  {
+    "class": "bi-1-square-fill",
+    "codepoint": "f798"
+  },
+  {
+    "class": "bi-123",
+    "codepoint": "f67f"
+  },
+  {
+    "class": "bi-2-circle",
+    "codepoint": "f79d"
+  },
+  {
+    "class": "bi-2-circle-fill",
+    "codepoint": "f79c"
+  },
+  {
+    "class": "bi-2-square",
+    "codepoint": "f79f"
+  },
+  {
+    "class": "bi-2-square-fill",
+    "codepoint": "f79e"
+  },
+  {
+    "class": "bi-3-circle",
+    "codepoint": "f7a3"
+  },
+  {
+    "class": "bi-3-circle-fill",
+    "codepoint": "f7a2"
+  },
+  {
+    "class": "bi-3-square",
+    "codepoint": "f7a5"
+  },
+  {
+    "class": "bi-3-square-fill",
+    "codepoint": "f7a4"
+  },
+  {
+    "class": "bi-4-circle",
+    "codepoint": "f7a9"
+  },
+  {
+    "class": "bi-4-circle-fill",
+    "codepoint": "f7a8"
+  },
+  {
+    "class": "bi-4-square",
+    "codepoint": "f7ab"
+  },
+  {
+    "class": "bi-4-square-fill",
+    "codepoint": "f7aa"
+  },
+  {
+    "class": "bi-5-circle",
+    "codepoint": "f7af"
+  },
+  {
+    "class": "bi-5-circle-fill",
+    "codepoint": "f7ae"
+  },
+  {
+    "class": "bi-5-square",
+    "codepoint": "f7b1"
+  },
+  {
+    "class": "bi-5-square-fill",
+    "codepoint": "f7b0"
+  },
+  {
+    "class": "bi-6-circle",
+    "codepoint": "f7b5"
+  },
+  {
+    "class": "bi-6-circle-fill",
+    "codepoint": "f7b4"
+  },
+  {
+    "class": "bi-6-square",
+    "codepoint": "f7b7"
+  },
+  {
+    "class": "bi-6-square-fill",
+    "codepoint": "f7b6"
+  },
+  {
+    "class": "bi-7-circle",
+    "codepoint": "f7bb"
+  },
+  {
+    "class": "bi-7-circle-fill",
+    "codepoint": "f7ba"
+  },
+  {
+    "class": "bi-7-square",
+    "codepoint": "f7bd"
+  },
+  {
+    "class": "bi-7-square-fill",
+    "codepoint": "f7bc"
+  },
+  {
+    "class": "bi-8-circle",
+    "codepoint": "f7c1"
+  },
+  {
+    "class": "bi-8-circle-fill",
+    "codepoint": "f7c0"
+  },
+  {
+    "class": "bi-8-square",
+    "codepoint": "f7c3"
+  },
+  {
+    "class": "bi-8-square-fill",
+    "codepoint": "f7c2"
+  },
+  {
+    "class": "bi-9-circle",
+    "codepoint": "f7c7"
+  },
+  {
+    "class": "bi-9-circle-fill",
+    "codepoint": "f7c6"
+  },
+  {
+    "class": "bi-9-square",
+    "codepoint": "f7c9"
+  },
+  {
+    "class": "bi-9-square-fill",
+    "codepoint": "f7c8"
+  },
+  {
+    "class": "bi-activity",
+    "codepoint": "f66b"
+  },
+  {
+    "class": "bi-airplane",
+    "codepoint": "f7cd"
+  },
+  {
+    "class": "bi-airplane-engines",
+    "codepoint": "f7cb"
+  },
+  {
+    "class": "bi-airplane-engines-fill",
+    "codepoint": "f7ca"
+  },
+  {
+    "class": "bi-airplane-fill",
+    "codepoint": "f7cc"
+  },
+  {
+    "class": "bi-alarm",
+    "codepoint": "f102"
+  },
+  {
+    "class": "bi-alarm-fill",
+    "codepoint": "f101"
+  },
+  {
+    "class": "bi-alexa",
+    "codepoint": "f7ce"
+  },
+  {
+    "class": "bi-align-bottom",
+    "codepoint": "f103"
+  },
+  {
+    "class": "bi-align-center",
+    "codepoint": "f104"
+  },
+  {
+    "class": "bi-align-end",
+    "codepoint": "f105"
+  },
+  {
+    "class": "bi-align-middle",
+    "codepoint": "f106"
+  },
+  {
+    "class": "bi-align-start",
+    "codepoint": "f107"
+  },
+  {
+    "class": "bi-align-top",
+    "codepoint": "f108"
+  },
+  {
+    "class": "bi-alipay",
+    "codepoint": "f7cf"
+  },
+  {
+    "class": "bi-alphabet",
+    "codepoint": "f68a"
+  },
+  {
+    "class": "bi-alphabet-uppercase",
+    "codepoint": "f2a5"
+  },
+  {
+    "class": "bi-alt",
+    "codepoint": "f109"
+  },
+  {
+    "class": "bi-amazon",
+    "codepoint": "f68d"
+  },
+  {
+    "class": "bi-amd",
+    "codepoint": "f8ae"
+  },
+  {
+    "class": "bi-android",
+    "codepoint": "f7d0"
+  },
+  {
+    "class": "bi-android2",
+    "codepoint": "f7d1"
+  },
+  {
+    "class": "bi-app",
+    "codepoint": "f10b"
+  },
+  {
+    "class": "bi-app-indicator",
+    "codepoint": "f10a"
+  },
+  {
+    "class": "bi-apple",
+    "codepoint": "f65b"
+  },
+  {
+    "class": "bi-archive",
+    "codepoint": "f10d"
+  },
+  {
+    "class": "bi-archive-fill",
+    "codepoint": "f10c"
+  },
+  {
+    "class": "bi-arrow-90deg-down",
+    "codepoint": "f10e"
+  },
+  {
+    "class": "bi-arrow-90deg-left",
+    "codepoint": "f10f"
+  },
+  {
+    "class": "bi-arrow-90deg-right",
+    "codepoint": "f110"
+  },
+  {
+    "class": "bi-arrow-90deg-up",
+    "codepoint": "f111"
+  },
+  {
+    "class": "bi-arrow-bar-down",
+    "codepoint": "f112"
+  },
+  {
+    "class": "bi-arrow-bar-left",
+    "codepoint": "f113"
+  },
+  {
+    "class": "bi-arrow-bar-right",
+    "codepoint": "f114"
+  },
+  {
+    "class": "bi-arrow-bar-up",
+    "codepoint": "f115"
+  },
+  {
+    "class": "bi-arrow-clockwise",
+    "codepoint": "f116"
+  },
+  {
+    "class": "bi-arrow-counterclockwise",
+    "codepoint": "f117"
+  },
+  {
+    "class": "bi-arrow-down",
+    "codepoint": "f128"
+  },
+  {
+    "class": "bi-arrow-down-circle",
+    "codepoint": "f119"
+  },
+  {
+    "class": "bi-arrow-down-circle-fill",
+    "codepoint": "f118"
+  },
+  {
+    "class": "bi-arrow-down-left",
+    "codepoint": "f11e"
+  },
+  {
+    "class": "bi-arrow-down-left-circle",
+    "codepoint": "f11b"
+  },
+  {
+    "class": "bi-arrow-down-left-circle-fill",
+    "codepoint": "f11a"
+  },
+  {
+    "class": "bi-arrow-down-left-square",
+    "codepoint": "f11d"
+  },
+  {
+    "class": "bi-arrow-down-left-square-fill",
+    "codepoint": "f11c"
+  },
+  {
+    "class": "bi-arrow-down-right",
+    "codepoint": "f123"
+  },
+  {
+    "class": "bi-arrow-down-right-circle",
+    "codepoint": "f120"
+  },
+  {
+    "class": "bi-arrow-down-right-circle-fill",
+    "codepoint": "f11f"
+  },
+  {
+    "class": "bi-arrow-down-right-square",
+    "codepoint": "f122"
+  },
+  {
+    "class": "bi-arrow-down-right-square-fill",
+    "codepoint": "f121"
+  },
+  {
+    "class": "bi-arrow-down-short",
+    "codepoint": "f124"
+  },
+  {
+    "class": "bi-arrow-down-square",
+    "codepoint": "f126"
+  },
+  {
+    "class": "bi-arrow-down-square-fill",
+    "codepoint": "f125"
+  },
+  {
+    "class": "bi-arrow-down-up",
+    "codepoint": "f127"
+  },
+  {
+    "class": "bi-arrow-left",
+    "codepoint": "f12f"
+  },
+  {
+    "class": "bi-arrow-left-circle",
+    "codepoint": "f12a"
+  },
+  {
+    "class": "bi-arrow-left-circle-fill",
+    "codepoint": "f129"
+  },
+  {
+    "class": "bi-arrow-left-right",
+    "codepoint": "f12b"
+  },
+  {
+    "class": "bi-arrow-left-short",
+    "codepoint": "f12c"
+  },
+  {
+    "class": "bi-arrow-left-square",
+    "codepoint": "f12e"
+  },
+  {
+    "class": "bi-arrow-left-square-fill",
+    "codepoint": "f12d"
+  },
+  {
+    "class": "bi-arrow-repeat",
+    "codepoint": "f130"
+  },
+  {
+    "class": "bi-arrow-return-left",
+    "codepoint": "f131"
+  },
+  {
+    "class": "bi-arrow-return-right",
+    "codepoint": "f132"
+  },
+  {
+    "class": "bi-arrow-right",
+    "codepoint": "f138"
+  },
+  {
+    "class": "bi-arrow-right-circle",
+    "codepoint": "f134"
+  },
+  {
+    "class": "bi-arrow-right-circle-fill",
+    "codepoint": "f133"
+  },
+  {
+    "class": "bi-arrow-right-short",
+    "codepoint": "f135"
+  },
+  {
+    "class": "bi-arrow-right-square",
+    "codepoint": "f137"
+  },
+  {
+    "class": "bi-arrow-right-square-fill",
+    "codepoint": "f136"
+  },
+  {
+    "class": "bi-arrow-through-heart",
+    "codepoint": "f701"
+  },
+  {
+    "class": "bi-arrow-through-heart-fill",
+    "codepoint": "f700"
+  },
+  {
+    "class": "bi-arrow-up",
+    "codepoint": "f148"
+  },
+  {
+    "class": "bi-arrow-up-circle",
+    "codepoint": "f13a"
+  },
+  {
+    "class": "bi-arrow-up-circle-fill",
+    "codepoint": "f139"
+  },
+  {
+    "class": "bi-arrow-up-left",
+    "codepoint": "f13f"
+  },
+  {
+    "class": "bi-arrow-up-left-circle",
+    "codepoint": "f13c"
+  },
+  {
+    "class": "bi-arrow-up-left-circle-fill",
+    "codepoint": "f13b"
+  },
+  {
+    "class": "bi-arrow-up-left-square",
+    "codepoint": "f13e"
+  },
+  {
+    "class": "bi-arrow-up-left-square-fill",
+    "codepoint": "f13d"
+  },
+  {
+    "class": "bi-arrow-up-right",
+    "codepoint": "f144"
+  },
+  {
+    "class": "bi-arrow-up-right-circle",
+    "codepoint": "f141"
+  },
+  {
+    "class": "bi-arrow-up-right-circle-fill",
+    "codepoint": "f140"
+  },
+  {
+    "class": "bi-arrow-up-right-square",
+    "codepoint": "f143"
+  },
+  {
+    "class": "bi-arrow-up-right-square-fill",
+    "codepoint": "f142"
+  },
+  {
+    "class": "bi-arrow-up-short",
+    "codepoint": "f145"
+  },
+  {
+    "class": "bi-arrow-up-square",
+    "codepoint": "f147"
+  },
+  {
+    "class": "bi-arrow-up-square-fill",
+    "codepoint": "f146"
+  },
+  {
+    "class": "bi-arrows",
+    "codepoint": "f6a2"
+  },
+  {
+    "class": "bi-arrows-angle-contract",
+    "codepoint": "f149"
+  },
+  {
+    "class": "bi-arrows-angle-expand",
+    "codepoint": "f14a"
+  },
+  {
+    "class": "bi-arrows-collapse",
+    "codepoint": "f14b"
+  },
+  {
+    "class": "bi-arrows-collapse-vertical",
+    "codepoint": "f690"
+  },
+  {
+    "class": "bi-arrows-expand",
+    "codepoint": "f14c"
+  },
+  {
+    "class": "bi-arrows-expand-vertical",
+    "codepoint": "f695"
+  },
+  {
+    "class": "bi-arrows-fullscreen",
+    "codepoint": "f14d"
+  },
+  {
+    "class": "bi-arrows-move",
+    "codepoint": "f14e"
+  },
+  {
+    "class": "bi-arrows-vertical",
+    "codepoint": "f698"
+  },
+  {
+    "class": "bi-aspect-ratio",
+    "codepoint": "f150"
+  },
+  {
+    "class": "bi-aspect-ratio-fill",
+    "codepoint": "f14f"
+  },
+  {
+    "class": "bi-asterisk",
+    "codepoint": "f151"
+  },
+  {
+    "class": "bi-at",
+    "codepoint": "f152"
+  },
+  {
+    "class": "bi-award",
+    "codepoint": "f154"
+  },
+  {
+    "class": "bi-award-fill",
+    "codepoint": "f153"
+  },
+  {
+    "class": "bi-back",
+    "codepoint": "f155"
+  },
+  {
+    "class": "bi-backpack",
+    "codepoint": "f8e0"
+  },
+  {
+    "class": "bi-backpack-fill",
+    "codepoint": "f8df"
+  },
+  {
+    "class": "bi-backpack2",
+    "codepoint": "f8e2"
+  },
+  {
+    "class": "bi-backpack2-fill",
+    "codepoint": "f8e1"
+  },
+  {
+    "class": "bi-backpack3",
+    "codepoint": "f8e4"
+  },
+  {
+    "class": "bi-backpack3-fill",
+    "codepoint": "f8e3"
+  },
+  {
+    "class": "bi-backpack4",
+    "codepoint": "f8e6"
+  },
+  {
+    "class": "bi-backpack4-fill",
+    "codepoint": "f8e5"
+  },
+  {
+    "class": "bi-backspace",
+    "codepoint": "f159"
+  },
+  {
+    "class": "bi-backspace-fill",
+    "codepoint": "f156"
+  },
+  {
+    "class": "bi-backspace-reverse",
+    "codepoint": "f158"
+  },
+  {
+    "class": "bi-backspace-reverse-fill",
+    "codepoint": "f157"
+  },
+  {
+    "class": "bi-badge-3d",
+    "codepoint": "f15b"
+  },
+  {
+    "class": "bi-badge-3d-fill",
+    "codepoint": "f15a"
+  },
+  {
+    "class": "bi-badge-4k",
+    "codepoint": "f15d"
+  },
+  {
+    "class": "bi-badge-4k-fill",
+    "codepoint": "f15c"
+  },
+  {
+    "class": "bi-badge-8k",
+    "codepoint": "f15f"
+  },
+  {
+    "class": "bi-badge-8k-fill",
+    "codepoint": "f15e"
+  },
+  {
+    "class": "bi-badge-ad",
+    "codepoint": "f161"
+  },
+  {
+    "class": "bi-badge-ad-fill",
+    "codepoint": "f160"
+  },
+  {
+    "class": "bi-badge-ar",
+    "codepoint": "f163"
+  },
+  {
+    "class": "bi-badge-ar-fill",
+    "codepoint": "f162"
+  },
+  {
+    "class": "bi-badge-cc",
+    "codepoint": "f165"
+  },
+  {
+    "class": "bi-badge-cc-fill",
+    "codepoint": "f164"
+  },
+  {
+    "class": "bi-badge-hd",
+    "codepoint": "f167"
+  },
+  {
+    "class": "bi-badge-hd-fill",
+    "codepoint": "f166"
+  },
+  {
+    "class": "bi-badge-sd",
+    "codepoint": "f703"
+  },
+  {
+    "class": "bi-badge-sd-fill",
+    "codepoint": "f702"
+  },
+  {
+    "class": "bi-badge-tm",
+    "codepoint": "f169"
+  },
+  {
+    "class": "bi-badge-tm-fill",
+    "codepoint": "f168"
+  },
+  {
+    "class": "bi-badge-vo",
+    "codepoint": "f16b"
+  },
+  {
+    "class": "bi-badge-vo-fill",
+    "codepoint": "f16a"
+  },
+  {
+    "class": "bi-badge-vr",
+    "codepoint": "f16d"
+  },
+  {
+    "class": "bi-badge-vr-fill",
+    "codepoint": "f16c"
+  },
+  {
+    "class": "bi-badge-wc",
+    "codepoint": "f16f"
+  },
+  {
+    "class": "bi-badge-wc-fill",
+    "codepoint": "f16e"
+  },
+  {
+    "class": "bi-bag",
+    "codepoint": "f179"
+  },
+  {
+    "class": "bi-bag-check",
+    "codepoint": "f171"
+  },
+  {
+    "class": "bi-bag-check-fill",
+    "codepoint": "f170"
+  },
+  {
+    "class": "bi-bag-dash",
+    "codepoint": "f173"
+  },
+  {
+    "class": "bi-bag-dash-fill",
+    "codepoint": "f172"
+  },
+  {
+    "class": "bi-bag-fill",
+    "codepoint": "f174"
+  },
+  {
+    "class": "bi-bag-heart",
+    "codepoint": "f705"
+  },
+  {
+    "class": "bi-bag-heart-fill",
+    "codepoint": "f704"
+  },
+  {
+    "class": "bi-bag-plus",
+    "codepoint": "f176"
+  },
+  {
+    "class": "bi-bag-plus-fill",
+    "codepoint": "f175"
+  },
+  {
+    "class": "bi-bag-x",
+    "codepoint": "f178"
+  },
+  {
+    "class": "bi-bag-x-fill",
+    "codepoint": "f177"
+  },
+  {
+    "class": "bi-balloon",
+    "codepoint": "f709"
+  },
+  {
+    "class": "bi-balloon-fill",
+    "codepoint": "f706"
+  },
+  {
+    "class": "bi-balloon-heart",
+    "codepoint": "f708"
+  },
+  {
+    "class": "bi-balloon-heart-fill",
+    "codepoint": "f707"
+  },
+  {
+    "class": "bi-ban",
+    "codepoint": "f6b6"
+  },
+  {
+    "class": "bi-ban-fill",
+    "codepoint": "f6a3"
+  },
+  {
+    "class": "bi-bandaid",
+    "codepoint": "f681"
+  },
+  {
+    "class": "bi-bandaid-fill",
+    "codepoint": "f680"
+  },
+  {
+    "class": "bi-bank",
+    "codepoint": "f62e"
+  },
+  {
+    "class": "bi-bank2",
+    "codepoint": "f62f"
+  },
+  {
+    "class": "bi-bar-chart",
+    "codepoint": "f17e"
+  },
+  {
+    "class": "bi-bar-chart-fill",
+    "codepoint": "f17a"
+  },
+  {
+    "class": "bi-bar-chart-line",
+    "codepoint": "f17c"
+  },
+  {
+    "class": "bi-bar-chart-line-fill",
+    "codepoint": "f17b"
+  },
+  {
+    "class": "bi-bar-chart-steps",
+    "codepoint": "f17d"
+  },
+  {
+    "class": "bi-basket",
+    "codepoint": "f180"
+  },
+  {
+    "class": "bi-basket-fill",
+    "codepoint": "f17f"
+  },
+  {
+    "class": "bi-basket2",
+    "codepoint": "f182"
+  },
+  {
+    "class": "bi-basket2-fill",
+    "codepoint": "f181"
+  },
+  {
+    "class": "bi-basket3",
+    "codepoint": "f184"
+  },
+  {
+    "class": "bi-basket3-fill",
+    "codepoint": "f183"
+  },
+  {
+    "class": "bi-battery",
+    "codepoint": "f188"
+  },
+  {
+    "class": "bi-battery-charging",
+    "codepoint": "f185"
+  },
+  {
+    "class": "bi-battery-full",
+    "codepoint": "f186"
+  },
+  {
+    "class": "bi-battery-half",
+    "codepoint": "f187"
+  },
+  {
+    "class": "bi-behance",
+    "codepoint": "f65c"
+  },
+  {
+    "class": "bi-bell",
+    "codepoint": "f18a"
+  },
+  {
+    "class": "bi-bell-fill",
+    "codepoint": "f189"
+  },
+  {
+    "class": "bi-bell-slash",
+    "codepoint": "f631"
+  },
+  {
+    "class": "bi-bell-slash-fill",
+    "codepoint": "f630"
+  },
+  {
+    "class": "bi-bezier",
+    "codepoint": "f18b"
+  },
+  {
+    "class": "bi-bezier2",
+    "codepoint": "f18c"
+  },
+  {
+    "class": "bi-bicycle",
+    "codepoint": "f18d"
+  },
+  {
+    "class": "bi-bing",
+    "codepoint": "f6c2"
+  },
+  {
+    "class": "bi-binoculars",
+    "codepoint": "f18f"
+  },
+  {
+    "class": "bi-binoculars-fill",
+    "codepoint": "f18e"
+  },
+  {
+    "class": "bi-blockquote-left",
+    "codepoint": "f190"
+  },
+  {
+    "class": "bi-blockquote-right",
+    "codepoint": "f191"
+  },
+  {
+    "class": "bi-bluetooth",
+    "codepoint": "f682"
+  },
+  {
+    "class": "bi-body-text",
+    "codepoint": "f683"
+  },
+  {
+    "class": "bi-book",
+    "codepoint": "f194"
+  },
+  {
+    "class": "bi-book-fill",
+    "codepoint": "f192"
+  },
+  {
+    "class": "bi-book-half",
+    "codepoint": "f193"
+  },
+  {
+    "class": "bi-bookmark",
+    "codepoint": "f1a2"
+  },
+  {
+    "class": "bi-bookmark-check",
+    "codepoint": "f196"
+  },
+  {
+    "class": "bi-bookmark-check-fill",
+    "codepoint": "f195"
+  },
+  {
+    "class": "bi-bookmark-dash",
+    "codepoint": "f198"
+  },
+  {
+    "class": "bi-bookmark-dash-fill",
+    "codepoint": "f197"
+  },
+  {
+    "class": "bi-bookmark-fill",
+    "codepoint": "f199"
+  },
+  {
+    "class": "bi-bookmark-heart",
+    "codepoint": "f19b"
+  },
+  {
+    "class": "bi-bookmark-heart-fill",
+    "codepoint": "f19a"
+  },
+  {
+    "class": "bi-bookmark-plus",
+    "codepoint": "f19d"
+  },
+  {
+    "class": "bi-bookmark-plus-fill",
+    "codepoint": "f19c"
+  },
+  {
+    "class": "bi-bookmark-star",
+    "codepoint": "f19f"
+  },
+  {
+    "class": "bi-bookmark-star-fill",
+    "codepoint": "f19e"
+  },
+  {
+    "class": "bi-bookmark-x",
+    "codepoint": "f1a1"
+  },
+  {
+    "class": "bi-bookmark-x-fill",
+    "codepoint": "f1a0"
+  },
+  {
+    "class": "bi-bookmarks",
+    "codepoint": "f1a4"
+  },
+  {
+    "class": "bi-bookmarks-fill",
+    "codepoint": "f1a3"
+  },
+  {
+    "class": "bi-bookshelf",
+    "codepoint": "f1a5"
+  },
+  {
+    "class": "bi-boombox",
+    "codepoint": "f684"
+  },
+  {
+    "class": "bi-boombox-fill",
+    "codepoint": "f6df"
+  },
+  {
+    "class": "bi-bootstrap",
+    "codepoint": "f1a8"
+  },
+  {
+    "class": "bi-bootstrap-fill",
+    "codepoint": "f1a6"
+  },
+  {
+    "class": "bi-bootstrap-reboot",
+    "codepoint": "f1a7"
+  },
+  {
+    "class": "bi-border",
+    "codepoint": "f1b4"
+  },
+  {
+    "class": "bi-border-all",
+    "codepoint": "f1a9"
+  },
+  {
+    "class": "bi-border-bottom",
+    "codepoint": "f1aa"
+  },
+  {
+    "class": "bi-border-center",
+    "codepoint": "f1ab"
+  },
+  {
+    "class": "bi-border-inner",
+    "codepoint": "f1ac"
+  },
+  {
+    "class": "bi-border-left",
+    "codepoint": "f1ad"
+  },
+  {
+    "class": "bi-border-middle",
+    "codepoint": "f1ae"
+  },
+  {
+    "class": "bi-border-outer",
+    "codepoint": "f1af"
+  },
+  {
+    "class": "bi-border-right",
+    "codepoint": "f1b0"
+  },
+  {
+    "class": "bi-border-style",
+    "codepoint": "f1b1"
+  },
+  {
+    "class": "bi-border-top",
+    "codepoint": "f1b2"
+  },
+  {
+    "class": "bi-border-width",
+    "codepoint": "f1b3"
+  },
+  {
+    "class": "bi-bounding-box",
+    "codepoint": "f1b6"
+  },
+  {
+    "class": "bi-bounding-box-circles",
+    "codepoint": "f1b5"
+  },
+  {
+    "class": "bi-box",
+    "codepoint": "f1c8"
+  },
+  {
+    "class": "bi-box-arrow-down",
+    "codepoint": "f1b9"
+  },
+  {
+    "class": "bi-box-arrow-down-left",
+    "codepoint": "f1b7"
+  },
+  {
+    "class": "bi-box-arrow-down-right",
+    "codepoint": "f1b8"
+  },
+  {
+    "class": "bi-box-arrow-in-down",
+    "codepoint": "f1bc"
+  },
+  {
+    "class": "bi-box-arrow-in-down-left",
+    "codepoint": "f1ba"
+  },
+  {
+    "class": "bi-box-arrow-in-down-right",
+    "codepoint": "f1bb"
+  },
+  {
+    "class": "bi-box-arrow-in-left",
+    "codepoint": "f1bd"
+  },
+  {
+    "class": "bi-box-arrow-in-right",
+    "codepoint": "f1be"
+  },
+  {
+    "class": "bi-box-arrow-in-up",
+    "codepoint": "f1c1"
+  },
+  {
+    "class": "bi-box-arrow-in-up-left",
+    "codepoint": "f1bf"
+  },
+  {
+    "class": "bi-box-arrow-in-up-right",
+    "codepoint": "f1c0"
+  },
+  {
+    "class": "bi-box-arrow-left",
+    "codepoint": "f1c2"
+  },
+  {
+    "class": "bi-box-arrow-right",
+    "codepoint": "f1c3"
+  },
+  {
+    "class": "bi-box-arrow-up",
+    "codepoint": "f1c6"
+  },
+  {
+    "class": "bi-box-arrow-up-left",
+    "codepoint": "f1c4"
+  },
+  {
+    "class": "bi-box-arrow-up-right",
+    "codepoint": "f1c5"
+  },
+  {
+    "class": "bi-box-fill",
+    "codepoint": "f7d2"
+  },
+  {
+    "class": "bi-box-seam",
+    "codepoint": "f1c7"
+  },
+  {
+    "class": "bi-box-seam-fill",
+    "codepoint": "f7d3"
+  },
+  {
+    "class": "bi-box2",
+    "codepoint": "f70d"
+  },
+  {
+    "class": "bi-box2-fill",
+    "codepoint": "f70a"
+  },
+  {
+    "class": "bi-box2-heart",
+    "codepoint": "f70c"
+  },
+  {
+    "class": "bi-box2-heart-fill",
+    "codepoint": "f70b"
+  },
+  {
+    "class": "bi-boxes",
+    "codepoint": "f685"
+  },
+  {
+    "class": "bi-braces",
+    "codepoint": "f1c9"
+  },
+  {
+    "class": "bi-braces-asterisk",
+    "codepoint": "f70e"
+  },
+  {
+    "class": "bi-bricks",
+    "codepoint": "f1ca"
+  },
+  {
+    "class": "bi-briefcase",
+    "codepoint": "f1cc"
+  },
+  {
+    "class": "bi-briefcase-fill",
+    "codepoint": "f1cb"
+  },
+  {
+    "class": "bi-brightness-alt-high",
+    "codepoint": "f1ce"
+  },
+  {
+    "class": "bi-brightness-alt-high-fill",
+    "codepoint": "f1cd"
+  },
+  {
+    "class": "bi-brightness-alt-low",
+    "codepoint": "f1d0"
+  },
+  {
+    "class": "bi-brightness-alt-low-fill",
+    "codepoint": "f1cf"
+  },
+  {
+    "class": "bi-brightness-high",
+    "codepoint": "f1d2"
+  },
+  {
+    "class": "bi-brightness-high-fill",
+    "codepoint": "f1d1"
+  },
+  {
+    "class": "bi-brightness-low",
+    "codepoint": "f1d4"
+  },
+  {
+    "class": "bi-brightness-low-fill",
+    "codepoint": "f1d3"
+  },
+  {
+    "class": "bi-brilliance",
+    "codepoint": "f8e7"
+  },
+  {
+    "class": "bi-broadcast",
+    "codepoint": "f1d6"
+  },
+  {
+    "class": "bi-broadcast-pin",
+    "codepoint": "f1d5"
+  },
+  {
+    "class": "bi-browser-chrome",
+    "codepoint": "f7d4"
+  },
+  {
+    "class": "bi-browser-edge",
+    "codepoint": "f7d5"
+  },
+  {
+    "class": "bi-browser-firefox",
+    "codepoint": "f7d6"
+  },
+  {
+    "class": "bi-browser-safari",
+    "codepoint": "f7d7"
+  },
+  {
+    "class": "bi-brush",
+    "codepoint": "f1d8"
+  },
+  {
+    "class": "bi-brush-fill",
+    "codepoint": "f1d7"
+  },
+  {
+    "class": "bi-bucket",
+    "codepoint": "f1da"
+  },
+  {
+    "class": "bi-bucket-fill",
+    "codepoint": "f1d9"
+  },
+  {
+    "class": "bi-bug",
+    "codepoint": "f1dc"
+  },
+  {
+    "class": "bi-bug-fill",
+    "codepoint": "f1db"
+  },
+  {
+    "class": "bi-building",
+    "codepoint": "f1dd"
+  },
+  {
+    "class": "bi-building-add",
+    "codepoint": "f867"
+  },
+  {
+    "class": "bi-building-check",
+    "codepoint": "f868"
+  },
+  {
+    "class": "bi-building-dash",
+    "codepoint": "f869"
+  },
+  {
+    "class": "bi-building-down",
+    "codepoint": "f86a"
+  },
+  {
+    "class": "bi-building-exclamation",
+    "codepoint": "f86b"
+  },
+  {
+    "class": "bi-building-fill",
+    "codepoint": "f876"
+  },
+  {
+    "class": "bi-building-fill-add",
+    "codepoint": "f86c"
+  },
+  {
+    "class": "bi-building-fill-check",
+    "codepoint": "f86d"
+  },
+  {
+    "class": "bi-building-fill-dash",
+    "codepoint": "f86e"
+  },
+  {
+    "class": "bi-building-fill-down",
+    "codepoint": "f86f"
+  },
+  {
+    "class": "bi-building-fill-exclamation",
+    "codepoint": "f870"
+  },
+  {
+    "class": "bi-building-fill-gear",
+    "codepoint": "f871"
+  },
+  {
+    "class": "bi-building-fill-lock",
+    "codepoint": "f872"
+  },
+  {
+    "class": "bi-building-fill-slash",
+    "codepoint": "f873"
+  },
+  {
+    "class": "bi-building-fill-up",
+    "codepoint": "f874"
+  },
+  {
+    "class": "bi-building-fill-x",
+    "codepoint": "f875"
+  },
+  {
+    "class": "bi-building-gear",
+    "codepoint": "f877"
+  },
+  {
+    "class": "bi-building-lock",
+    "codepoint": "f878"
+  },
+  {
+    "class": "bi-building-slash",
+    "codepoint": "f879"
+  },
+  {
+    "class": "bi-building-up",
+    "codepoint": "f87a"
+  },
+  {
+    "class": "bi-building-x",
+    "codepoint": "f87b"
+  },
+  {
+    "class": "bi-buildings",
+    "codepoint": "f87d"
+  },
+  {
+    "class": "bi-buildings-fill",
+    "codepoint": "f87c"
+  },
+  {
+    "class": "bi-bullseye",
+    "codepoint": "f1de"
+  },
+  {
+    "class": "bi-bus-front",
+    "codepoint": "f87f"
+  },
+  {
+    "class": "bi-bus-front-fill",
+    "codepoint": "f87e"
+  },
+  {
+    "class": "bi-c-circle",
+    "codepoint": "f7db"
+  },
+  {
+    "class": "bi-c-circle-fill",
+    "codepoint": "f7da"
+  },
+  {
+    "class": "bi-c-square",
+    "codepoint": "f7dd"
+  },
+  {
+    "class": "bi-c-square-fill",
+    "codepoint": "f7dc"
+  },
+  {
+    "class": "bi-cake",
+    "codepoint": "f6e0"
+  },
+  {
+    "class": "bi-cake-fill",
+    "codepoint": "f8e8"
+  },
+  {
+    "class": "bi-cake2",
+    "codepoint": "f6ed"
+  },
+  {
+    "class": "bi-cake2-fill",
+    "codepoint": "f8e9"
+  },
+  {
+    "class": "bi-calculator",
+    "codepoint": "f1e0"
+  },
+  {
+    "class": "bi-calculator-fill",
+    "codepoint": "f1df"
+  },
+  {
+    "class": "bi-calendar",
+    "codepoint": "f1f6"
+  },
+  {
+    "class": "bi-calendar-check",
+    "codepoint": "f1e2"
+  },
+  {
+    "class": "bi-calendar-check-fill",
+    "codepoint": "f1e1"
+  },
+  {
+    "class": "bi-calendar-date",
+    "codepoint": "f1e4"
+  },
+  {
+    "class": "bi-calendar-date-fill",
+    "codepoint": "f1e3"
+  },
+  {
+    "class": "bi-calendar-day",
+    "codepoint": "f1e6"
+  },
+  {
+    "class": "bi-calendar-day-fill",
+    "codepoint": "f1e5"
+  },
+  {
+    "class": "bi-calendar-event",
+    "codepoint": "f1e8"
+  },
+  {
+    "class": "bi-calendar-event-fill",
+    "codepoint": "f1e7"
+  },
+  {
+    "class": "bi-calendar-fill",
+    "codepoint": "f1e9"
+  },
+  {
+    "class": "bi-calendar-heart",
+    "codepoint": "f710"
+  },
+  {
+    "class": "bi-calendar-heart-fill",
+    "codepoint": "f70f"
+  },
+  {
+    "class": "bi-calendar-minus",
+    "codepoint": "f1eb"
+  },
+  {
+    "class": "bi-calendar-minus-fill",
+    "codepoint": "f1ea"
+  },
+  {
+    "class": "bi-calendar-month",
+    "codepoint": "f1ed"
+  },
+  {
+    "class": "bi-calendar-month-fill",
+    "codepoint": "f1ec"
+  },
+  {
+    "class": "bi-calendar-plus",
+    "codepoint": "f1ef"
+  },
+  {
+    "class": "bi-calendar-plus-fill",
+    "codepoint": "f1ee"
+  },
+  {
+    "class": "bi-calendar-range",
+    "codepoint": "f1f1"
+  },
+  {
+    "class": "bi-calendar-range-fill",
+    "codepoint": "f1f0"
+  },
+  {
+    "class": "bi-calendar-week",
+    "codepoint": "f1f3"
+  },
+  {
+    "class": "bi-calendar-week-fill",
+    "codepoint": "f1f2"
+  },
+  {
+    "class": "bi-calendar-x",
+    "codepoint": "f1f5"
+  },
+  {
+    "class": "bi-calendar-x-fill",
+    "codepoint": "f1f4"
+  },
+  {
+    "class": "bi-calendar2",
+    "codepoint": "f20c"
+  },
+  {
+    "class": "bi-calendar2-check",
+    "codepoint": "f1f8"
+  },
+  {
+    "class": "bi-calendar2-check-fill",
+    "codepoint": "f1f7"
+  },
+  {
+    "class": "bi-calendar2-date",
+    "codepoint": "f1fa"
+  },
+  {
+    "class": "bi-calendar2-date-fill",
+    "codepoint": "f1f9"
+  },
+  {
+    "class": "bi-calendar2-day",
+    "codepoint": "f1fc"
+  },
+  {
+    "class": "bi-calendar2-day-fill",
+    "codepoint": "f1fb"
+  },
+  {
+    "class": "bi-calendar2-event",
+    "codepoint": "f1fe"
+  },
+  {
+    "class": "bi-calendar2-event-fill",
+    "codepoint": "f1fd"
+  },
+  {
+    "class": "bi-calendar2-fill",
+    "codepoint": "f1ff"
+  },
+  {
+    "class": "bi-calendar2-heart",
+    "codepoint": "f712"
+  },
+  {
+    "class": "bi-calendar2-heart-fill",
+    "codepoint": "f711"
+  },
+  {
+    "class": "bi-calendar2-minus",
+    "codepoint": "f201"
+  },
+  {
+    "class": "bi-calendar2-minus-fill",
+    "codepoint": "f200"
+  },
+  {
+    "class": "bi-calendar2-month",
+    "codepoint": "f203"
+  },
+  {
+    "class": "bi-calendar2-month-fill",
+    "codepoint": "f202"
+  },
+  {
+    "class": "bi-calendar2-plus",
+    "codepoint": "f205"
+  },
+  {
+    "class": "bi-calendar2-plus-fill",
+    "codepoint": "f204"
+  },
+  {
+    "class": "bi-calendar2-range",
+    "codepoint": "f207"
+  },
+  {
+    "class": "bi-calendar2-range-fill",
+    "codepoint": "f206"
+  },
+  {
+    "class": "bi-calendar2-week",
+    "codepoint": "f209"
+  },
+  {
+    "class": "bi-calendar2-week-fill",
+    "codepoint": "f208"
+  },
+  {
+    "class": "bi-calendar2-x",
+    "codepoint": "f20b"
+  },
+  {
+    "class": "bi-calendar2-x-fill",
+    "codepoint": "f20a"
+  },
+  {
+    "class": "bi-calendar3",
+    "codepoint": "f214"
+  },
+  {
+    "class": "bi-calendar3-event",
+    "codepoint": "f20e"
+  },
+  {
+    "class": "bi-calendar3-event-fill",
+    "codepoint": "f20d"
+  },
+  {
+    "class": "bi-calendar3-fill",
+    "codepoint": "f20f"
+  },
+  {
+    "class": "bi-calendar3-range",
+    "codepoint": "f211"
+  },
+  {
+    "class": "bi-calendar3-range-fill",
+    "codepoint": "f210"
+  },
+  {
+    "class": "bi-calendar3-week",
+    "codepoint": "f213"
+  },
+  {
+    "class": "bi-calendar3-week-fill",
+    "codepoint": "f212"
+  },
+  {
+    "class": "bi-calendar4",
+    "codepoint": "f218"
+  },
+  {
+    "class": "bi-calendar4-event",
+    "codepoint": "f215"
+  },
+  {
+    "class": "bi-calendar4-range",
+    "codepoint": "f216"
+  },
+  {
+    "class": "bi-calendar4-week",
+    "codepoint": "f217"
+  },
+  {
+    "class": "bi-camera",
+    "codepoint": "f220"
+  },
+  {
+    "class": "bi-camera-fill",
+    "codepoint": "f219"
+  },
+  {
+    "class": "bi-camera-reels",
+    "codepoint": "f21b"
+  },
+  {
+    "class": "bi-camera-reels-fill",
+    "codepoint": "f21a"
+  },
+  {
+    "class": "bi-camera-video",
+    "codepoint": "f21f"
+  },
+  {
+    "class": "bi-camera-video-fill",
+    "codepoint": "f21c"
+  },
+  {
+    "class": "bi-camera-video-off",
+    "codepoint": "f21e"
+  },
+  {
+    "class": "bi-camera-video-off-fill",
+    "codepoint": "f21d"
+  },
+  {
+    "class": "bi-camera2",
+    "codepoint": "f221"
+  },
+  {
+    "class": "bi-capslock",
+    "codepoint": "f223"
+  },
+  {
+    "class": "bi-capslock-fill",
+    "codepoint": "f222"
+  },
+  {
+    "class": "bi-capsule",
+    "codepoint": "f7df"
+  },
+  {
+    "class": "bi-capsule-pill",
+    "codepoint": "f7de"
+  },
+  {
+    "class": "bi-car-front",
+    "codepoint": "f7e1"
+  },
+  {
+    "class": "bi-car-front-fill",
+    "codepoint": "f7e0"
+  },
+  {
+    "class": "bi-card-checklist",
+    "codepoint": "f224"
+  },
+  {
+    "class": "bi-card-heading",
+    "codepoint": "f225"
+  },
+  {
+    "class": "bi-card-image",
+    "codepoint": "f226"
+  },
+  {
+    "class": "bi-card-list",
+    "codepoint": "f227"
+  },
+  {
+    "class": "bi-card-text",
+    "codepoint": "f228"
+  },
+  {
+    "class": "bi-caret-down",
+    "codepoint": "f22c"
+  },
+  {
+    "class": "bi-caret-down-fill",
+    "codepoint": "f229"
+  },
+  {
+    "class": "bi-caret-down-square",
+    "codepoint": "f22b"
+  },
+  {
+    "class": "bi-caret-down-square-fill",
+    "codepoint": "f22a"
+  },
+  {
+    "class": "bi-caret-left",
+    "codepoint": "f230"
+  },
+  {
+    "class": "bi-caret-left-fill",
+    "codepoint": "f22d"
+  },
+  {
+    "class": "bi-caret-left-square",
+    "codepoint": "f22f"
+  },
+  {
+    "class": "bi-caret-left-square-fill",
+    "codepoint": "f22e"
+  },
+  {
+    "class": "bi-caret-right",
+    "codepoint": "f234"
+  },
+  {
+    "class": "bi-caret-right-fill",
+    "codepoint": "f231"
+  },
+  {
+    "class": "bi-caret-right-square",
+    "codepoint": "f233"
+  },
+  {
+    "class": "bi-caret-right-square-fill",
+    "codepoint": "f232"
+  },
+  {
+    "class": "bi-caret-up",
+    "codepoint": "f238"
+  },
+  {
+    "class": "bi-caret-up-fill",
+    "codepoint": "f235"
+  },
+  {
+    "class": "bi-caret-up-square",
+    "codepoint": "f237"
+  },
+  {
+    "class": "bi-caret-up-square-fill",
+    "codepoint": "f236"
+  },
+  {
+    "class": "bi-cart",
+    "codepoint": "f242"
+  },
+  {
+    "class": "bi-cart-check",
+    "codepoint": "f23a"
+  },
+  {
+    "class": "bi-cart-check-fill",
+    "codepoint": "f239"
+  },
+  {
+    "class": "bi-cart-dash",
+    "codepoint": "f23c"
+  },
+  {
+    "class": "bi-cart-dash-fill",
+    "codepoint": "f23b"
+  },
+  {
+    "class": "bi-cart-fill",
+    "codepoint": "f23d"
+  },
+  {
+    "class": "bi-cart-plus",
+    "codepoint": "f23f"
+  },
+  {
+    "class": "bi-cart-plus-fill",
+    "codepoint": "f23e"
+  },
+  {
+    "class": "bi-cart-x",
+    "codepoint": "f241"
+  },
+  {
+    "class": "bi-cart-x-fill",
+    "codepoint": "f240"
+  },
+  {
+    "class": "bi-cart2",
+    "codepoint": "f243"
+  },
+  {
+    "class": "bi-cart3",
+    "codepoint": "f244"
+  },
+  {
+    "class": "bi-cart4",
+    "codepoint": "f245"
+  },
+  {
+    "class": "bi-cash",
+    "codepoint": "f247"
+  },
+  {
+    "class": "bi-cash-coin",
+    "codepoint": "f632"
+  },
+  {
+    "class": "bi-cash-stack",
+    "codepoint": "f246"
+  },
+  {
+    "class": "bi-cassette",
+    "codepoint": "f7e3"
+  },
+  {
+    "class": "bi-cassette-fill",
+    "codepoint": "f7e2"
+  },
+  {
+    "class": "bi-cast",
+    "codepoint": "f248"
+  },
+  {
+    "class": "bi-cc-circle",
+    "codepoint": "f7e7"
+  },
+  {
+    "class": "bi-cc-circle-fill",
+    "codepoint": "f7e6"
+  },
+  {
+    "class": "bi-cc-square",
+    "codepoint": "f7e9"
+  },
+  {
+    "class": "bi-cc-square-fill",
+    "codepoint": "f7e8"
+  },
+  {
+    "class": "bi-chat",
+    "codepoint": "f268"
+  },
+  {
+    "class": "bi-chat-dots",
+    "codepoint": "f24a"
+  },
+  {
+    "class": "bi-chat-dots-fill",
+    "codepoint": "f249"
+  },
+  {
+    "class": "bi-chat-fill",
+    "codepoint": "f24b"
+  },
+  {
+    "class": "bi-chat-heart",
+    "codepoint": "f714"
+  },
+  {
+    "class": "bi-chat-heart-fill",
+    "codepoint": "f713"
+  },
+  {
+    "class": "bi-chat-left",
+    "codepoint": "f253"
+  },
+  {
+    "class": "bi-chat-left-dots",
+    "codepoint": "f24d"
+  },
+  {
+    "class": "bi-chat-left-dots-fill",
+    "codepoint": "f24c"
+  },
+  {
+    "class": "bi-chat-left-fill",
+    "codepoint": "f24e"
+  },
+  {
+    "class": "bi-chat-left-heart",
+    "codepoint": "f716"
+  },
+  {
+    "class": "bi-chat-left-heart-fill",
+    "codepoint": "f715"
+  },
+  {
+    "class": "bi-chat-left-quote",
+    "codepoint": "f250"
+  },
+  {
+    "class": "bi-chat-left-quote-fill",
+    "codepoint": "f24f"
+  },
+  {
+    "class": "bi-chat-left-text",
+    "codepoint": "f252"
+  },
+  {
+    "class": "bi-chat-left-text-fill",
+    "codepoint": "f251"
+  },
+  {
+    "class": "bi-chat-quote",
+    "codepoint": "f255"
+  },
+  {
+    "class": "bi-chat-quote-fill",
+    "codepoint": "f254"
+  },
+  {
+    "class": "bi-chat-right",
+    "codepoint": "f25d"
+  },
+  {
+    "class": "bi-chat-right-dots",
+    "codepoint": "f257"
+  },
+  {
+    "class": "bi-chat-right-dots-fill",
+    "codepoint": "f256"
+  },
+  {
+    "class": "bi-chat-right-fill",
+    "codepoint": "f258"
+  },
+  {
+    "class": "bi-chat-right-heart",
+    "codepoint": "f718"
+  },
+  {
+    "class": "bi-chat-right-heart-fill",
+    "codepoint": "f717"
+  },
+  {
+    "class": "bi-chat-right-quote",
+    "codepoint": "f25a"
+  },
+  {
+    "class": "bi-chat-right-quote-fill",
+    "codepoint": "f259"
+  },
+  {
+    "class": "bi-chat-right-text",
+    "codepoint": "f25c"
+  },
+  {
+    "class": "bi-chat-right-text-fill",
+    "codepoint": "f25b"
+  },
+  {
+    "class": "bi-chat-square",
+    "codepoint": "f265"
+  },
+  {
+    "class": "bi-chat-square-dots",
+    "codepoint": "f25f"
+  },
+  {
+    "class": "bi-chat-square-dots-fill",
+    "codepoint": "f25e"
+  },
+  {
+    "class": "bi-chat-square-fill",
+    "codepoint": "f260"
+  },
+  {
+    "class": "bi-chat-square-heart",
+    "codepoint": "f71a"
+  },
+  {
+    "class": "bi-chat-square-heart-fill",
+    "codepoint": "f719"
+  },
+  {
+    "class": "bi-chat-square-quote",
+    "codepoint": "f262"
+  },
+  {
+    "class": "bi-chat-square-quote-fill",
+    "codepoint": "f261"
+  },
+  {
+    "class": "bi-chat-square-text",
+    "codepoint": "f264"
+  },
+  {
+    "class": "bi-chat-square-text-fill",
+    "codepoint": "f263"
+  },
+  {
+    "class": "bi-chat-text",
+    "codepoint": "f267"
+  },
+  {
+    "class": "bi-chat-text-fill",
+    "codepoint": "f266"
+  },
+  {
+    "class": "bi-check",
+    "codepoint": "f26e"
+  },
+  {
+    "class": "bi-check-all",
+    "codepoint": "f269"
+  },
+  {
+    "class": "bi-check-circle",
+    "codepoint": "f26b"
+  },
+  {
+    "class": "bi-check-circle-fill",
+    "codepoint": "f26a"
+  },
+  {
+    "class": "bi-check-lg",
+    "codepoint": "f633"
+  },
+  {
+    "class": "bi-check-square",
+    "codepoint": "f26d"
+  },
+  {
+    "class": "bi-check-square-fill",
+    "codepoint": "f26c"
+  },
+  {
+    "class": "bi-check2",
+    "codepoint": "f272"
+  },
+  {
+    "class": "bi-check2-all",
+    "codepoint": "f26f"
+  },
+  {
+    "class": "bi-check2-circle",
+    "codepoint": "f270"
+  },
+  {
+    "class": "bi-check2-square",
+    "codepoint": "f271"
+  },
+  {
+    "class": "bi-chevron-bar-contract",
+    "codepoint": "f273"
+  },
+  {
+    "class": "bi-chevron-bar-down",
+    "codepoint": "f274"
+  },
+  {
+    "class": "bi-chevron-bar-expand",
+    "codepoint": "f275"
+  },
+  {
+    "class": "bi-chevron-bar-left",
+    "codepoint": "f276"
+  },
+  {
+    "class": "bi-chevron-bar-right",
+    "codepoint": "f277"
+  },
+  {
+    "class": "bi-chevron-bar-up",
+    "codepoint": "f278"
+  },
+  {
+    "class": "bi-chevron-compact-down",
+    "codepoint": "f279"
+  },
+  {
+    "class": "bi-chevron-compact-left",
+    "codepoint": "f27a"
+  },
+  {
+    "class": "bi-chevron-compact-right",
+    "codepoint": "f27b"
+  },
+  {
+    "class": "bi-chevron-compact-up",
+    "codepoint": "f27c"
+  },
+  {
+    "class": "bi-chevron-contract",
+    "codepoint": "f27d"
+  },
+  {
+    "class": "bi-chevron-double-down",
+    "codepoint": "f27e"
+  },
+  {
+    "class": "bi-chevron-double-left",
+    "codepoint": "f27f"
+  },
+  {
+    "class": "bi-chevron-double-right",
+    "codepoint": "f280"
+  },
+  {
+    "class": "bi-chevron-double-up",
+    "codepoint": "f281"
+  },
+  {
+    "class": "bi-chevron-down",
+    "codepoint": "f282"
+  },
+  {
+    "class": "bi-chevron-expand",
+    "codepoint": "f283"
+  },
+  {
+    "class": "bi-chevron-left",
+    "codepoint": "f284"
+  },
+  {
+    "class": "bi-chevron-right",
+    "codepoint": "f285"
+  },
+  {
+    "class": "bi-chevron-up",
+    "codepoint": "f286"
+  },
+  {
+    "class": "bi-circle",
+    "codepoint": "f28a"
+  },
+  {
+    "class": "bi-circle-fill",
+    "codepoint": "f287"
+  },
+  {
+    "class": "bi-circle-half",
+    "codepoint": "f288"
+  },
+  {
+    "class": "bi-circle-square",
+    "codepoint": "f289"
+  },
+  {
+    "class": "bi-clipboard",
+    "codepoint": "f290"
+  },
+  {
+    "class": "bi-clipboard-check",
+    "codepoint": "f28b"
+  },
+  {
+    "class": "bi-clipboard-check-fill",
+    "codepoint": "f71b"
+  },
+  {
+    "class": "bi-clipboard-data",
+    "codepoint": "f28c"
+  },
+  {
+    "class": "bi-clipboard-data-fill",
+    "codepoint": "f71c"
+  },
+  {
+    "class": "bi-clipboard-fill",
+    "codepoint": "f71d"
+  },
+  {
+    "class": "bi-clipboard-heart",
+    "codepoint": "f71f"
+  },
+  {
+    "class": "bi-clipboard-heart-fill",
+    "codepoint": "f71e"
+  },
+  {
+    "class": "bi-clipboard-minus",
+    "codepoint": "f28d"
+  },
+  {
+    "class": "bi-clipboard-minus-fill",
+    "codepoint": "f720"
+  },
+  {
+    "class": "bi-clipboard-plus",
+    "codepoint": "f28e"
+  },
+  {
+    "class": "bi-clipboard-plus-fill",
+    "codepoint": "f721"
+  },
+  {
+    "class": "bi-clipboard-pulse",
+    "codepoint": "f722"
+  },
+  {
+    "class": "bi-clipboard-x",
+    "codepoint": "f28f"
+  },
+  {
+    "class": "bi-clipboard-x-fill",
+    "codepoint": "f723"
+  },
+  {
+    "class": "bi-clipboard2",
+    "codepoint": "f733"
+  },
+  {
+    "class": "bi-clipboard2-check",
+    "codepoint": "f725"
+  },
+  {
+    "class": "bi-clipboard2-check-fill",
+    "codepoint": "f724"
+  },
+  {
+    "class": "bi-clipboard2-data",
+    "codepoint": "f727"
+  },
+  {
+    "class": "bi-clipboard2-data-fill",
+    "codepoint": "f726"
+  },
+  {
+    "class": "bi-clipboard2-fill",
+    "codepoint": "f728"
+  },
+  {
+    "class": "bi-clipboard2-heart",
+    "codepoint": "f72a"
+  },
+  {
+    "class": "bi-clipboard2-heart-fill",
+    "codepoint": "f729"
+  },
+  {
+    "class": "bi-clipboard2-minus",
+    "codepoint": "f72c"
+  },
+  {
+    "class": "bi-clipboard2-minus-fill",
+    "codepoint": "f72b"
+  },
+  {
+    "class": "bi-clipboard2-plus",
+    "codepoint": "f72e"
+  },
+  {
+    "class": "bi-clipboard2-plus-fill",
+    "codepoint": "f72d"
+  },
+  {
+    "class": "bi-clipboard2-pulse",
+    "codepoint": "f730"
+  },
+  {
+    "class": "bi-clipboard2-pulse-fill",
+    "codepoint": "f72f"
+  },
+  {
+    "class": "bi-clipboard2-x",
+    "codepoint": "f732"
+  },
+  {
+    "class": "bi-clipboard2-x-fill",
+    "codepoint": "f731"
+  },
+  {
+    "class": "bi-clock",
+    "codepoint": "f293"
+  },
+  {
+    "class": "bi-clock-fill",
+    "codepoint": "f291"
+  },
+  {
+    "class": "bi-clock-history",
+    "codepoint": "f292"
+  },
+  {
+    "class": "bi-cloud",
+    "codepoint": "f2c1"
+  },
+  {
+    "class": "bi-cloud-arrow-down",
+    "codepoint": "f295"
+  },
+  {
+    "class": "bi-cloud-arrow-down-fill",
+    "codepoint": "f294"
+  },
+  {
+    "class": "bi-cloud-arrow-up",
+    "codepoint": "f297"
+  },
+  {
+    "class": "bi-cloud-arrow-up-fill",
+    "codepoint": "f296"
+  },
+  {
+    "class": "bi-cloud-check",
+    "codepoint": "f299"
+  },
+  {
+    "class": "bi-cloud-check-fill",
+    "codepoint": "f298"
+  },
+  {
+    "class": "bi-cloud-download",
+    "codepoint": "f29b"
+  },
+  {
+    "class": "bi-cloud-download-fill",
+    "codepoint": "f29a"
+  },
+  {
+    "class": "bi-cloud-drizzle",
+    "codepoint": "f29d"
+  },
+  {
+    "class": "bi-cloud-drizzle-fill",
+    "codepoint": "f29c"
+  },
+  {
+    "class": "bi-cloud-fill",
+    "codepoint": "f29e"
+  },
+  {
+    "class": "bi-cloud-fog",
+    "codepoint": "f2a0"
+  },
+  {
+    "class": "bi-cloud-fog-fill",
+    "codepoint": "f29f"
+  },
+  {
+    "class": "bi-cloud-fog2",
+    "codepoint": "f2a2"
+  },
+  {
+    "class": "bi-cloud-fog2-fill",
+    "codepoint": "f2a1"
+  },
+  {
+    "class": "bi-cloud-hail",
+    "codepoint": "f2a4"
+  },
+  {
+    "class": "bi-cloud-hail-fill",
+    "codepoint": "f2a3"
+  },
+  {
+    "class": "bi-cloud-haze",
+    "codepoint": "f2a7"
+  },
+  {
+    "class": "bi-cloud-haze-fill",
+    "codepoint": "f2a6"
+  },
+  {
+    "class": "bi-cloud-haze2",
+    "codepoint": "f6f7"
+  },
+  {
+    "class": "bi-cloud-haze2-fill",
+    "codepoint": "f2a8"
+  },
+  {
+    "class": "bi-cloud-lightning",
+    "codepoint": "f2ac"
+  },
+  {
+    "class": "bi-cloud-lightning-fill",
+    "codepoint": "f2a9"
+  },
+  {
+    "class": "bi-cloud-lightning-rain",
+    "codepoint": "f2ab"
+  },
+  {
+    "class": "bi-cloud-lightning-rain-fill",
+    "codepoint": "f2aa"
+  },
+  {
+    "class": "bi-cloud-minus",
+    "codepoint": "f2ae"
+  },
+  {
+    "class": "bi-cloud-minus-fill",
+    "codepoint": "f2ad"
+  },
+  {
+    "class": "bi-cloud-moon",
+    "codepoint": "f2b0"
+  },
+  {
+    "class": "bi-cloud-moon-fill",
+    "codepoint": "f2af"
+  },
+  {
+    "class": "bi-cloud-plus",
+    "codepoint": "f2b2"
+  },
+  {
+    "class": "bi-cloud-plus-fill",
+    "codepoint": "f2b1"
+  },
+  {
+    "class": "bi-cloud-rain",
+    "codepoint": "f2b6"
+  },
+  {
+    "class": "bi-cloud-rain-fill",
+    "codepoint": "f2b3"
+  },
+  {
+    "class": "bi-cloud-rain-heavy",
+    "codepoint": "f2b5"
+  },
+  {
+    "class": "bi-cloud-rain-heavy-fill",
+    "codepoint": "f2b4"
+  },
+  {
+    "class": "bi-cloud-slash",
+    "codepoint": "f2b8"
+  },
+  {
+    "class": "bi-cloud-slash-fill",
+    "codepoint": "f2b7"
+  },
+  {
+    "class": "bi-cloud-sleet",
+    "codepoint": "f2ba"
+  },
+  {
+    "class": "bi-cloud-sleet-fill",
+    "codepoint": "f2b9"
+  },
+  {
+    "class": "bi-cloud-snow",
+    "codepoint": "f2bc"
+  },
+  {
+    "class": "bi-cloud-snow-fill",
+    "codepoint": "f2bb"
+  },
+  {
+    "class": "bi-cloud-sun",
+    "codepoint": "f2be"
+  },
+  {
+    "class": "bi-cloud-sun-fill",
+    "codepoint": "f2bd"
+  },
+  {
+    "class": "bi-cloud-upload",
+    "codepoint": "f2c0"
+  },
+  {
+    "class": "bi-cloud-upload-fill",
+    "codepoint": "f2bf"
+  },
+  {
+    "class": "bi-clouds",
+    "codepoint": "f2c3"
+  },
+  {
+    "class": "bi-clouds-fill",
+    "codepoint": "f2c2"
+  },
+  {
+    "class": "bi-cloudy",
+    "codepoint": "f2c5"
+  },
+  {
+    "class": "bi-cloudy-fill",
+    "codepoint": "f2c4"
+  },
+  {
+    "class": "bi-code",
+    "codepoint": "f2c8"
+  },
+  {
+    "class": "bi-code-slash",
+    "codepoint": "f2c6"
+  },
+  {
+    "class": "bi-code-square",
+    "codepoint": "f2c7"
+  },
+  {
+    "class": "bi-coin",
+    "codepoint": "f634"
+  },
+  {
+    "class": "bi-collection",
+    "codepoint": "f2cc"
+  },
+  {
+    "class": "bi-collection-fill",
+    "codepoint": "f2c9"
+  },
+  {
+    "class": "bi-collection-play",
+    "codepoint": "f2cb"
+  },
+  {
+    "class": "bi-collection-play-fill",
+    "codepoint": "f2ca"
+  },
+  {
+    "class": "bi-columns",
+    "codepoint": "f2ce"
+  },
+  {
+    "class": "bi-columns-gap",
+    "codepoint": "f2cd"
+  },
+  {
+    "class": "bi-command",
+    "codepoint": "f2cf"
+  },
+  {
+    "class": "bi-compass",
+    "codepoint": "f2d1"
+  },
+  {
+    "class": "bi-compass-fill",
+    "codepoint": "f2d0"
+  },
+  {
+    "class": "bi-cone",
+    "codepoint": "f2d3"
+  },
+  {
+    "class": "bi-cone-striped",
+    "codepoint": "f2d2"
+  },
+  {
+    "class": "bi-controller",
+    "codepoint": "f2d4"
+  },
+  {
+    "class": "bi-cookie",
+    "codepoint": "f6ee"
+  },
+  {
+    "class": "bi-copy",
+    "codepoint": "f759"
+  },
+  {
+    "class": "bi-cpu",
+    "codepoint": "f2d6"
+  },
+  {
+    "class": "bi-cpu-fill",
+    "codepoint": "f2d5"
+  },
+  {
+    "class": "bi-credit-card",
+    "codepoint": "f2dc"
+  },
+  {
+    "class": "bi-credit-card-2-back",
+    "codepoint": "f2d8"
+  },
+  {
+    "class": "bi-credit-card-2-back-fill",
+    "codepoint": "f2d7"
+  },
+  {
+    "class": "bi-credit-card-2-front",
+    "codepoint": "f2da"
+  },
+  {
+    "class": "bi-credit-card-2-front-fill",
+    "codepoint": "f2d9"
+  },
+  {
+    "class": "bi-credit-card-fill",
+    "codepoint": "f2db"
+  },
+  {
+    "class": "bi-crop",
+    "codepoint": "f2dd"
+  },
+  {
+    "class": "bi-crosshair",
+    "codepoint": "f769"
+  },
+  {
+    "class": "bi-crosshair2",
+    "codepoint": "f794"
+  },
+  {
+    "class": "bi-cup",
+    "codepoint": "f2e0"
+  },
+  {
+    "class": "bi-cup-fill",
+    "codepoint": "f2de"
+  },
+  {
+    "class": "bi-cup-hot",
+    "codepoint": "f7eb"
+  },
+  {
+    "class": "bi-cup-hot-fill",
+    "codepoint": "f7ea"
+  },
+  {
+    "class": "bi-cup-straw",
+    "codepoint": "f2df"
+  },
+  {
+    "class": "bi-currency-bitcoin",
+    "codepoint": "f635"
+  },
+  {
+    "class": "bi-currency-dollar",
+    "codepoint": "f636"
+  },
+  {
+    "class": "bi-currency-euro",
+    "codepoint": "f637"
+  },
+  {
+    "class": "bi-currency-exchange",
+    "codepoint": "f638"
+  },
+  {
+    "class": "bi-currency-pound",
+    "codepoint": "f639"
+  },
+  {
+    "class": "bi-currency-rupee",
+    "codepoint": "f7ec"
+  },
+  {
+    "class": "bi-currency-yen",
+    "codepoint": "f63a"
+  },
+  {
+    "class": "bi-cursor",
+    "codepoint": "f2e3"
+  },
+  {
+    "class": "bi-cursor-fill",
+    "codepoint": "f2e1"
+  },
+  {
+    "class": "bi-cursor-text",
+    "codepoint": "f2e2"
+  },
+  {
+    "class": "bi-dash",
+    "codepoint": "f2ea"
+  },
+  {
+    "class": "bi-dash-circle",
+    "codepoint": "f2e6"
+  },
+  {
+    "class": "bi-dash-circle-dotted",
+    "codepoint": "f2e4"
+  },
+  {
+    "class": "bi-dash-circle-fill",
+    "codepoint": "f2e5"
+  },
+  {
+    "class": "bi-dash-lg",
+    "codepoint": "f63b"
+  },
+  {
+    "class": "bi-dash-square",
+    "codepoint": "f2e9"
+  },
+  {
+    "class": "bi-dash-square-dotted",
+    "codepoint": "f2e7"
+  },
+  {
+    "class": "bi-dash-square-fill",
+    "codepoint": "f2e8"
+  },
+  {
+    "class": "bi-database",
+    "codepoint": "f8c4"
+  },
+  {
+    "class": "bi-database-add",
+    "codepoint": "f8af"
+  },
+  {
+    "class": "bi-database-check",
+    "codepoint": "f8b0"
+  },
+  {
+    "class": "bi-database-dash",
+    "codepoint": "f8b1"
+  },
+  {
+    "class": "bi-database-down",
+    "codepoint": "f8b2"
+  },
+  {
+    "class": "bi-database-exclamation",
+    "codepoint": "f8b3"
+  },
+  {
+    "class": "bi-database-fill",
+    "codepoint": "f8be"
+  },
+  {
+    "class": "bi-database-fill-add",
+    "codepoint": "f8b4"
+  },
+  {
+    "class": "bi-database-fill-check",
+    "codepoint": "f8b5"
+  },
+  {
+    "class": "bi-database-fill-dash",
+    "codepoint": "f8b6"
+  },
+  {
+    "class": "bi-database-fill-down",
+    "codepoint": "f8b7"
+  },
+  {
+    "class": "bi-database-fill-exclamation",
+    "codepoint": "f8b8"
+  },
+  {
+    "class": "bi-database-fill-gear",
+    "codepoint": "f8b9"
+  },
+  {
+    "class": "bi-database-fill-lock",
+    "codepoint": "f8ba"
+  },
+  {
+    "class": "bi-database-fill-slash",
+    "codepoint": "f8bb"
+  },
+  {
+    "class": "bi-database-fill-up",
+    "codepoint": "f8bc"
+  },
+  {
+    "class": "bi-database-fill-x",
+    "codepoint": "f8bd"
+  },
+  {
+    "class": "bi-database-gear",
+    "codepoint": "f8bf"
+  },
+  {
+    "class": "bi-database-lock",
+    "codepoint": "f8c0"
+  },
+  {
+    "class": "bi-database-slash",
+    "codepoint": "f8c1"
+  },
+  {
+    "class": "bi-database-up",
+    "codepoint": "f8c2"
+  },
+  {
+    "class": "bi-database-x",
+    "codepoint": "f8c3"
+  },
+  {
+    "class": "bi-device-hdd",
+    "codepoint": "f6f9"
+  },
+  {
+    "class": "bi-device-hdd-fill",
+    "codepoint": "f6f8"
+  },
+  {
+    "class": "bi-device-ssd",
+    "codepoint": "f6fb"
+  },
+  {
+    "class": "bi-device-ssd-fill",
+    "codepoint": "f6fa"
+  },
+  {
+    "class": "bi-diagram-2",
+    "codepoint": "f2ec"
+  },
+  {
+    "class": "bi-diagram-2-fill",
+    "codepoint": "f2eb"
+  },
+  {
+    "class": "bi-diagram-3",
+    "codepoint": "f2ee"
+  },
+  {
+    "class": "bi-diagram-3-fill",
+    "codepoint": "f2ed"
+  },
+  {
+    "class": "bi-diamond",
+    "codepoint": "f2f1"
+  },
+  {
+    "class": "bi-diamond-fill",
+    "codepoint": "f2ef"
+  },
+  {
+    "class": "bi-diamond-half",
+    "codepoint": "f2f0"
+  },
+  {
+    "class": "bi-dice-1",
+    "codepoint": "f2f3"
+  },
+  {
+    "class": "bi-dice-1-fill",
+    "codepoint": "f2f2"
+  },
+  {
+    "class": "bi-dice-2",
+    "codepoint": "f2f5"
+  },
+  {
+    "class": "bi-dice-2-fill",
+    "codepoint": "f2f4"
+  },
+  {
+    "class": "bi-dice-3",
+    "codepoint": "f2f7"
+  },
+  {
+    "class": "bi-dice-3-fill",
+    "codepoint": "f2f6"
+  },
+  {
+    "class": "bi-dice-4",
+    "codepoint": "f2f9"
+  },
+  {
+    "class": "bi-dice-4-fill",
+    "codepoint": "f2f8"
+  },
+  {
+    "class": "bi-dice-5",
+    "codepoint": "f2fb"
+  },
+  {
+    "class": "bi-dice-5-fill",
+    "codepoint": "f2fa"
+  },
+  {
+    "class": "bi-dice-6",
+    "codepoint": "f2fd"
+  },
+  {
+    "class": "bi-dice-6-fill",
+    "codepoint": "f2fc"
+  },
+  {
+    "class": "bi-disc",
+    "codepoint": "f2ff"
+  },
+  {
+    "class": "bi-disc-fill",
+    "codepoint": "f2fe"
+  },
+  {
+    "class": "bi-discord",
+    "codepoint": "f300"
+  },
+  {
+    "class": "bi-display",
+    "codepoint": "f302"
+  },
+  {
+    "class": "bi-display-fill",
+    "codepoint": "f301"
+  },
+  {
+    "class": "bi-displayport",
+    "codepoint": "f6e1"
+  },
+  {
+    "class": "bi-displayport-fill",
+    "codepoint": "f6fc"
+  },
+  {
+    "class": "bi-distribute-horizontal",
+    "codepoint": "f303"
+  },
+  {
+    "class": "bi-distribute-vertical",
+    "codepoint": "f304"
+  },
+  {
+    "class": "bi-door-closed",
+    "codepoint": "f306"
+  },
+  {
+    "class": "bi-door-closed-fill",
+    "codepoint": "f305"
+  },
+  {
+    "class": "bi-door-open",
+    "codepoint": "f308"
+  },
+  {
+    "class": "bi-door-open-fill",
+    "codepoint": "f307"
+  },
+  {
+    "class": "bi-dot",
+    "codepoint": "f309"
+  },
+  {
+    "class": "bi-download",
+    "codepoint": "f30a"
+  },
+  {
+    "class": "bi-dpad",
+    "codepoint": "f687"
+  },
+  {
+    "class": "bi-dpad-fill",
+    "codepoint": "f686"
+  },
+  {
+    "class": "bi-dribbble",
+    "codepoint": "f65f"
+  },
+  {
+    "class": "bi-dropbox",
+    "codepoint": "f7ed"
+  },
+  {
+    "class": "bi-droplet",
+    "codepoint": "f30d"
+  },
+  {
+    "class": "bi-droplet-fill",
+    "codepoint": "f30b"
+  },
+  {
+    "class": "bi-droplet-half",
+    "codepoint": "f30c"
+  },
+  {
+    "class": "bi-duffle",
+    "codepoint": "f8eb"
+  },
+  {
+    "class": "bi-duffle-fill",
+    "codepoint": "f8ea"
+  },
+  {
+    "class": "bi-ear",
+    "codepoint": "f689"
+  },
+  {
+    "class": "bi-ear-fill",
+    "codepoint": "f688"
+  },
+  {
+    "class": "bi-earbuds",
+    "codepoint": "f30e"
+  },
+  {
+    "class": "bi-easel",
+    "codepoint": "f310"
+  },
+  {
+    "class": "bi-easel-fill",
+    "codepoint": "f30f"
+  },
+  {
+    "class": "bi-easel2",
+    "codepoint": "f66d"
+  },
+  {
+    "class": "bi-easel2-fill",
+    "codepoint": "f66c"
+  },
+  {
+    "class": "bi-easel3",
+    "codepoint": "f66f"
+  },
+  {
+    "class": "bi-easel3-fill",
+    "codepoint": "f66e"
+  },
+  {
+    "class": "bi-egg",
+    "codepoint": "f313"
+  },
+  {
+    "class": "bi-egg-fill",
+    "codepoint": "f311"
+  },
+  {
+    "class": "bi-egg-fried",
+    "codepoint": "f312"
+  },
+  {
+    "class": "bi-eject",
+    "codepoint": "f315"
+  },
+  {
+    "class": "bi-eject-fill",
+    "codepoint": "f314"
+  },
+  {
+    "class": "bi-emoji-angry",
+    "codepoint": "f317"
+  },
+  {
+    "class": "bi-emoji-angry-fill",
+    "codepoint": "f316"
+  },
+  {
+    "class": "bi-emoji-astonished",
+    "codepoint": "f79a"
+  },
+  {
+    "class": "bi-emoji-astonished-fill",
+    "codepoint": "f795"
+  },
+  {
+    "class": "bi-emoji-dizzy",
+    "codepoint": "f319"
+  },
+  {
+    "class": "bi-emoji-dizzy-fill",
+    "codepoint": "f318"
+  },
+  {
+    "class": "bi-emoji-expressionless",
+    "codepoint": "f31b"
+  },
+  {
+    "class": "bi-emoji-expressionless-fill",
+    "codepoint": "f31a"
+  },
+  {
+    "class": "bi-emoji-frown",
+    "codepoint": "f31d"
+  },
+  {
+    "class": "bi-emoji-frown-fill",
+    "codepoint": "f31c"
+  },
+  {
+    "class": "bi-emoji-grimace",
+    "codepoint": "f7a0"
+  },
+  {
+    "class": "bi-emoji-grimace-fill",
+    "codepoint": "f79b"
+  },
+  {
+    "class": "bi-emoji-grin",
+    "codepoint": "f7a6"
+  },
+  {
+    "class": "bi-emoji-grin-fill",
+    "codepoint": "f7a1"
+  },
+  {
+    "class": "bi-emoji-heart-eyes",
+    "codepoint": "f31f"
+  },
+  {
+    "class": "bi-emoji-heart-eyes-fill",
+    "codepoint": "f31e"
+  },
+  {
+    "class": "bi-emoji-kiss",
+    "codepoint": "f735"
+  },
+  {
+    "class": "bi-emoji-kiss-fill",
+    "codepoint": "f734"
+  },
+  {
+    "class": "bi-emoji-laughing",
+    "codepoint": "f321"
+  },
+  {
+    "class": "bi-emoji-laughing-fill",
+    "codepoint": "f320"
+  },
+  {
+    "class": "bi-emoji-neutral",
+    "codepoint": "f323"
+  },
+  {
+    "class": "bi-emoji-neutral-fill",
+    "codepoint": "f322"
+  },
+  {
+    "class": "bi-emoji-smile",
+    "codepoint": "f327"
+  },
+  {
+    "class": "bi-emoji-smile-fill",
+    "codepoint": "f324"
+  },
+  {
+    "class": "bi-emoji-smile-upside-down",
+    "codepoint": "f326"
+  },
+  {
+    "class": "bi-emoji-smile-upside-down-fill",
+    "codepoint": "f325"
+  },
+  {
+    "class": "bi-emoji-sunglasses",
+    "codepoint": "f329"
+  },
+  {
+    "class": "bi-emoji-sunglasses-fill",
+    "codepoint": "f328"
+  },
+  {
+    "class": "bi-emoji-surprise",
+    "codepoint": "f7ac"
+  },
+  {
+    "class": "bi-emoji-surprise-fill",
+    "codepoint": "f7a7"
+  },
+  {
+    "class": "bi-emoji-tear",
+    "codepoint": "f7b2"
+  },
+  {
+    "class": "bi-emoji-tear-fill",
+    "codepoint": "f7ad"
+  },
+  {
+    "class": "bi-emoji-wink",
+    "codepoint": "f32b"
+  },
+  {
+    "class": "bi-emoji-wink-fill",
+    "codepoint": "f32a"
+  },
+  {
+    "class": "bi-envelope",
+    "codepoint": "f32f"
+  },
+  {
+    "class": "bi-envelope-arrow-down",
+    "codepoint": "f7b8"
+  },
+  {
+    "class": "bi-envelope-arrow-down-fill",
+    "codepoint": "f7b3"
+  },
+  {
+    "class": "bi-envelope-arrow-up",
+    "codepoint": "f7be"
+  },
+  {
+    "class": "bi-envelope-arrow-up-fill",
+    "codepoint": "f7b9"
+  },
+  {
+    "class": "bi-envelope-at",
+    "codepoint": "f84c"
+  },
+  {
+    "class": "bi-envelope-at-fill",
+    "codepoint": "f84b"
+  },
+  {
+    "class": "bi-envelope-check",
+    "codepoint": "f68c"
+  },
+  {
+    "class": "bi-envelope-check-fill",
+    "codepoint": "f68b"
+  },
+  {
+    "class": "bi-envelope-dash",
+    "codepoint": "f68f"
+  },
+  {
+    "class": "bi-envelope-dash-fill",
+    "codepoint": "f68e"
+  },
+  {
+    "class": "bi-envelope-exclamation",
+    "codepoint": "f692"
+  },
+  {
+    "class": "bi-envelope-exclamation-fill",
+    "codepoint": "f691"
+  },
+  {
+    "class": "bi-envelope-fill",
+    "codepoint": "f32c"
+  },
+  {
+    "class": "bi-envelope-heart",
+    "codepoint": "f737"
+  },
+  {
+    "class": "bi-envelope-heart-fill",
+    "codepoint": "f736"
+  },
+  {
+    "class": "bi-envelope-open",
+    "codepoint": "f32e"
+  },
+  {
+    "class": "bi-envelope-open-fill",
+    "codepoint": "f32d"
+  },
+  {
+    "class": "bi-envelope-open-heart",
+    "codepoint": "f739"
+  },
+  {
+    "class": "bi-envelope-open-heart-fill",
+    "codepoint": "f738"
+  },
+  {
+    "class": "bi-envelope-paper",
+    "codepoint": "f73d"
+  },
+  {
+    "class": "bi-envelope-paper-fill",
+    "codepoint": "f73a"
+  },
+  {
+    "class": "bi-envelope-paper-heart",
+    "codepoint": "f73c"
+  },
+  {
+    "class": "bi-envelope-paper-heart-fill",
+    "codepoint": "f73b"
+  },
+  {
+    "class": "bi-envelope-plus",
+    "codepoint": "f694"
+  },
+  {
+    "class": "bi-envelope-plus-fill",
+    "codepoint": "f693"
+  },
+  {
+    "class": "bi-envelope-slash",
+    "codepoint": "f697"
+  },
+  {
+    "class": "bi-envelope-slash-fill",
+    "codepoint": "f696"
+  },
+  {
+    "class": "bi-envelope-x",
+    "codepoint": "f69a"
+  },
+  {
+    "class": "bi-envelope-x-fill",
+    "codepoint": "f699"
+  },
+  {
+    "class": "bi-eraser",
+    "codepoint": "f331"
+  },
+  {
+    "class": "bi-eraser-fill",
+    "codepoint": "f330"
+  },
+  {
+    "class": "bi-escape",
+    "codepoint": "f7ee"
+  },
+  {
+    "class": "bi-ethernet",
+    "codepoint": "f6d5"
+  },
+  {
+    "class": "bi-ev-front",
+    "codepoint": "f881"
+  },
+  {
+    "class": "bi-ev-front-fill",
+    "codepoint": "f880"
+  },
+  {
+    "class": "bi-ev-station",
+    "codepoint": "f83a"
+  },
+  {
+    "class": "bi-ev-station-fill",
+    "codepoint": "f839"
+  },
+  {
+    "class": "bi-exclamation",
+    "codepoint": "f33c"
+  },
+  {
+    "class": "bi-exclamation-circle",
+    "codepoint": "f333"
+  },
+  {
+    "class": "bi-exclamation-circle-fill",
+    "codepoint": "f332"
+  },
+  {
+    "class": "bi-exclamation-diamond",
+    "codepoint": "f335"
+  },
+  {
+    "class": "bi-exclamation-diamond-fill",
+    "codepoint": "f334"
+  },
+  {
+    "class": "bi-exclamation-lg",
+    "codepoint": "f63c"
+  },
+  {
+    "class": "bi-exclamation-octagon",
+    "codepoint": "f337"
+  },
+  {
+    "class": "bi-exclamation-octagon-fill",
+    "codepoint": "f336"
+  },
+  {
+    "class": "bi-exclamation-square",
+    "codepoint": "f339"
+  },
+  {
+    "class": "bi-exclamation-square-fill",
+    "codepoint": "f338"
+  },
+  {
+    "class": "bi-exclamation-triangle",
+    "codepoint": "f33b"
+  },
+  {
+    "class": "bi-exclamation-triangle-fill",
+    "codepoint": "f33a"
+  },
+  {
+    "class": "bi-exclude",
+    "codepoint": "f33d"
+  },
+  {
+    "class": "bi-explicit",
+    "codepoint": "f69c"
+  },
+  {
+    "class": "bi-explicit-fill",
+    "codepoint": "f69b"
+  },
+  {
+    "class": "bi-exposure",
+    "codepoint": "f8ec"
+  },
+  {
+    "class": "bi-eye",
+    "codepoint": "f341"
+  },
+  {
+    "class": "bi-eye-fill",
+    "codepoint": "f33e"
+  },
+  {
+    "class": "bi-eye-slash",
+    "codepoint": "f340"
+  },
+  {
+    "class": "bi-eye-slash-fill",
+    "codepoint": "f33f"
+  },
+  {
+    "class": "bi-eyedropper",
+    "codepoint": "f342"
+  },
+  {
+    "class": "bi-eyeglasses",
+    "codepoint": "f343"
+  },
+  {
+    "class": "bi-facebook",
+    "codepoint": "f344"
+  },
+  {
+    "class": "bi-fan",
+    "codepoint": "f670"
+  },
+  {
+    "class": "bi-fast-forward",
+    "codepoint": "f7f4"
+  },
+  {
+    "class": "bi-fast-forward-btn",
+    "codepoint": "f7f0"
+  },
+  {
+    "class": "bi-fast-forward-btn-fill",
+    "codepoint": "f7ef"
+  },
+  {
+    "class": "bi-fast-forward-circle",
+    "codepoint": "f7f2"
+  },
+  {
+    "class": "bi-fast-forward-circle-fill",
+    "codepoint": "f7f1"
+  },
+  {
+    "class": "bi-fast-forward-fill",
+    "codepoint": "f7f3"
+  },
+  {
+    "class": "bi-feather",
+    "codepoint": "f7bf"
+  },
+  {
+    "class": "bi-feather2",
+    "codepoint": "f7c4"
+  },
+  {
+    "class": "bi-file",
+    "codepoint": "f3c0"
+  },
+  {
+    "class": "bi-file-arrow-down",
+    "codepoint": "f346"
+  },
+  {
+    "class": "bi-file-arrow-down-fill",
+    "codepoint": "f345"
+  },
+  {
+    "class": "bi-file-arrow-up",
+    "codepoint": "f348"
+  },
+  {
+    "class": "bi-file-arrow-up-fill",
+    "codepoint": "f347"
+  },
+  {
+    "class": "bi-file-bar-graph",
+    "codepoint": "f34a"
+  },
+  {
+    "class": "bi-file-bar-graph-fill",
+    "codepoint": "f349"
+  },
+  {
+    "class": "bi-file-binary",
+    "codepoint": "f34c"
+  },
+  {
+    "class": "bi-file-binary-fill",
+    "codepoint": "f34b"
+  },
+  {
+    "class": "bi-file-break",
+    "codepoint": "f34e"
+  },
+  {
+    "class": "bi-file-break-fill",
+    "codepoint": "f34d"
+  },
+  {
+    "class": "bi-file-check",
+    "codepoint": "f350"
+  },
+  {
+    "class": "bi-file-check-fill",
+    "codepoint": "f34f"
+  },
+  {
+    "class": "bi-file-code",
+    "codepoint": "f352"
+  },
+  {
+    "class": "bi-file-code-fill",
+    "codepoint": "f351"
+  },
+  {
+    "class": "bi-file-diff",
+    "codepoint": "f354"
+  },
+  {
+    "class": "bi-file-diff-fill",
+    "codepoint": "f353"
+  },
+  {
+    "class": "bi-file-earmark",
+    "codepoint": "f392"
+  },
+  {
+    "class": "bi-file-earmark-arrow-down",
+    "codepoint": "f356"
+  },
+  {
+    "class": "bi-file-earmark-arrow-down-fill",
+    "codepoint": "f355"
+  },
+  {
+    "class": "bi-file-earmark-arrow-up",
+    "codepoint": "f358"
+  },
+  {
+    "class": "bi-file-earmark-arrow-up-fill",
+    "codepoint": "f357"
+  },
+  {
+    "class": "bi-file-earmark-bar-graph",
+    "codepoint": "f35a"
+  },
+  {
+    "class": "bi-file-earmark-bar-graph-fill",
+    "codepoint": "f359"
+  },
+  {
+    "class": "bi-file-earmark-binary",
+    "codepoint": "f35c"
+  },
+  {
+    "class": "bi-file-earmark-binary-fill",
+    "codepoint": "f35b"
+  },
+  {
+    "class": "bi-file-earmark-break",
+    "codepoint": "f35e"
+  },
+  {
+    "class": "bi-file-earmark-break-fill",
+    "codepoint": "f35d"
+  },
+  {
+    "class": "bi-file-earmark-check",
+    "codepoint": "f360"
+  },
+  {
+    "class": "bi-file-earmark-check-fill",
+    "codepoint": "f35f"
+  },
+  {
+    "class": "bi-file-earmark-code",
+    "codepoint": "f362"
+  },
+  {
+    "class": "bi-file-earmark-code-fill",
+    "codepoint": "f361"
+  },
+  {
+    "class": "bi-file-earmark-diff",
+    "codepoint": "f364"
+  },
+  {
+    "class": "bi-file-earmark-diff-fill",
+    "codepoint": "f363"
+  },
+  {
+    "class": "bi-file-earmark-easel",
+    "codepoint": "f366"
+  },
+  {
+    "class": "bi-file-earmark-easel-fill",
+    "codepoint": "f365"
+  },
+  {
+    "class": "bi-file-earmark-excel",
+    "codepoint": "f368"
+  },
+  {
+    "class": "bi-file-earmark-excel-fill",
+    "codepoint": "f367"
+  },
+  {
+    "class": "bi-file-earmark-fill",
+    "codepoint": "f369"
+  },
+  {
+    "class": "bi-file-earmark-font",
+    "codepoint": "f36b"
+  },
+  {
+    "class": "bi-file-earmark-font-fill",
+    "codepoint": "f36a"
+  },
+  {
+    "class": "bi-file-earmark-image",
+    "codepoint": "f36d"
+  },
+  {
+    "class": "bi-file-earmark-image-fill",
+    "codepoint": "f36c"
+  },
+  {
+    "class": "bi-file-earmark-lock",
+    "codepoint": "f36f"
+  },
+  {
+    "class": "bi-file-earmark-lock-fill",
+    "codepoint": "f36e"
+  },
+  {
+    "class": "bi-file-earmark-lock2",
+    "codepoint": "f371"
+  },
+  {
+    "class": "bi-file-earmark-lock2-fill",
+    "codepoint": "f370"
+  },
+  {
+    "class": "bi-file-earmark-medical",
+    "codepoint": "f373"
+  },
+  {
+    "class": "bi-file-earmark-medical-fill",
+    "codepoint": "f372"
+  },
+  {
+    "class": "bi-file-earmark-minus",
+    "codepoint": "f375"
+  },
+  {
+    "class": "bi-file-earmark-minus-fill",
+    "codepoint": "f374"
+  },
+  {
+    "class": "bi-file-earmark-music",
+    "codepoint": "f377"
+  },
+  {
+    "class": "bi-file-earmark-music-fill",
+    "codepoint": "f376"
+  },
+  {
+    "class": "bi-file-earmark-pdf",
+    "codepoint": "f63e"
+  },
+  {
+    "class": "bi-file-earmark-pdf-fill",
+    "codepoint": "f63d"
+  },
+  {
+    "class": "bi-file-earmark-person",
+    "codepoint": "f379"
+  },
+  {
+    "class": "bi-file-earmark-person-fill",
+    "codepoint": "f378"
+  },
+  {
+    "class": "bi-file-earmark-play",
+    "codepoint": "f37b"
+  },
+  {
+    "class": "bi-file-earmark-play-fill",
+    "codepoint": "f37a"
+  },
+  {
+    "class": "bi-file-earmark-plus",
+    "codepoint": "f37d"
+  },
+  {
+    "class": "bi-file-earmark-plus-fill",
+    "codepoint": "f37c"
+  },
+  {
+    "class": "bi-file-earmark-post",
+    "codepoint": "f37f"
+  },
+  {
+    "class": "bi-file-earmark-post-fill",
+    "codepoint": "f37e"
+  },
+  {
+    "class": "bi-file-earmark-ppt",
+    "codepoint": "f381"
+  },
+  {
+    "class": "bi-file-earmark-ppt-fill",
+    "codepoint": "f380"
+  },
+  {
+    "class": "bi-file-earmark-richtext",
+    "codepoint": "f383"
+  },
+  {
+    "class": "bi-file-earmark-richtext-fill",
+    "codepoint": "f382"
+  },
+  {
+    "class": "bi-file-earmark-ruled",
+    "codepoint": "f385"
+  },
+  {
+    "class": "bi-file-earmark-ruled-fill",
+    "codepoint": "f384"
+  },
+  {
+    "class": "bi-file-earmark-slides",
+    "codepoint": "f387"
+  },
+  {
+    "class": "bi-file-earmark-slides-fill",
+    "codepoint": "f386"
+  },
+  {
+    "class": "bi-file-earmark-spreadsheet",
+    "codepoint": "f389"
+  },
+  {
+    "class": "bi-file-earmark-spreadsheet-fill",
+    "codepoint": "f388"
+  },
+  {
+    "class": "bi-file-earmark-text",
+    "codepoint": "f38b"
+  },
+  {
+    "class": "bi-file-earmark-text-fill",
+    "codepoint": "f38a"
+  },
+  {
+    "class": "bi-file-earmark-word",
+    "codepoint": "f38d"
+  },
+  {
+    "class": "bi-file-earmark-word-fill",
+    "codepoint": "f38c"
+  },
+  {
+    "class": "bi-file-earmark-x",
+    "codepoint": "f38f"
+  },
+  {
+    "class": "bi-file-earmark-x-fill",
+    "codepoint": "f38e"
+  },
+  {
+    "class": "bi-file-earmark-zip",
+    "codepoint": "f391"
+  },
+  {
+    "class": "bi-file-earmark-zip-fill",
+    "codepoint": "f390"
+  },
+  {
+    "class": "bi-file-easel",
+    "codepoint": "f394"
+  },
+  {
+    "class": "bi-file-easel-fill",
+    "codepoint": "f393"
+  },
+  {
+    "class": "bi-file-excel",
+    "codepoint": "f396"
+  },
+  {
+    "class": "bi-file-excel-fill",
+    "codepoint": "f395"
+  },
+  {
+    "class": "bi-file-fill",
+    "codepoint": "f397"
+  },
+  {
+    "class": "bi-file-font",
+    "codepoint": "f399"
+  },
+  {
+    "class": "bi-file-font-fill",
+    "codepoint": "f398"
+  },
+  {
+    "class": "bi-file-image",
+    "codepoint": "f39b"
+  },
+  {
+    "class": "bi-file-image-fill",
+    "codepoint": "f39a"
+  },
+  {
+    "class": "bi-file-lock",
+    "codepoint": "f39d"
+  },
+  {
+    "class": "bi-file-lock-fill",
+    "codepoint": "f39c"
+  },
+  {
+    "class": "bi-file-lock2",
+    "codepoint": "f39f"
+  },
+  {
+    "class": "bi-file-lock2-fill",
+    "codepoint": "f39e"
+  },
+  {
+    "class": "bi-file-medical",
+    "codepoint": "f3a1"
+  },
+  {
+    "class": "bi-file-medical-fill",
+    "codepoint": "f3a0"
+  },
+  {
+    "class": "bi-file-minus",
+    "codepoint": "f3a3"
+  },
+  {
+    "class": "bi-file-minus-fill",
+    "codepoint": "f3a2"
+  },
+  {
+    "class": "bi-file-music",
+    "codepoint": "f3a5"
+  },
+  {
+    "class": "bi-file-music-fill",
+    "codepoint": "f3a4"
+  },
+  {
+    "class": "bi-file-pdf",
+    "codepoint": "f640"
+  },
+  {
+    "class": "bi-file-pdf-fill",
+    "codepoint": "f63f"
+  },
+  {
+    "class": "bi-file-person",
+    "codepoint": "f3a7"
+  },
+  {
+    "class": "bi-file-person-fill",
+    "codepoint": "f3a6"
+  },
+  {
+    "class": "bi-file-play",
+    "codepoint": "f3a9"
+  },
+  {
+    "class": "bi-file-play-fill",
+    "codepoint": "f3a8"
+  },
+  {
+    "class": "bi-file-plus",
+    "codepoint": "f3ab"
+  },
+  {
+    "class": "bi-file-plus-fill",
+    "codepoint": "f3aa"
+  },
+  {
+    "class": "bi-file-post",
+    "codepoint": "f3ad"
+  },
+  {
+    "class": "bi-file-post-fill",
+    "codepoint": "f3ac"
+  },
+  {
+    "class": "bi-file-ppt",
+    "codepoint": "f3af"
+  },
+  {
+    "class": "bi-file-ppt-fill",
+    "codepoint": "f3ae"
+  },
+  {
+    "class": "bi-file-richtext",
+    "codepoint": "f3b1"
+  },
+  {
+    "class": "bi-file-richtext-fill",
+    "codepoint": "f3b0"
+  },
+  {
+    "class": "bi-file-ruled",
+    "codepoint": "f3b3"
+  },
+  {
+    "class": "bi-file-ruled-fill",
+    "codepoint": "f3b2"
+  },
+  {
+    "class": "bi-file-slides",
+    "codepoint": "f3b5"
+  },
+  {
+    "class": "bi-file-slides-fill",
+    "codepoint": "f3b4"
+  },
+  {
+    "class": "bi-file-spreadsheet",
+    "codepoint": "f3b7"
+  },
+  {
+    "class": "bi-file-spreadsheet-fill",
+    "codepoint": "f3b6"
+  },
+  {
+    "class": "bi-file-text",
+    "codepoint": "f3b9"
+  },
+  {
+    "class": "bi-file-text-fill",
+    "codepoint": "f3b8"
+  },
+  {
+    "class": "bi-file-word",
+    "codepoint": "f3bb"
+  },
+  {
+    "class": "bi-file-word-fill",
+    "codepoint": "f3ba"
+  },
+  {
+    "class": "bi-file-x",
+    "codepoint": "f3bd"
+  },
+  {
+    "class": "bi-file-x-fill",
+    "codepoint": "f3bc"
+  },
+  {
+    "class": "bi-file-zip",
+    "codepoint": "f3bf"
+  },
+  {
+    "class": "bi-file-zip-fill",
+    "codepoint": "f3be"
+  },
+  {
+    "class": "bi-files",
+    "codepoint": "f3c2"
+  },
+  {
+    "class": "bi-files-alt",
+    "codepoint": "f3c1"
+  },
+  {
+    "class": "bi-filetype-aac",
+    "codepoint": "f73e"
+  },
+  {
+    "class": "bi-filetype-ai",
+    "codepoint": "f73f"
+  },
+  {
+    "class": "bi-filetype-bmp",
+    "codepoint": "f740"
+  },
+  {
+    "class": "bi-filetype-cs",
+    "codepoint": "f741"
+  },
+  {
+    "class": "bi-filetype-css",
+    "codepoint": "f742"
+  },
+  {
+    "class": "bi-filetype-csv",
+    "codepoint": "f743"
+  },
+  {
+    "class": "bi-filetype-doc",
+    "codepoint": "f744"
+  },
+  {
+    "class": "bi-filetype-docx",
+    "codepoint": "f745"
+  },
+  {
+    "class": "bi-filetype-exe",
+    "codepoint": "f746"
+  },
+  {
+    "class": "bi-filetype-gif",
+    "codepoint": "f747"
+  },
+  {
+    "class": "bi-filetype-heic",
+    "codepoint": "f748"
+  },
+  {
+    "class": "bi-filetype-html",
+    "codepoint": "f749"
+  },
+  {
+    "class": "bi-filetype-java",
+    "codepoint": "f74a"
+  },
+  {
+    "class": "bi-filetype-jpg",
+    "codepoint": "f74b"
+  },
+  {
+    "class": "bi-filetype-js",
+    "codepoint": "f74c"
+  },
+  {
+    "class": "bi-filetype-json",
+    "codepoint": "f791"
+  },
+  {
+    "class": "bi-filetype-jsx",
+    "codepoint": "f74d"
+  },
+  {
+    "class": "bi-filetype-key",
+    "codepoint": "f74e"
+  },
+  {
+    "class": "bi-filetype-m4p",
+    "codepoint": "f74f"
+  },
+  {
+    "class": "bi-filetype-md",
+    "codepoint": "f750"
+  },
+  {
+    "class": "bi-filetype-mdx",
+    "codepoint": "f751"
+  },
+  {
+    "class": "bi-filetype-mov",
+    "codepoint": "f752"
+  },
+  {
+    "class": "bi-filetype-mp3",
+    "codepoint": "f753"
+  },
+  {
+    "class": "bi-filetype-mp4",
+    "codepoint": "f754"
+  },
+  {
+    "class": "bi-filetype-otf",
+    "codepoint": "f755"
+  },
+  {
+    "class": "bi-filetype-pdf",
+    "codepoint": "f756"
+  },
+  {
+    "class": "bi-filetype-php",
+    "codepoint": "f757"
+  },
+  {
+    "class": "bi-filetype-png",
+    "codepoint": "f758"
+  },
+  {
+    "class": "bi-filetype-ppt",
+    "codepoint": "f75a"
+  },
+  {
+    "class": "bi-filetype-pptx",
+    "codepoint": "f792"
+  },
+  {
+    "class": "bi-filetype-psd",
+    "codepoint": "f75b"
+  },
+  {
+    "class": "bi-filetype-py",
+    "codepoint": "f75c"
+  },
+  {
+    "class": "bi-filetype-raw",
+    "codepoint": "f75d"
+  },
+  {
+    "class": "bi-filetype-rb",
+    "codepoint": "f75e"
+  },
+  {
+    "class": "bi-filetype-sass",
+    "codepoint": "f75f"
+  },
+  {
+    "class": "bi-filetype-scss",
+    "codepoint": "f760"
+  },
+  {
+    "class": "bi-filetype-sh",
+    "codepoint": "f761"
+  },
+  {
+    "class": "bi-filetype-sql",
+    "codepoint": "f7f5"
+  },
+  {
+    "class": "bi-filetype-svg",
+    "codepoint": "f762"
+  },
+  {
+    "class": "bi-filetype-tiff",
+    "codepoint": "f763"
+  },
+  {
+    "class": "bi-filetype-tsx",
+    "codepoint": "f764"
+  },
+  {
+    "class": "bi-filetype-ttf",
+    "codepoint": "f765"
+  },
+  {
+    "class": "bi-filetype-txt",
+    "codepoint": "f766"
+  },
+  {
+    "class": "bi-filetype-wav",
+    "codepoint": "f767"
+  },
+  {
+    "class": "bi-filetype-woff",
+    "codepoint": "f768"
+  },
+  {
+    "class": "bi-filetype-xls",
+    "codepoint": "f76a"
+  },
+  {
+    "class": "bi-filetype-xlsx",
+    "codepoint": "f793"
+  },
+  {
+    "class": "bi-filetype-xml",
+    "codepoint": "f76b"
+  },
+  {
+    "class": "bi-filetype-yml",
+    "codepoint": "f76c"
+  },
+  {
+    "class": "bi-film",
+    "codepoint": "f3c3"
+  },
+  {
+    "class": "bi-filter",
+    "codepoint": "f3ca"
+  },
+  {
+    "class": "bi-filter-circle",
+    "codepoint": "f3c5"
+  },
+  {
+    "class": "bi-filter-circle-fill",
+    "codepoint": "f3c4"
+  },
+  {
+    "class": "bi-filter-left",
+    "codepoint": "f3c6"
+  },
+  {
+    "class": "bi-filter-right",
+    "codepoint": "f3c7"
+  },
+  {
+    "class": "bi-filter-square",
+    "codepoint": "f3c9"
+  },
+  {
+    "class": "bi-filter-square-fill",
+    "codepoint": "f3c8"
+  },
+  {
+    "class": "bi-fingerprint",
+    "codepoint": "f671"
+  },
+  {
+    "class": "bi-fire",
+    "codepoint": "f7f6"
+  },
+  {
+    "class": "bi-flag",
+    "codepoint": "f3cc"
+  },
+  {
+    "class": "bi-flag-fill",
+    "codepoint": "f3cb"
+  },
+  {
+    "class": "bi-floppy",
+    "codepoint": "f7d8"
+  },
+  {
+    "class": "bi-floppy-fill",
+    "codepoint": "f7c5"
+  },
+  {
+    "class": "bi-floppy2",
+    "codepoint": "f7e4"
+  },
+  {
+    "class": "bi-floppy2-fill",
+    "codepoint": "f7d9"
+  },
+  {
+    "class": "bi-flower1",
+    "codepoint": "f3cd"
+  },
+  {
+    "class": "bi-flower2",
+    "codepoint": "f3ce"
+  },
+  {
+    "class": "bi-flower3",
+    "codepoint": "f3cf"
+  },
+  {
+    "class": "bi-folder",
+    "codepoint": "f3d7"
+  },
+  {
+    "class": "bi-folder-check",
+    "codepoint": "f3d0"
+  },
+  {
+    "class": "bi-folder-fill",
+    "codepoint": "f3d1"
+  },
+  {
+    "class": "bi-folder-minus",
+    "codepoint": "f3d2"
+  },
+  {
+    "class": "bi-folder-plus",
+    "codepoint": "f3d3"
+  },
+  {
+    "class": "bi-folder-symlink",
+    "codepoint": "f3d5"
+  },
+  {
+    "class": "bi-folder-symlink-fill",
+    "codepoint": "f3d4"
+  },
+  {
+    "class": "bi-folder-x",
+    "codepoint": "f3d6"
+  },
+  {
+    "class": "bi-folder2",
+    "codepoint": "f3d9"
+  },
+  {
+    "class": "bi-folder2-open",
+    "codepoint": "f3d8"
+  },
+  {
+    "class": "bi-fonts",
+    "codepoint": "f3da"
+  },
+  {
+    "class": "bi-forward",
+    "codepoint": "f3dc"
+  },
+  {
+    "class": "bi-forward-fill",
+    "codepoint": "f3db"
+  },
+  {
+    "class": "bi-front",
+    "codepoint": "f3dd"
+  },
+  {
+    "class": "bi-fuel-pump",
+    "codepoint": "f83e"
+  },
+  {
+    "class": "bi-fuel-pump-diesel",
+    "codepoint": "f83c"
+  },
+  {
+    "class": "bi-fuel-pump-diesel-fill",
+    "codepoint": "f83b"
+  },
+  {
+    "class": "bi-fuel-pump-fill",
+    "codepoint": "f83d"
+  },
+  {
+    "class": "bi-fullscreen",
+    "codepoint": "f3df"
+  },
+  {
+    "class": "bi-fullscreen-exit",
+    "codepoint": "f3de"
+  },
+  {
+    "class": "bi-funnel",
+    "codepoint": "f3e1"
+  },
+  {
+    "class": "bi-funnel-fill",
+    "codepoint": "f3e0"
+  },
+  {
+    "class": "bi-gear",
+    "codepoint": "f3e5"
+  },
+  {
+    "class": "bi-gear-fill",
+    "codepoint": "f3e2"
+  },
+  {
+    "class": "bi-gear-wide",
+    "codepoint": "f3e4"
+  },
+  {
+    "class": "bi-gear-wide-connected",
+    "codepoint": "f3e3"
+  },
+  {
+    "class": "bi-gem",
+    "codepoint": "f3e6"
+  },
+  {
+    "class": "bi-gender-ambiguous",
+    "codepoint": "f641"
+  },
+  {
+    "class": "bi-gender-female",
+    "codepoint": "f642"
+  },
+  {
+    "class": "bi-gender-male",
+    "codepoint": "f643"
+  },
+  {
+    "class": "bi-gender-neuter",
+    "codepoint": "f8ed"
+  },
+  {
+    "class": "bi-gender-trans",
+    "codepoint": "f644"
+  },
+  {
+    "class": "bi-geo",
+    "codepoint": "f3ea"
+  },
+  {
+    "class": "bi-geo-alt",
+    "codepoint": "f3e8"
+  },
+  {
+    "class": "bi-geo-alt-fill",
+    "codepoint": "f3e7"
+  },
+  {
+    "class": "bi-geo-fill",
+    "codepoint": "f3e9"
+  },
+  {
+    "class": "bi-gift",
+    "codepoint": "f3ec"
+  },
+  {
+    "class": "bi-gift-fill",
+    "codepoint": "f3eb"
+  },
+  {
+    "class": "bi-git",
+    "codepoint": "f69d"
+  },
+  {
+    "class": "bi-github",
+    "codepoint": "f3ed"
+  },
+  {
+    "class": "bi-gitlab",
+    "codepoint": "f7e5"
+  },
+  {
+    "class": "bi-globe",
+    "codepoint": "f3ee"
+  },
+  {
+    "class": "bi-globe-americas",
+    "codepoint": "f882"
+  },
+  {
+    "class": "bi-globe-asia-australia",
+    "codepoint": "f883"
+  },
+  {
+    "class": "bi-globe-central-south-asia",
+    "codepoint": "f884"
+  },
+  {
+    "class": "bi-globe-europe-africa",
+    "codepoint": "f885"
+  },
+  {
+    "class": "bi-globe2",
+    "codepoint": "f3ef"
+  },
+  {
+    "class": "bi-google",
+    "codepoint": "f3f0"
+  },
+  {
+    "class": "bi-google-play",
+    "codepoint": "f7f7"
+  },
+  {
+    "class": "bi-gpu-card",
+    "codepoint": "f6e2"
+  },
+  {
+    "class": "bi-graph-down",
+    "codepoint": "f3f1"
+  },
+  {
+    "class": "bi-graph-down-arrow",
+    "codepoint": "f672"
+  },
+  {
+    "class": "bi-graph-up",
+    "codepoint": "f3f2"
+  },
+  {
+    "class": "bi-graph-up-arrow",
+    "codepoint": "f673"
+  },
+  {
+    "class": "bi-grid",
+    "codepoint": "f3fc"
+  },
+  {
+    "class": "bi-grid-1x2",
+    "codepoint": "f3f4"
+  },
+  {
+    "class": "bi-grid-1x2-fill",
+    "codepoint": "f3f3"
+  },
+  {
+    "class": "bi-grid-3x2",
+    "codepoint": "f3f7"
+  },
+  {
+    "class": "bi-grid-3x2-gap",
+    "codepoint": "f3f6"
+  },
+  {
+    "class": "bi-grid-3x2-gap-fill",
+    "codepoint": "f3f5"
+  },
+  {
+    "class": "bi-grid-3x3",
+    "codepoint": "f3fa"
+  },
+  {
+    "class": "bi-grid-3x3-gap",
+    "codepoint": "f3f9"
+  },
+  {
+    "class": "bi-grid-3x3-gap-fill",
+    "codepoint": "f3f8"
+  },
+  {
+    "class": "bi-grid-fill",
+    "codepoint": "f3fb"
+  },
+  {
+    "class": "bi-grip-horizontal",
+    "codepoint": "f3fd"
+  },
+  {
+    "class": "bi-grip-vertical",
+    "codepoint": "f3fe"
+  },
+  {
+    "class": "bi-h-circle",
+    "codepoint": "f7fb"
+  },
+  {
+    "class": "bi-h-circle-fill",
+    "codepoint": "f7fa"
+  },
+  {
+    "class": "bi-h-square",
+    "codepoint": "f7fd"
+  },
+  {
+    "class": "bi-h-square-fill",
+    "codepoint": "f7fc"
+  },
+  {
+    "class": "bi-hammer",
+    "codepoint": "f3ff"
+  },
+  {
+    "class": "bi-hand-index",
+    "codepoint": "f403"
+  },
+  {
+    "class": "bi-hand-index-fill",
+    "codepoint": "f400"
+  },
+  {
+    "class": "bi-hand-index-thumb",
+    "codepoint": "f402"
+  },
+  {
+    "class": "bi-hand-index-thumb-fill",
+    "codepoint": "f401"
+  },
+  {
+    "class": "bi-hand-thumbs-down",
+    "codepoint": "f405"
+  },
+  {
+    "class": "bi-hand-thumbs-down-fill",
+    "codepoint": "f404"
+  },
+  {
+    "class": "bi-hand-thumbs-up",
+    "codepoint": "f407"
+  },
+  {
+    "class": "bi-hand-thumbs-up-fill",
+    "codepoint": "f406"
+  },
+  {
+    "class": "bi-handbag",
+    "codepoint": "f409"
+  },
+  {
+    "class": "bi-handbag-fill",
+    "codepoint": "f408"
+  },
+  {
+    "class": "bi-hash",
+    "codepoint": "f40a"
+  },
+  {
+    "class": "bi-hdd",
+    "codepoint": "f412"
+  },
+  {
+    "class": "bi-hdd-fill",
+    "codepoint": "f40b"
+  },
+  {
+    "class": "bi-hdd-network",
+    "codepoint": "f40d"
+  },
+  {
+    "class": "bi-hdd-network-fill",
+    "codepoint": "f40c"
+  },
+  {
+    "class": "bi-hdd-rack",
+    "codepoint": "f40f"
+  },
+  {
+    "class": "bi-hdd-rack-fill",
+    "codepoint": "f40e"
+  },
+  {
+    "class": "bi-hdd-stack",
+    "codepoint": "f411"
+  },
+  {
+    "class": "bi-hdd-stack-fill",
+    "codepoint": "f410"
+  },
+  {
+    "class": "bi-hdmi",
+    "codepoint": "f6d7"
+  },
+  {
+    "class": "bi-hdmi-fill",
+    "codepoint": "f6d6"
+  },
+  {
+    "class": "bi-headphones",
+    "codepoint": "f413"
+  },
+  {
+    "class": "bi-headset",
+    "codepoint": "f414"
+  },
+  {
+    "class": "bi-headset-vr",
+    "codepoint": "f645"
+  },
+  {
+    "class": "bi-heart",
+    "codepoint": "f417"
+  },
+  {
+    "class": "bi-heart-arrow",
+    "codepoint": "f76d"
+  },
+  {
+    "class": "bi-heart-fill",
+    "codepoint": "f415"
+  },
+  {
+    "class": "bi-heart-half",
+    "codepoint": "f416"
+  },
+  {
+    "class": "bi-heart-pulse",
+    "codepoint": "f76f"
+  },
+  {
+    "class": "bi-heart-pulse-fill",
+    "codepoint": "f76e"
+  },
+  {
+    "class": "bi-heartbreak",
+    "codepoint": "f771"
+  },
+  {
+    "class": "bi-heartbreak-fill",
+    "codepoint": "f770"
+  },
+  {
+    "class": "bi-hearts",
+    "codepoint": "f772"
+  },
+  {
+    "class": "bi-heptagon",
+    "codepoint": "f41a"
+  },
+  {
+    "class": "bi-heptagon-fill",
+    "codepoint": "f418"
+  },
+  {
+    "class": "bi-heptagon-half",
+    "codepoint": "f419"
+  },
+  {
+    "class": "bi-hexagon",
+    "codepoint": "f41d"
+  },
+  {
+    "class": "bi-hexagon-fill",
+    "codepoint": "f41b"
+  },
+  {
+    "class": "bi-hexagon-half",
+    "codepoint": "f41c"
+  },
+  {
+    "class": "bi-highlighter",
+    "codepoint": "f7f8"
+  },
+  {
+    "class": "bi-highlights",
+    "codepoint": "f8ee"
+  },
+  {
+    "class": "bi-hospital",
+    "codepoint": "f774"
+  },
+  {
+    "class": "bi-hospital-fill",
+    "codepoint": "f773"
+  },
+  {
+    "class": "bi-hourglass",
+    "codepoint": "f421"
+  },
+  {
+    "class": "bi-hourglass-bottom",
+    "codepoint": "f41e"
+  },
+  {
+    "class": "bi-hourglass-split",
+    "codepoint": "f41f"
+  },
+  {
+    "class": "bi-hourglass-top",
+    "codepoint": "f420"
+  },
+  {
+    "class": "bi-house",
+    "codepoint": "f425"
+  },
+  {
+    "class": "bi-house-add",
+    "codepoint": "f887"
+  },
+  {
+    "class": "bi-house-add-fill",
+    "codepoint": "f886"
+  },
+  {
+    "class": "bi-house-check",
+    "codepoint": "f889"
+  },
+  {
+    "class": "bi-house-check-fill",
+    "codepoint": "f888"
+  },
+  {
+    "class": "bi-house-dash",
+    "codepoint": "f88b"
+  },
+  {
+    "class": "bi-house-dash-fill",
+    "codepoint": "f88a"
+  },
+  {
+    "class": "bi-house-door",
+    "codepoint": "f423"
+  },
+  {
+    "class": "bi-house-door-fill",
+    "codepoint": "f422"
+  },
+  {
+    "class": "bi-house-down",
+    "codepoint": "f88d"
+  },
+  {
+    "class": "bi-house-down-fill",
+    "codepoint": "f88c"
+  },
+  {
+    "class": "bi-house-exclamation",
+    "codepoint": "f88f"
+  },
+  {
+    "class": "bi-house-exclamation-fill",
+    "codepoint": "f88e"
+  },
+  {
+    "class": "bi-house-fill",
+    "codepoint": "f424"
+  },
+  {
+    "class": "bi-house-gear",
+    "codepoint": "f891"
+  },
+  {
+    "class": "bi-house-gear-fill",
+    "codepoint": "f890"
+  },
+  {
+    "class": "bi-house-heart",
+    "codepoint": "f776"
+  },
+  {
+    "class": "bi-house-heart-fill",
+    "codepoint": "f775"
+  },
+  {
+    "class": "bi-house-lock",
+    "codepoint": "f893"
+  },
+  {
+    "class": "bi-house-lock-fill",
+    "codepoint": "f892"
+  },
+  {
+    "class": "bi-house-slash",
+    "codepoint": "f895"
+  },
+  {
+    "class": "bi-house-slash-fill",
+    "codepoint": "f894"
+  },
+  {
+    "class": "bi-house-up",
+    "codepoint": "f897"
+  },
+  {
+    "class": "bi-house-up-fill",
+    "codepoint": "f896"
+  },
+  {
+    "class": "bi-house-x",
+    "codepoint": "f899"
+  },
+  {
+    "class": "bi-house-x-fill",
+    "codepoint": "f898"
+  },
+  {
+    "class": "bi-houses",
+    "codepoint": "f8c6"
+  },
+  {
+    "class": "bi-houses-fill",
+    "codepoint": "f8c5"
+  },
+  {
+    "class": "bi-hr",
+    "codepoint": "f426"
+  },
+  {
+    "class": "bi-hurricane",
+    "codepoint": "f427"
+  },
+  {
+    "class": "bi-hypnotize",
+    "codepoint": "f674"
+  },
+  {
+    "class": "bi-image",
+    "codepoint": "f42a"
+  },
+  {
+    "class": "bi-image-alt",
+    "codepoint": "f428"
+  },
+  {
+    "class": "bi-image-fill",
+    "codepoint": "f429"
+  },
+  {
+    "class": "bi-images",
+    "codepoint": "f42b"
+  },
+  {
+    "class": "bi-inbox",
+    "codepoint": "f42d"
+  },
+  {
+    "class": "bi-inbox-fill",
+    "codepoint": "f42c"
+  },
+  {
+    "class": "bi-inboxes",
+    "codepoint": "f42f"
+  },
+  {
+    "class": "bi-inboxes-fill",
+    "codepoint": "f42e"
+  },
+  {
+    "class": "bi-incognito",
+    "codepoint": "f777"
+  },
+  {
+    "class": "bi-indent",
+    "codepoint": "f7fe"
+  },
+  {
+    "class": "bi-infinity",
+    "codepoint": "f69e"
+  },
+  {
+    "class": "bi-info",
+    "codepoint": "f434"
+  },
+  {
+    "class": "bi-info-circle",
+    "codepoint": "f431"
+  },
+  {
+    "class": "bi-info-circle-fill",
+    "codepoint": "f430"
+  },
+  {
+    "class": "bi-info-lg",
+    "codepoint": "f646"
+  },
+  {
+    "class": "bi-info-square",
+    "codepoint": "f433"
+  },
+  {
+    "class": "bi-info-square-fill",
+    "codepoint": "f432"
+  },
+  {
+    "class": "bi-input-cursor",
+    "codepoint": "f436"
+  },
+  {
+    "class": "bi-input-cursor-text",
+    "codepoint": "f435"
+  },
+  {
+    "class": "bi-instagram",
+    "codepoint": "f437"
+  },
+  {
+    "class": "bi-intersect",
+    "codepoint": "f438"
+  },
+  {
+    "class": "bi-journal",
+    "codepoint": "f446"
+  },
+  {
+    "class": "bi-journal-album",
+    "codepoint": "f439"
+  },
+  {
+    "class": "bi-journal-arrow-down",
+    "codepoint": "f43a"
+  },
+  {
+    "class": "bi-journal-arrow-up",
+    "codepoint": "f43b"
+  },
+  {
+    "class": "bi-journal-bookmark",
+    "codepoint": "f43d"
+  },
+  {
+    "class": "bi-journal-bookmark-fill",
+    "codepoint": "f43c"
+  },
+  {
+    "class": "bi-journal-check",
+    "codepoint": "f43e"
+  },
+  {
+    "class": "bi-journal-code",
+    "codepoint": "f43f"
+  },
+  {
+    "class": "bi-journal-medical",
+    "codepoint": "f440"
+  },
+  {
+    "class": "bi-journal-minus",
+    "codepoint": "f441"
+  },
+  {
+    "class": "bi-journal-plus",
+    "codepoint": "f442"
+  },
+  {
+    "class": "bi-journal-richtext",
+    "codepoint": "f443"
+  },
+  {
+    "class": "bi-journal-text",
+    "codepoint": "f444"
+  },
+  {
+    "class": "bi-journal-x",
+    "codepoint": "f445"
+  },
+  {
+    "class": "bi-journals",
+    "codepoint": "f447"
+  },
+  {
+    "class": "bi-joystick",
+    "codepoint": "f448"
+  },
+  {
+    "class": "bi-justify",
+    "codepoint": "f44b"
+  },
+  {
+    "class": "bi-justify-left",
+    "codepoint": "f449"
+  },
+  {
+    "class": "bi-justify-right",
+    "codepoint": "f44a"
+  },
+  {
+    "class": "bi-kanban",
+    "codepoint": "f44d"
+  },
+  {
+    "class": "bi-kanban-fill",
+    "codepoint": "f44c"
+  },
+  {
+    "class": "bi-key",
+    "codepoint": "f44f"
+  },
+  {
+    "class": "bi-key-fill",
+    "codepoint": "f44e"
+  },
+  {
+    "class": "bi-keyboard",
+    "codepoint": "f451"
+  },
+  {
+    "class": "bi-keyboard-fill",
+    "codepoint": "f450"
+  },
+  {
+    "class": "bi-ladder",
+    "codepoint": "f452"
+  },
+  {
+    "class": "bi-lamp",
+    "codepoint": "f454"
+  },
+  {
+    "class": "bi-lamp-fill",
+    "codepoint": "f453"
+  },
+  {
+    "class": "bi-laptop",
+    "codepoint": "f456"
+  },
+  {
+    "class": "bi-laptop-fill",
+    "codepoint": "f455"
+  },
+  {
+    "class": "bi-layer-backward",
+    "codepoint": "f457"
+  },
+  {
+    "class": "bi-layer-forward",
+    "codepoint": "f458"
+  },
+  {
+    "class": "bi-layers",
+    "codepoint": "f45b"
+  },
+  {
+    "class": "bi-layers-fill",
+    "codepoint": "f459"
+  },
+  {
+    "class": "bi-layers-half",
+    "codepoint": "f45a"
+  },
+  {
+    "class": "bi-layout-sidebar",
+    "codepoint": "f45f"
+  },
+  {
+    "class": "bi-layout-sidebar-inset",
+    "codepoint": "f45d"
+  },
+  {
+    "class": "bi-layout-sidebar-inset-reverse",
+    "codepoint": "f45c"
+  },
+  {
+    "class": "bi-layout-sidebar-reverse",
+    "codepoint": "f45e"
+  },
+  {
+    "class": "bi-layout-split",
+    "codepoint": "f460"
+  },
+  {
+    "class": "bi-layout-text-sidebar",
+    "codepoint": "f462"
+  },
+  {
+    "class": "bi-layout-text-sidebar-reverse",
+    "codepoint": "f461"
+  },
+  {
+    "class": "bi-layout-text-window",
+    "codepoint": "f464"
+  },
+  {
+    "class": "bi-layout-text-window-reverse",
+    "codepoint": "f463"
+  },
+  {
+    "class": "bi-layout-three-columns",
+    "codepoint": "f465"
+  },
+  {
+    "class": "bi-layout-wtf",
+    "codepoint": "f466"
+  },
+  {
+    "class": "bi-life-preserver",
+    "codepoint": "f467"
+  },
+  {
+    "class": "bi-lightbulb",
+    "codepoint": "f46b"
+  },
+  {
+    "class": "bi-lightbulb-fill",
+    "codepoint": "f468"
+  },
+  {
+    "class": "bi-lightbulb-off",
+    "codepoint": "f46a"
+  },
+  {
+    "class": "bi-lightbulb-off-fill",
+    "codepoint": "f469"
+  },
+  {
+    "class": "bi-lightning",
+    "codepoint": "f46f"
+  },
+  {
+    "class": "bi-lightning-charge",
+    "codepoint": "f46d"
+  },
+  {
+    "class": "bi-lightning-charge-fill",
+    "codepoint": "f46c"
+  },
+  {
+    "class": "bi-lightning-fill",
+    "codepoint": "f46e"
+  },
+  {
+    "class": "bi-line",
+    "codepoint": "f660"
+  },
+  {
+    "class": "bi-link",
+    "codepoint": "f471"
+  },
+  {
+    "class": "bi-link-45deg",
+    "codepoint": "f470"
+  },
+  {
+    "class": "bi-linkedin",
+    "codepoint": "f472"
+  },
+  {
+    "class": "bi-list",
+    "codepoint": "f479"
+  },
+  {
+    "class": "bi-list-check",
+    "codepoint": "f473"
+  },
+  {
+    "class": "bi-list-columns",
+    "codepoint": "f6a0"
+  },
+  {
+    "class": "bi-list-columns-reverse",
+    "codepoint": "f69f"
+  },
+  {
+    "class": "bi-list-nested",
+    "codepoint": "f474"
+  },
+  {
+    "class": "bi-list-ol",
+    "codepoint": "f475"
+  },
+  {
+    "class": "bi-list-stars",
+    "codepoint": "f476"
+  },
+  {
+    "class": "bi-list-task",
+    "codepoint": "f477"
+  },
+  {
+    "class": "bi-list-ul",
+    "codepoint": "f478"
+  },
+  {
+    "class": "bi-lock",
+    "codepoint": "f47b"
+  },
+  {
+    "class": "bi-lock-fill",
+    "codepoint": "f47a"
+  },
+  {
+    "class": "bi-luggage",
+    "codepoint": "f8f0"
+  },
+  {
+    "class": "bi-luggage-fill",
+    "codepoint": "f8ef"
+  },
+  {
+    "class": "bi-lungs",
+    "codepoint": "f800"
+  },
+  {
+    "class": "bi-lungs-fill",
+    "codepoint": "f7ff"
+  },
+  {
+    "class": "bi-magic",
+    "codepoint": "f675"
+  },
+  {
+    "class": "bi-magnet",
+    "codepoint": "f779"
+  },
+  {
+    "class": "bi-magnet-fill",
+    "codepoint": "f778"
+  },
+  {
+    "class": "bi-mailbox",
+    "codepoint": "f47c"
+  },
+  {
+    "class": "bi-mailbox-flag",
+    "codepoint": "f8f1"
+  },
+  {
+    "class": "bi-mailbox2",
+    "codepoint": "f47d"
+  },
+  {
+    "class": "bi-mailbox2-flag",
+    "codepoint": "f8f2"
+  },
+  {
+    "class": "bi-map",
+    "codepoint": "f47f"
+  },
+  {
+    "class": "bi-map-fill",
+    "codepoint": "f47e"
+  },
+  {
+    "class": "bi-markdown",
+    "codepoint": "f481"
+  },
+  {
+    "class": "bi-markdown-fill",
+    "codepoint": "f480"
+  },
+  {
+    "class": "bi-marker-tip",
+    "codepoint": "f802"
+  },
+  {
+    "class": "bi-mask",
+    "codepoint": "f482"
+  },
+  {
+    "class": "bi-mastodon",
+    "codepoint": "f647"
+  },
+  {
+    "class": "bi-medium",
+    "codepoint": "f661"
+  },
+  {
+    "class": "bi-megaphone",
+    "codepoint": "f484"
+  },
+  {
+    "class": "bi-megaphone-fill",
+    "codepoint": "f483"
+  },
+  {
+    "class": "bi-memory",
+    "codepoint": "f6e3"
+  },
+  {
+    "class": "bi-menu-app",
+    "codepoint": "f486"
+  },
+  {
+    "class": "bi-menu-app-fill",
+    "codepoint": "f485"
+  },
+  {
+    "class": "bi-menu-button",
+    "codepoint": "f48a"
+  },
+  {
+    "class": "bi-menu-button-fill",
+    "codepoint": "f487"
+  },
+  {
+    "class": "bi-menu-button-wide",
+    "codepoint": "f489"
+  },
+  {
+    "class": "bi-menu-button-wide-fill",
+    "codepoint": "f488"
+  },
+  {
+    "class": "bi-menu-down",
+    "codepoint": "f48b"
+  },
+  {
+    "class": "bi-menu-up",
+    "codepoint": "f48c"
+  },
+  {
+    "class": "bi-messenger",
+    "codepoint": "f648"
+  },
+  {
+    "class": "bi-meta",
+    "codepoint": "f6a1"
+  },
+  {
+    "class": "bi-mic",
+    "codepoint": "f490"
+  },
+  {
+    "class": "bi-mic-fill",
+    "codepoint": "f48d"
+  },
+  {
+    "class": "bi-mic-mute",
+    "codepoint": "f48f"
+  },
+  {
+    "class": "bi-mic-mute-fill",
+    "codepoint": "f48e"
+  },
+  {
+    "class": "bi-microsoft",
+    "codepoint": "f65d"
+  },
+  {
+    "class": "bi-microsoft-teams",
+    "codepoint": "f801"
+  },
+  {
+    "class": "bi-minecart",
+    "codepoint": "f492"
+  },
+  {
+    "class": "bi-minecart-loaded",
+    "codepoint": "f491"
+  },
+  {
+    "class": "bi-modem",
+    "codepoint": "f6e5"
+  },
+  {
+    "class": "bi-modem-fill",
+    "codepoint": "f6e4"
+  },
+  {
+    "class": "bi-moisture",
+    "codepoint": "f493"
+  },
+  {
+    "class": "bi-moon",
+    "codepoint": "f497"
+  },
+  {
+    "class": "bi-moon-fill",
+    "codepoint": "f494"
+  },
+  {
+    "class": "bi-moon-stars",
+    "codepoint": "f496"
+  },
+  {
+    "class": "bi-moon-stars-fill",
+    "codepoint": "f495"
+  },
+  {
+    "class": "bi-mortarboard",
+    "codepoint": "f6fe"
+  },
+  {
+    "class": "bi-mortarboard-fill",
+    "codepoint": "f6fd"
+  },
+  {
+    "class": "bi-motherboard",
+    "codepoint": "f6e7"
+  },
+  {
+    "class": "bi-motherboard-fill",
+    "codepoint": "f6e6"
+  },
+  {
+    "class": "bi-mouse",
+    "codepoint": "f499"
+  },
+  {
+    "class": "bi-mouse-fill",
+    "codepoint": "f498"
+  },
+  {
+    "class": "bi-mouse2",
+    "codepoint": "f49b"
+  },
+  {
+    "class": "bi-mouse2-fill",
+    "codepoint": "f49a"
+  },
+  {
+    "class": "bi-mouse3",
+    "codepoint": "f49d"
+  },
+  {
+    "class": "bi-mouse3-fill",
+    "codepoint": "f49c"
+  },
+  {
+    "class": "bi-music-note",
+    "codepoint": "f4a0"
+  },
+  {
+    "class": "bi-music-note-beamed",
+    "codepoint": "f49e"
+  },
+  {
+    "class": "bi-music-note-list",
+    "codepoint": "f49f"
+  },
+  {
+    "class": "bi-music-player",
+    "codepoint": "f4a2"
+  },
+  {
+    "class": "bi-music-player-fill",
+    "codepoint": "f4a1"
+  },
+  {
+    "class": "bi-newspaper",
+    "codepoint": "f4a3"
+  },
+  {
+    "class": "bi-nintendo-switch",
+    "codepoint": "f6a4"
+  },
+  {
+    "class": "bi-node-minus",
+    "codepoint": "f4a5"
+  },
+  {
+    "class": "bi-node-minus-fill",
+    "codepoint": "f4a4"
+  },
+  {
+    "class": "bi-node-plus",
+    "codepoint": "f4a7"
+  },
+  {
+    "class": "bi-node-plus-fill",
+    "codepoint": "f4a6"
+  },
+  {
+    "class": "bi-noise-reduction",
+    "codepoint": "f8f3"
+  },
+  {
+    "class": "bi-nut",
+    "codepoint": "f4a9"
+  },
+  {
+    "class": "bi-nut-fill",
+    "codepoint": "f4a8"
+  },
+  {
+    "class": "bi-nvidia",
+    "codepoint": "f8c7"
+  },
+  {
+    "class": "bi-nvme",
+    "codepoint": "f80c"
+  },
+  {
+    "class": "bi-nvme-fill",
+    "codepoint": "f803"
+  },
+  {
+    "class": "bi-octagon",
+    "codepoint": "f4ac"
+  },
+  {
+    "class": "bi-octagon-fill",
+    "codepoint": "f4aa"
+  },
+  {
+    "class": "bi-octagon-half",
+    "codepoint": "f4ab"
+  },
+  {
+    "class": "bi-opencollective",
+    "codepoint": "f80d"
+  },
+  {
+    "class": "bi-optical-audio",
+    "codepoint": "f6e9"
+  },
+  {
+    "class": "bi-optical-audio-fill",
+    "codepoint": "f6e8"
+  },
+  {
+    "class": "bi-option",
+    "codepoint": "f4ad"
+  },
+  {
+    "class": "bi-outlet",
+    "codepoint": "f4ae"
+  },
+  {
+    "class": "bi-p-circle",
+    "codepoint": "f805"
+  },
+  {
+    "class": "bi-p-circle-fill",
+    "codepoint": "f804"
+  },
+  {
+    "class": "bi-p-square",
+    "codepoint": "f807"
+  },
+  {
+    "class": "bi-p-square-fill",
+    "codepoint": "f806"
+  },
+  {
+    "class": "bi-paint-bucket",
+    "codepoint": "f4af"
+  },
+  {
+    "class": "bi-palette",
+    "codepoint": "f4b1"
+  },
+  {
+    "class": "bi-palette-fill",
+    "codepoint": "f4b0"
+  },
+  {
+    "class": "bi-palette2",
+    "codepoint": "f4b2"
+  },
+  {
+    "class": "bi-paperclip",
+    "codepoint": "f4b3"
+  },
+  {
+    "class": "bi-paragraph",
+    "codepoint": "f4b4"
+  },
+  {
+    "class": "bi-pass",
+    "codepoint": "f809"
+  },
+  {
+    "class": "bi-pass-fill",
+    "codepoint": "f808"
+  },
+  {
+    "class": "bi-passport",
+    "codepoint": "f8f5"
+  },
+  {
+    "class": "bi-passport-fill",
+    "codepoint": "f8f4"
+  },
+  {
+    "class": "bi-patch-check",
+    "codepoint": "f4b6"
+  },
+  {
+    "class": "bi-patch-check-fill",
+    "codepoint": "f4b5"
+  },
+  {
+    "class": "bi-patch-exclamation",
+    "codepoint": "f4b8"
+  },
+  {
+    "class": "bi-patch-exclamation-fill",
+    "codepoint": "f4b7"
+  },
+  {
+    "class": "bi-patch-minus",
+    "codepoint": "f4ba"
+  },
+  {
+    "class": "bi-patch-minus-fill",
+    "codepoint": "f4b9"
+  },
+  {
+    "class": "bi-patch-plus",
+    "codepoint": "f4bc"
+  },
+  {
+    "class": "bi-patch-plus-fill",
+    "codepoint": "f4bb"
+  },
+  {
+    "class": "bi-patch-question",
+    "codepoint": "f4be"
+  },
+  {
+    "class": "bi-patch-question-fill",
+    "codepoint": "f4bd"
+  },
+  {
+    "class": "bi-pause",
+    "codepoint": "f4c4"
+  },
+  {
+    "class": "bi-pause-btn",
+    "codepoint": "f4c0"
+  },
+  {
+    "class": "bi-pause-btn-fill",
+    "codepoint": "f4bf"
+  },
+  {
+    "class": "bi-pause-circle",
+    "codepoint": "f4c2"
+  },
+  {
+    "class": "bi-pause-circle-fill",
+    "codepoint": "f4c1"
+  },
+  {
+    "class": "bi-pause-fill",
+    "codepoint": "f4c3"
+  },
+  {
+    "class": "bi-paypal",
+    "codepoint": "f662"
+  },
+  {
+    "class": "bi-pc",
+    "codepoint": "f6a8"
+  },
+  {
+    "class": "bi-pc-display",
+    "codepoint": "f6a6"
+  },
+  {
+    "class": "bi-pc-display-horizontal",
+    "codepoint": "f6a5"
+  },
+  {
+    "class": "bi-pc-horizontal",
+    "codepoint": "f6a7"
+  },
+  {
+    "class": "bi-pci-card",
+    "codepoint": "f6ea"
+  },
+  {
+    "class": "bi-pci-card-network",
+    "codepoint": "f8cd"
+  },
+  {
+    "class": "bi-pci-card-sound",
+    "codepoint": "f8ce"
+  },
+  {
+    "class": "bi-peace",
+    "codepoint": "f4c6"
+  },
+  {
+    "class": "bi-peace-fill",
+    "codepoint": "f4c5"
+  },
+  {
+    "class": "bi-pen",
+    "codepoint": "f4c8"
+  },
+  {
+    "class": "bi-pen-fill",
+    "codepoint": "f4c7"
+  },
+  {
+    "class": "bi-pencil",
+    "codepoint": "f4cb"
+  },
+  {
+    "class": "bi-pencil-fill",
+    "codepoint": "f4c9"
+  },
+  {
+    "class": "bi-pencil-square",
+    "codepoint": "f4ca"
+  },
+  {
+    "class": "bi-pentagon",
+    "codepoint": "f4ce"
+  },
+  {
+    "class": "bi-pentagon-fill",
+    "codepoint": "f4cc"
+  },
+  {
+    "class": "bi-pentagon-half",
+    "codepoint": "f4cd"
+  },
+  {
+    "class": "bi-people",
+    "codepoint": "f4d0"
+  },
+  {
+    "class": "bi-people-fill",
+    "codepoint": "f4cf"
+  },
+  {
+    "class": "bi-percent",
+    "codepoint": "f4d1"
+  },
+  {
+    "class": "bi-person",
+    "codepoint": "f4e1"
+  },
+  {
+    "class": "bi-person-add",
+    "codepoint": "f89a"
+  },
+  {
+    "class": "bi-person-arms-up",
+    "codepoint": "f8f6"
+  },
+  {
+    "class": "bi-person-badge",
+    "codepoint": "f4d3"
+  },
+  {
+    "class": "bi-person-badge-fill",
+    "codepoint": "f4d2"
+  },
+  {
+    "class": "bi-person-bounding-box",
+    "codepoint": "f4d4"
+  },
+  {
+    "class": "bi-person-check",
+    "codepoint": "f4d6"
+  },
+  {
+    "class": "bi-person-check-fill",
+    "codepoint": "f4d5"
+  },
+  {
+    "class": "bi-person-circle",
+    "codepoint": "f4d7"
+  },
+  {
+    "class": "bi-person-dash",
+    "codepoint": "f4d9"
+  },
+  {
+    "class": "bi-person-dash-fill",
+    "codepoint": "f4d8"
+  },
+  {
+    "class": "bi-person-down",
+    "codepoint": "f89b"
+  },
+  {
+    "class": "bi-person-exclamation",
+    "codepoint": "f89c"
+  },
+  {
+    "class": "bi-person-fill",
+    "codepoint": "f4da"
+  },
+  {
+    "class": "bi-person-fill-add",
+    "codepoint": "f89d"
+  },
+  {
+    "class": "bi-person-fill-check",
+    "codepoint": "f89e"
+  },
+  {
+    "class": "bi-person-fill-dash",
+    "codepoint": "f89f"
+  },
+  {
+    "class": "bi-person-fill-down",
+    "codepoint": "f8a0"
+  },
+  {
+    "class": "bi-person-fill-exclamation",
+    "codepoint": "f8a1"
+  },
+  {
+    "class": "bi-person-fill-gear",
+    "codepoint": "f8a2"
+  },
+  {
+    "class": "bi-person-fill-lock",
+    "codepoint": "f8a3"
+  },
+  {
+    "class": "bi-person-fill-slash",
+    "codepoint": "f8a4"
+  },
+  {
+    "class": "bi-person-fill-up",
+    "codepoint": "f8a5"
+  },
+  {
+    "class": "bi-person-fill-x",
+    "codepoint": "f8a6"
+  },
+  {
+    "class": "bi-person-gear",
+    "codepoint": "f8a7"
+  },
+  {
+    "class": "bi-person-heart",
+    "codepoint": "f77a"
+  },
+  {
+    "class": "bi-person-hearts",
+    "codepoint": "f77b"
+  },
+  {
+    "class": "bi-person-lines-fill",
+    "codepoint": "f4db"
+  },
+  {
+    "class": "bi-person-lock",
+    "codepoint": "f8a8"
+  },
+  {
+    "class": "bi-person-plus",
+    "codepoint": "f4dd"
+  },
+  {
+    "class": "bi-person-plus-fill",
+    "codepoint": "f4dc"
+  },
+  {
+    "class": "bi-person-raised-hand",
+    "codepoint": "f8f7"
+  },
+  {
+    "class": "bi-person-rolodex",
+    "codepoint": "f676"
+  },
+  {
+    "class": "bi-person-slash",
+    "codepoint": "f8a9"
+  },
+  {
+    "class": "bi-person-square",
+    "codepoint": "f4de"
+  },
+  {
+    "class": "bi-person-standing",
+    "codepoint": "f8f9"
+  },
+  {
+    "class": "bi-person-standing-dress",
+    "codepoint": "f8f8"
+  },
+  {
+    "class": "bi-person-up",
+    "codepoint": "f8aa"
+  },
+  {
+    "class": "bi-person-vcard",
+    "codepoint": "f8c9"
+  },
+  {
+    "class": "bi-person-vcard-fill",
+    "codepoint": "f8c8"
+  },
+  {
+    "class": "bi-person-video",
+    "codepoint": "f677"
+  },
+  {
+    "class": "bi-person-video2",
+    "codepoint": "f678"
+  },
+  {
+    "class": "bi-person-video3",
+    "codepoint": "f679"
+  },
+  {
+    "class": "bi-person-walking",
+    "codepoint": "f8fa"
+  },
+  {
+    "class": "bi-person-wheelchair",
+    "codepoint": "f8fb"
+  },
+  {
+    "class": "bi-person-workspace",
+    "codepoint": "f67a"
+  },
+  {
+    "class": "bi-person-x",
+    "codepoint": "f4e0"
+  },
+  {
+    "class": "bi-person-x-fill",
+    "codepoint": "f4df"
+  },
+  {
+    "class": "bi-phone",
+    "codepoint": "f4e7"
+  },
+  {
+    "class": "bi-phone-fill",
+    "codepoint": "f4e2"
+  },
+  {
+    "class": "bi-phone-flip",
+    "codepoint": "f77c"
+  },
+  {
+    "class": "bi-phone-landscape",
+    "codepoint": "f4e4"
+  },
+  {
+    "class": "bi-phone-landscape-fill",
+    "codepoint": "f4e3"
+  },
+  {
+    "class": "bi-phone-vibrate",
+    "codepoint": "f4e6"
+  },
+  {
+    "class": "bi-phone-vibrate-fill",
+    "codepoint": "f4e5"
+  },
+  {
+    "class": "bi-pie-chart",
+    "codepoint": "f4e9"
+  },
+  {
+    "class": "bi-pie-chart-fill",
+    "codepoint": "f4e8"
+  },
+  {
+    "class": "bi-piggy-bank",
+    "codepoint": "f64a"
+  },
+  {
+    "class": "bi-piggy-bank-fill",
+    "codepoint": "f649"
+  },
+  {
+    "class": "bi-pin",
+    "codepoint": "f4ed"
+  },
+  {
+    "class": "bi-pin-angle",
+    "codepoint": "f4eb"
+  },
+  {
+    "class": "bi-pin-angle-fill",
+    "codepoint": "f4ea"
+  },
+  {
+    "class": "bi-pin-fill",
+    "codepoint": "f4ec"
+  },
+  {
+    "class": "bi-pin-map",
+    "codepoint": "f64c"
+  },
+  {
+    "class": "bi-pin-map-fill",
+    "codepoint": "f64b"
+  },
+  {
+    "class": "bi-pinterest",
+    "codepoint": "f663"
+  },
+  {
+    "class": "bi-pip",
+    "codepoint": "f4ef"
+  },
+  {
+    "class": "bi-pip-fill",
+    "codepoint": "f4ee"
+  },
+  {
+    "class": "bi-play",
+    "codepoint": "f4f5"
+  },
+  {
+    "class": "bi-play-btn",
+    "codepoint": "f4f1"
+  },
+  {
+    "class": "bi-play-btn-fill",
+    "codepoint": "f4f0"
+  },
+  {
+    "class": "bi-play-circle",
+    "codepoint": "f4f3"
+  },
+  {
+    "class": "bi-play-circle-fill",
+    "codepoint": "f4f2"
+  },
+  {
+    "class": "bi-play-fill",
+    "codepoint": "f4f4"
+  },
+  {
+    "class": "bi-playstation",
+    "codepoint": "f6a9"
+  },
+  {
+    "class": "bi-plug",
+    "codepoint": "f4f7"
+  },
+  {
+    "class": "bi-plug-fill",
+    "codepoint": "f4f6"
+  },
+  {
+    "class": "bi-plugin",
+    "codepoint": "f77d"
+  },
+  {
+    "class": "bi-plus",
+    "codepoint": "f4fe"
+  },
+  {
+    "class": "bi-plus-circle",
+    "codepoint": "f4fa"
+  },
+  {
+    "class": "bi-plus-circle-dotted",
+    "codepoint": "f4f8"
+  },
+  {
+    "class": "bi-plus-circle-fill",
+    "codepoint": "f4f9"
+  },
+  {
+    "class": "bi-plus-lg",
+    "codepoint": "f64d"
+  },
+  {
+    "class": "bi-plus-slash-minus",
+    "codepoint": "f6aa"
+  },
+  {
+    "class": "bi-plus-square",
+    "codepoint": "f4fd"
+  },
+  {
+    "class": "bi-plus-square-dotted",
+    "codepoint": "f4fb"
+  },
+  {
+    "class": "bi-plus-square-fill",
+    "codepoint": "f4fc"
+  },
+  {
+    "class": "bi-postage",
+    "codepoint": "f781"
+  },
+  {
+    "class": "bi-postage-fill",
+    "codepoint": "f77e"
+  },
+  {
+    "class": "bi-postage-heart",
+    "codepoint": "f780"
+  },
+  {
+    "class": "bi-postage-heart-fill",
+    "codepoint": "f77f"
+  },
+  {
+    "class": "bi-postcard",
+    "codepoint": "f785"
+  },
+  {
+    "class": "bi-postcard-fill",
+    "codepoint": "f782"
+  },
+  {
+    "class": "bi-postcard-heart",
+    "codepoint": "f784"
+  },
+  {
+    "class": "bi-postcard-heart-fill",
+    "codepoint": "f783"
+  },
+  {
+    "class": "bi-power",
+    "codepoint": "f4ff"
+  },
+  {
+    "class": "bi-prescription",
+    "codepoint": "f80a"
+  },
+  {
+    "class": "bi-prescription2",
+    "codepoint": "f80b"
+  },
+  {
+    "class": "bi-printer",
+    "codepoint": "f501"
+  },
+  {
+    "class": "bi-printer-fill",
+    "codepoint": "f500"
+  },
+  {
+    "class": "bi-projector",
+    "codepoint": "f6ac"
+  },
+  {
+    "class": "bi-projector-fill",
+    "codepoint": "f6ab"
+  },
+  {
+    "class": "bi-puzzle",
+    "codepoint": "f503"
+  },
+  {
+    "class": "bi-puzzle-fill",
+    "codepoint": "f502"
+  },
+  {
+    "class": "bi-qr-code",
+    "codepoint": "f6ae"
+  },
+  {
+    "class": "bi-qr-code-scan",
+    "codepoint": "f6ad"
+  },
+  {
+    "class": "bi-question",
+    "codepoint": "f50c"
+  },
+  {
+    "class": "bi-question-circle",
+    "codepoint": "f505"
+  },
+  {
+    "class": "bi-question-circle-fill",
+    "codepoint": "f504"
+  },
+  {
+    "class": "bi-question-diamond",
+    "codepoint": "f507"
+  },
+  {
+    "class": "bi-question-diamond-fill",
+    "codepoint": "f506"
+  },
+  {
+    "class": "bi-question-lg",
+    "codepoint": "f64e"
+  },
+  {
+    "class": "bi-question-octagon",
+    "codepoint": "f509"
+  },
+  {
+    "class": "bi-question-octagon-fill",
+    "codepoint": "f508"
+  },
+  {
+    "class": "bi-question-square",
+    "codepoint": "f50b"
+  },
+  {
+    "class": "bi-question-square-fill",
+    "codepoint": "f50a"
+  },
+  {
+    "class": "bi-quora",
+    "codepoint": "f6af"
+  },
+  {
+    "class": "bi-quote",
+    "codepoint": "f6b0"
+  },
+  {
+    "class": "bi-r-circle",
+    "codepoint": "f80f"
+  },
+  {
+    "class": "bi-r-circle-fill",
+    "codepoint": "f80e"
+  },
+  {
+    "class": "bi-r-square",
+    "codepoint": "f811"
+  },
+  {
+    "class": "bi-r-square-fill",
+    "codepoint": "f810"
+  },
+  {
+    "class": "bi-radar",
+    "codepoint": "f8cf"
+  },
+  {
+    "class": "bi-radioactive",
+    "codepoint": "f67b"
+  },
+  {
+    "class": "bi-rainbow",
+    "codepoint": "f50d"
+  },
+  {
+    "class": "bi-receipt",
+    "codepoint": "f50f"
+  },
+  {
+    "class": "bi-receipt-cutoff",
+    "codepoint": "f50e"
+  },
+  {
+    "class": "bi-reception-0",
+    "codepoint": "f510"
+  },
+  {
+    "class": "bi-reception-1",
+    "codepoint": "f511"
+  },
+  {
+    "class": "bi-reception-2",
+    "codepoint": "f512"
+  },
+  {
+    "class": "bi-reception-3",
+    "codepoint": "f513"
+  },
+  {
+    "class": "bi-reception-4",
+    "codepoint": "f514"
+  },
+  {
+    "class": "bi-record",
+    "codepoint": "f51a"
+  },
+  {
+    "class": "bi-record-btn",
+    "codepoint": "f516"
+  },
+  {
+    "class": "bi-record-btn-fill",
+    "codepoint": "f515"
+  },
+  {
+    "class": "bi-record-circle",
+    "codepoint": "f518"
+  },
+  {
+    "class": "bi-record-circle-fill",
+    "codepoint": "f517"
+  },
+  {
+    "class": "bi-record-fill",
+    "codepoint": "f519"
+  },
+  {
+    "class": "bi-record2",
+    "codepoint": "f51c"
+  },
+  {
+    "class": "bi-record2-fill",
+    "codepoint": "f51b"
+  },
+  {
+    "class": "bi-recycle",
+    "codepoint": "f64f"
+  },
+  {
+    "class": "bi-reddit",
+    "codepoint": "f650"
+  },
+  {
+    "class": "bi-regex",
+    "codepoint": "f84d"
+  },
+  {
+    "class": "bi-repeat",
+    "codepoint": "f813"
+  },
+  {
+    "class": "bi-repeat-1",
+    "codepoint": "f812"
+  },
+  {
+    "class": "bi-reply",
+    "codepoint": "f520"
+  },
+  {
+    "class": "bi-reply-all",
+    "codepoint": "f51e"
+  },
+  {
+    "class": "bi-reply-all-fill",
+    "codepoint": "f51d"
+  },
+  {
+    "class": "bi-reply-fill",
+    "codepoint": "f51f"
+  },
+  {
+    "class": "bi-rewind",
+    "codepoint": "f819"
+  },
+  {
+    "class": "bi-rewind-btn",
+    "codepoint": "f815"
+  },
+  {
+    "class": "bi-rewind-btn-fill",
+    "codepoint": "f814"
+  },
+  {
+    "class": "bi-rewind-circle",
+    "codepoint": "f817"
+  },
+  {
+    "class": "bi-rewind-circle-fill",
+    "codepoint": "f816"
+  },
+  {
+    "class": "bi-rewind-fill",
+    "codepoint": "f818"
+  },
+  {
+    "class": "bi-robot",
+    "codepoint": "f6b1"
+  },
+  {
+    "class": "bi-rocket",
+    "codepoint": "f846"
+  },
+  {
+    "class": "bi-rocket-fill",
+    "codepoint": "f843"
+  },
+  {
+    "class": "bi-rocket-takeoff",
+    "codepoint": "f845"
+  },
+  {
+    "class": "bi-rocket-takeoff-fill",
+    "codepoint": "f844"
+  },
+  {
+    "class": "bi-router",
+    "codepoint": "f6ec"
+  },
+  {
+    "class": "bi-router-fill",
+    "codepoint": "f6eb"
+  },
+  {
+    "class": "bi-rss",
+    "codepoint": "f522"
+  },
+  {
+    "class": "bi-rss-fill",
+    "codepoint": "f521"
+  },
+  {
+    "class": "bi-rulers",
+    "codepoint": "f523"
+  },
+  {
+    "class": "bi-safe",
+    "codepoint": "f65a"
+  },
+  {
+    "class": "bi-safe-fill",
+    "codepoint": "f651"
+  },
+  {
+    "class": "bi-safe2",
+    "codepoint": "f653"
+  },
+  {
+    "class": "bi-safe2-fill",
+    "codepoint": "f652"
+  },
+  {
+    "class": "bi-save",
+    "codepoint": "f525"
+  },
+  {
+    "class": "bi-save-fill",
+    "codepoint": "f524"
+  },
+  {
+    "class": "bi-save2",
+    "codepoint": "f527"
+  },
+  {
+    "class": "bi-save2-fill",
+    "codepoint": "f526"
+  },
+  {
+    "class": "bi-scissors",
+    "codepoint": "f528"
+  },
+  {
+    "class": "bi-scooter",
+    "codepoint": "f8ab"
+  },
+  {
+    "class": "bi-screwdriver",
+    "codepoint": "f529"
+  },
+  {
+    "class": "bi-sd-card",
+    "codepoint": "f655"
+  },
+  {
+    "class": "bi-sd-card-fill",
+    "codepoint": "f654"
+  },
+  {
+    "class": "bi-search",
+    "codepoint": "f52a"
+  },
+  {
+    "class": "bi-search-heart",
+    "codepoint": "f787"
+  },
+  {
+    "class": "bi-search-heart-fill",
+    "codepoint": "f786"
+  },
+  {
+    "class": "bi-segmented-nav",
+    "codepoint": "f52b"
+  },
+  {
+    "class": "bi-send",
+    "codepoint": "f6c0"
+  },
+  {
+    "class": "bi-send-arrow-down",
+    "codepoint": "f8d1"
+  },
+  {
+    "class": "bi-send-arrow-down-fill",
+    "codepoint": "f8d0"
+  },
+  {
+    "class": "bi-send-arrow-up",
+    "codepoint": "f8d3"
+  },
+  {
+    "class": "bi-send-arrow-up-fill",
+    "codepoint": "f8d2"
+  },
+  {
+    "class": "bi-send-check",
+    "codepoint": "f6b3"
+  },
+  {
+    "class": "bi-send-check-fill",
+    "codepoint": "f6b2"
+  },
+  {
+    "class": "bi-send-dash",
+    "codepoint": "f6b5"
+  },
+  {
+    "class": "bi-send-dash-fill",
+    "codepoint": "f6b4"
+  },
+  {
+    "class": "bi-send-exclamation",
+    "codepoint": "f6b8"
+  },
+  {
+    "class": "bi-send-exclamation-fill",
+    "codepoint": "f6b7"
+  },
+  {
+    "class": "bi-send-fill",
+    "codepoint": "f6b9"
+  },
+  {
+    "class": "bi-send-plus",
+    "codepoint": "f6bb"
+  },
+  {
+    "class": "bi-send-plus-fill",
+    "codepoint": "f6ba"
+  },
+  {
+    "class": "bi-send-slash",
+    "codepoint": "f6bd"
+  },
+  {
+    "class": "bi-send-slash-fill",
+    "codepoint": "f6bc"
+  },
+  {
+    "class": "bi-send-x",
+    "codepoint": "f6bf"
+  },
+  {
+    "class": "bi-send-x-fill",
+    "codepoint": "f6be"
+  },
+  {
+    "class": "bi-server",
+    "codepoint": "f52c"
+  },
+  {
+    "class": "bi-shadows",
+    "codepoint": "f8fc"
+  },
+  {
+    "class": "bi-share",
+    "codepoint": "f52e"
+  },
+  {
+    "class": "bi-share-fill",
+    "codepoint": "f52d"
+  },
+  {
+    "class": "bi-shield",
+    "codepoint": "f53f"
+  },
+  {
+    "class": "bi-shield-check",
+    "codepoint": "f52f"
+  },
+  {
+    "class": "bi-shield-exclamation",
+    "codepoint": "f530"
+  },
+  {
+    "class": "bi-shield-fill",
+    "codepoint": "f536"
+  },
+  {
+    "class": "bi-shield-fill-check",
+    "codepoint": "f531"
+  },
+  {
+    "class": "bi-shield-fill-exclamation",
+    "codepoint": "f532"
+  },
+  {
+    "class": "bi-shield-fill-minus",
+    "codepoint": "f533"
+  },
+  {
+    "class": "bi-shield-fill-plus",
+    "codepoint": "f534"
+  },
+  {
+    "class": "bi-shield-fill-x",
+    "codepoint": "f535"
+  },
+  {
+    "class": "bi-shield-lock",
+    "codepoint": "f538"
+  },
+  {
+    "class": "bi-shield-lock-fill",
+    "codepoint": "f537"
+  },
+  {
+    "class": "bi-shield-minus",
+    "codepoint": "f539"
+  },
+  {
+    "class": "bi-shield-plus",
+    "codepoint": "f53a"
+  },
+  {
+    "class": "bi-shield-shaded",
+    "codepoint": "f53b"
+  },
+  {
+    "class": "bi-shield-slash",
+    "codepoint": "f53d"
+  },
+  {
+    "class": "bi-shield-slash-fill",
+    "codepoint": "f53c"
+  },
+  {
+    "class": "bi-shield-x",
+    "codepoint": "f53e"
+  },
+  {
+    "class": "bi-shift",
+    "codepoint": "f541"
+  },
+  {
+    "class": "bi-shift-fill",
+    "codepoint": "f540"
+  },
+  {
+    "class": "bi-shop",
+    "codepoint": "f543"
+  },
+  {
+    "class": "bi-shop-window",
+    "codepoint": "f542"
+  },
+  {
+    "class": "bi-shuffle",
+    "codepoint": "f544"
+  },
+  {
+    "class": "bi-sign-dead-end",
+    "codepoint": "f850"
+  },
+  {
+    "class": "bi-sign-dead-end-fill",
+    "codepoint": "f84f"
+  },
+  {
+    "class": "bi-sign-do-not-enter",
+    "codepoint": "f852"
+  },
+  {
+    "class": "bi-sign-do-not-enter-fill",
+    "codepoint": "f851"
+  },
+  {
+    "class": "bi-sign-intersection",
+    "codepoint": "f85a"
+  },
+  {
+    "class": "bi-sign-intersection-fill",
+    "codepoint": "f853"
+  },
+  {
+    "class": "bi-sign-intersection-side",
+    "codepoint": "f855"
+  },
+  {
+    "class": "bi-sign-intersection-side-fill",
+    "codepoint": "f854"
+  },
+  {
+    "class": "bi-sign-intersection-t",
+    "codepoint": "f857"
+  },
+  {
+    "class": "bi-sign-intersection-t-fill",
+    "codepoint": "f856"
+  },
+  {
+    "class": "bi-sign-intersection-y",
+    "codepoint": "f859"
+  },
+  {
+    "class": "bi-sign-intersection-y-fill",
+    "codepoint": "f858"
+  },
+  {
+    "class": "bi-sign-merge-left",
+    "codepoint": "f85c"
+  },
+  {
+    "class": "bi-sign-merge-left-fill",
+    "codepoint": "f85b"
+  },
+  {
+    "class": "bi-sign-merge-right",
+    "codepoint": "f85e"
+  },
+  {
+    "class": "bi-sign-merge-right-fill",
+    "codepoint": "f85d"
+  },
+  {
+    "class": "bi-sign-no-left-turn",
+    "codepoint": "f860"
+  },
+  {
+    "class": "bi-sign-no-left-turn-fill",
+    "codepoint": "f85f"
+  },
+  {
+    "class": "bi-sign-no-parking",
+    "codepoint": "f862"
+  },
+  {
+    "class": "bi-sign-no-parking-fill",
+    "codepoint": "f861"
+  },
+  {
+    "class": "bi-sign-no-right-turn",
+    "codepoint": "f864"
+  },
+  {
+    "class": "bi-sign-no-right-turn-fill",
+    "codepoint": "f863"
+  },
+  {
+    "class": "bi-sign-railroad",
+    "codepoint": "f866"
+  },
+  {
+    "class": "bi-sign-railroad-fill",
+    "codepoint": "f865"
+  },
+  {
+    "class": "bi-sign-stop",
+    "codepoint": "f82e"
+  },
+  {
+    "class": "bi-sign-stop-fill",
+    "codepoint": "f82b"
+  },
+  {
+    "class": "bi-sign-stop-lights",
+    "codepoint": "f82d"
+  },
+  {
+    "class": "bi-sign-stop-lights-fill",
+    "codepoint": "f82c"
+  },
+  {
+    "class": "bi-sign-turn-left",
+    "codepoint": "f830"
+  },
+  {
+    "class": "bi-sign-turn-left-fill",
+    "codepoint": "f82f"
+  },
+  {
+    "class": "bi-sign-turn-right",
+    "codepoint": "f832"
+  },
+  {
+    "class": "bi-sign-turn-right-fill",
+    "codepoint": "f831"
+  },
+  {
+    "class": "bi-sign-turn-slight-left",
+    "codepoint": "f834"
+  },
+  {
+    "class": "bi-sign-turn-slight-left-fill",
+    "codepoint": "f833"
+  },
+  {
+    "class": "bi-sign-turn-slight-right",
+    "codepoint": "f836"
+  },
+  {
+    "class": "bi-sign-turn-slight-right-fill",
+    "codepoint": "f835"
+  },
+  {
+    "class": "bi-sign-yield",
+    "codepoint": "f838"
+  },
+  {
+    "class": "bi-sign-yield-fill",
+    "codepoint": "f837"
+  },
+  {
+    "class": "bi-signal",
+    "codepoint": "f664"
+  },
+  {
+    "class": "bi-signpost",
+    "codepoint": "f54a"
+  },
+  {
+    "class": "bi-signpost-2",
+    "codepoint": "f546"
+  },
+  {
+    "class": "bi-signpost-2-fill",
+    "codepoint": "f545"
+  },
+  {
+    "class": "bi-signpost-fill",
+    "codepoint": "f547"
+  },
+  {
+    "class": "bi-signpost-split",
+    "codepoint": "f549"
+  },
+  {
+    "class": "bi-signpost-split-fill",
+    "codepoint": "f548"
+  },
+  {
+    "class": "bi-sim",
+    "codepoint": "f54c"
+  },
+  {
+    "class": "bi-sim-fill",
+    "codepoint": "f54b"
+  },
+  {
+    "class": "bi-sim-slash",
+    "codepoint": "f8d5"
+  },
+  {
+    "class": "bi-sim-slash-fill",
+    "codepoint": "f8d4"
+  },
+  {
+    "class": "bi-sina-weibo",
+    "codepoint": "f8ca"
+  },
+  {
+    "class": "bi-skip-backward",
+    "codepoint": "f552"
+  },
+  {
+    "class": "bi-skip-backward-btn",
+    "codepoint": "f54e"
+  },
+  {
+    "class": "bi-skip-backward-btn-fill",
+    "codepoint": "f54d"
+  },
+  {
+    "class": "bi-skip-backward-circle",
+    "codepoint": "f550"
+  },
+  {
+    "class": "bi-skip-backward-circle-fill",
+    "codepoint": "f54f"
+  },
+  {
+    "class": "bi-skip-backward-fill",
+    "codepoint": "f551"
+  },
+  {
+    "class": "bi-skip-end",
+    "codepoint": "f558"
+  },
+  {
+    "class": "bi-skip-end-btn",
+    "codepoint": "f554"
+  },
+  {
+    "class": "bi-skip-end-btn-fill",
+    "codepoint": "f553"
+  },
+  {
+    "class": "bi-skip-end-circle",
+    "codepoint": "f556"
+  },
+  {
+    "class": "bi-skip-end-circle-fill",
+    "codepoint": "f555"
+  },
+  {
+    "class": "bi-skip-end-fill",
+    "codepoint": "f557"
+  },
+  {
+    "class": "bi-skip-forward",
+    "codepoint": "f55e"
+  },
+  {
+    "class": "bi-skip-forward-btn",
+    "codepoint": "f55a"
+  },
+  {
+    "class": "bi-skip-forward-btn-fill",
+    "codepoint": "f559"
+  },
+  {
+    "class": "bi-skip-forward-circle",
+    "codepoint": "f55c"
+  },
+  {
+    "class": "bi-skip-forward-circle-fill",
+    "codepoint": "f55b"
+  },
+  {
+    "class": "bi-skip-forward-fill",
+    "codepoint": "f55d"
+  },
+  {
+    "class": "bi-skip-start",
+    "codepoint": "f564"
+  },
+  {
+    "class": "bi-skip-start-btn",
+    "codepoint": "f560"
+  },
+  {
+    "class": "bi-skip-start-btn-fill",
+    "codepoint": "f55f"
+  },
+  {
+    "class": "bi-skip-start-circle",
+    "codepoint": "f562"
+  },
+  {
+    "class": "bi-skip-start-circle-fill",
+    "codepoint": "f561"
+  },
+  {
+    "class": "bi-skip-start-fill",
+    "codepoint": "f563"
+  },
+  {
+    "class": "bi-skype",
+    "codepoint": "f656"
+  },
+  {
+    "class": "bi-slack",
+    "codepoint": "f565"
+  },
+  {
+    "class": "bi-slash",
+    "codepoint": "f56a"
+  },
+  {
+    "class": "bi-slash-circle",
+    "codepoint": "f567"
+  },
+  {
+    "class": "bi-slash-circle-fill",
+    "codepoint": "f566"
+  },
+  {
+    "class": "bi-slash-lg",
+    "codepoint": "f657"
+  },
+  {
+    "class": "bi-slash-square",
+    "codepoint": "f569"
+  },
+  {
+    "class": "bi-slash-square-fill",
+    "codepoint": "f568"
+  },
+  {
+    "class": "bi-sliders",
+    "codepoint": "f56b"
+  },
+  {
+    "class": "bi-sliders2",
+    "codepoint": "f789"
+  },
+  {
+    "class": "bi-sliders2-vertical",
+    "codepoint": "f788"
+  },
+  {
+    "class": "bi-smartwatch",
+    "codepoint": "f56c"
+  },
+  {
+    "class": "bi-snapchat",
+    "codepoint": "f665"
+  },
+  {
+    "class": "bi-snow",
+    "codepoint": "f56d"
+  },
+  {
+    "class": "bi-snow2",
+    "codepoint": "f56e"
+  },
+  {
+    "class": "bi-snow3",
+    "codepoint": "f56f"
+  },
+  {
+    "class": "bi-sort-alpha-down",
+    "codepoint": "f571"
+  },
+  {
+    "class": "bi-sort-alpha-down-alt",
+    "codepoint": "f570"
+  },
+  {
+    "class": "bi-sort-alpha-up",
+    "codepoint": "f573"
+  },
+  {
+    "class": "bi-sort-alpha-up-alt",
+    "codepoint": "f572"
+  },
+  {
+    "class": "bi-sort-down",
+    "codepoint": "f575"
+  },
+  {
+    "class": "bi-sort-down-alt",
+    "codepoint": "f574"
+  },
+  {
+    "class": "bi-sort-numeric-down",
+    "codepoint": "f577"
+  },
+  {
+    "class": "bi-sort-numeric-down-alt",
+    "codepoint": "f576"
+  },
+  {
+    "class": "bi-sort-numeric-up",
+    "codepoint": "f579"
+  },
+  {
+    "class": "bi-sort-numeric-up-alt",
+    "codepoint": "f578"
+  },
+  {
+    "class": "bi-sort-up",
+    "codepoint": "f57b"
+  },
+  {
+    "class": "bi-sort-up-alt",
+    "codepoint": "f57a"
+  },
+  {
+    "class": "bi-soundwave",
+    "codepoint": "f57c"
+  },
+  {
+    "class": "bi-sourceforge",
+    "codepoint": "f8d6"
+  },
+  {
+    "class": "bi-speaker",
+    "codepoint": "f57e"
+  },
+  {
+    "class": "bi-speaker-fill",
+    "codepoint": "f57d"
+  },
+  {
+    "class": "bi-speedometer",
+    "codepoint": "f57f"
+  },
+  {
+    "class": "bi-speedometer2",
+    "codepoint": "f580"
+  },
+  {
+    "class": "bi-spellcheck",
+    "codepoint": "f581"
+  },
+  {
+    "class": "bi-spotify",
+    "codepoint": "f666"
+  },
+  {
+    "class": "bi-square",
+    "codepoint": "f584"
+  },
+  {
+    "class": "bi-square-fill",
+    "codepoint": "f582"
+  },
+  {
+    "class": "bi-square-half",
+    "codepoint": "f583"
+  },
+  {
+    "class": "bi-stack",
+    "codepoint": "f585"
+  },
+  {
+    "class": "bi-stack-overflow",
+    "codepoint": "f667"
+  },
+  {
+    "class": "bi-star",
+    "codepoint": "f588"
+  },
+  {
+    "class": "bi-star-fill",
+    "codepoint": "f586"
+  },
+  {
+    "class": "bi-star-half",
+    "codepoint": "f587"
+  },
+  {
+    "class": "bi-stars",
+    "codepoint": "f589"
+  },
+  {
+    "class": "bi-steam",
+    "codepoint": "f6c1"
+  },
+  {
+    "class": "bi-stickies",
+    "codepoint": "f58b"
+  },
+  {
+    "class": "bi-stickies-fill",
+    "codepoint": "f58a"
+  },
+  {
+    "class": "bi-sticky",
+    "codepoint": "f58d"
+  },
+  {
+    "class": "bi-sticky-fill",
+    "codepoint": "f58c"
+  },
+  {
+    "class": "bi-stop",
+    "codepoint": "f593"
+  },
+  {
+    "class": "bi-stop-btn",
+    "codepoint": "f58f"
+  },
+  {
+    "class": "bi-stop-btn-fill",
+    "codepoint": "f58e"
+  },
+  {
+    "class": "bi-stop-circle",
+    "codepoint": "f591"
+  },
+  {
+    "class": "bi-stop-circle-fill",
+    "codepoint": "f590"
+  },
+  {
+    "class": "bi-stop-fill",
+    "codepoint": "f592"
+  },
+  {
+    "class": "bi-stoplights",
+    "codepoint": "f595"
+  },
+  {
+    "class": "bi-stoplights-fill",
+    "codepoint": "f594"
+  },
+  {
+    "class": "bi-stopwatch",
+    "codepoint": "f597"
+  },
+  {
+    "class": "bi-stopwatch-fill",
+    "codepoint": "f596"
+  },
+  {
+    "class": "bi-strava",
+    "codepoint": "f668"
+  },
+  {
+    "class": "bi-stripe",
+    "codepoint": "f847"
+  },
+  {
+    "class": "bi-subscript",
+    "codepoint": "f848"
+  },
+  {
+    "class": "bi-substack",
+    "codepoint": "f8d7"
+  },
+  {
+    "class": "bi-subtract",
+    "codepoint": "f598"
+  },
+  {
+    "class": "bi-suit-club",
+    "codepoint": "f59a"
+  },
+  {
+    "class": "bi-suit-club-fill",
+    "codepoint": "f599"
+  },
+  {
+    "class": "bi-suit-diamond",
+    "codepoint": "f59c"
+  },
+  {
+    "class": "bi-suit-diamond-fill",
+    "codepoint": "f59b"
+  },
+  {
+    "class": "bi-suit-heart",
+    "codepoint": "f59e"
+  },
+  {
+    "class": "bi-suit-heart-fill",
+    "codepoint": "f59d"
+  },
+  {
+    "class": "bi-suit-spade",
+    "codepoint": "f5a0"
+  },
+  {
+    "class": "bi-suit-spade-fill",
+    "codepoint": "f59f"
+  },
+  {
+    "class": "bi-suitcase",
+    "codepoint": "f900"
+  },
+  {
+    "class": "bi-suitcase-fill",
+    "codepoint": "f8fd"
+  },
+  {
+    "class": "bi-suitcase-lg",
+    "codepoint": "f8ff"
+  },
+  {
+    "class": "bi-suitcase-lg-fill",
+    "codepoint": "f8fe"
+  },
+  {
+    "class": "bi-suitcase2",
+    "codepoint": "f902"
+  },
+  {
+    "class": "bi-suitcase2-fill",
+    "codepoint": "f901"
+  },
+  {
+    "class": "bi-sun",
+    "codepoint": "f5a2"
+  },
+  {
+    "class": "bi-sun-fill",
+    "codepoint": "f5a1"
+  },
+  {
+    "class": "bi-sunglasses",
+    "codepoint": "f5a3"
+  },
+  {
+    "class": "bi-sunrise",
+    "codepoint": "f5a5"
+  },
+  {
+    "class": "bi-sunrise-fill",
+    "codepoint": "f5a4"
+  },
+  {
+    "class": "bi-sunset",
+    "codepoint": "f5a7"
+  },
+  {
+    "class": "bi-sunset-fill",
+    "codepoint": "f5a6"
+  },
+  {
+    "class": "bi-superscript",
+    "codepoint": "f849"
+  },
+  {
+    "class": "bi-symmetry-horizontal",
+    "codepoint": "f5a8"
+  },
+  {
+    "class": "bi-symmetry-vertical",
+    "codepoint": "f5a9"
+  },
+  {
+    "class": "bi-table",
+    "codepoint": "f5aa"
+  },
+  {
+    "class": "bi-tablet",
+    "codepoint": "f5ae"
+  },
+  {
+    "class": "bi-tablet-fill",
+    "codepoint": "f5ab"
+  },
+  {
+    "class": "bi-tablet-landscape",
+    "codepoint": "f5ad"
+  },
+  {
+    "class": "bi-tablet-landscape-fill",
+    "codepoint": "f5ac"
+  },
+  {
+    "class": "bi-tag",
+    "codepoint": "f5b0"
+  },
+  {
+    "class": "bi-tag-fill",
+    "codepoint": "f5af"
+  },
+  {
+    "class": "bi-tags",
+    "codepoint": "f5b2"
+  },
+  {
+    "class": "bi-tags-fill",
+    "codepoint": "f5b1"
+  },
+  {
+    "class": "bi-taxi-front",
+    "codepoint": "f8ad"
+  },
+  {
+    "class": "bi-taxi-front-fill",
+    "codepoint": "f8ac"
+  },
+  {
+    "class": "bi-telegram",
+    "codepoint": "f5b3"
+  },
+  {
+    "class": "bi-telephone",
+    "codepoint": "f5c1"
+  },
+  {
+    "class": "bi-telephone-fill",
+    "codepoint": "f5b4"
+  },
+  {
+    "class": "bi-telephone-forward",
+    "codepoint": "f5b6"
+  },
+  {
+    "class": "bi-telephone-forward-fill",
+    "codepoint": "f5b5"
+  },
+  {
+    "class": "bi-telephone-inbound",
+    "codepoint": "f5b8"
+  },
+  {
+    "class": "bi-telephone-inbound-fill",
+    "codepoint": "f5b7"
+  },
+  {
+    "class": "bi-telephone-minus",
+    "codepoint": "f5ba"
+  },
+  {
+    "class": "bi-telephone-minus-fill",
+    "codepoint": "f5b9"
+  },
+  {
+    "class": "bi-telephone-outbound",
+    "codepoint": "f5bc"
+  },
+  {
+    "class": "bi-telephone-outbound-fill",
+    "codepoint": "f5bb"
+  },
+  {
+    "class": "bi-telephone-plus",
+    "codepoint": "f5be"
+  },
+  {
+    "class": "bi-telephone-plus-fill",
+    "codepoint": "f5bd"
+  },
+  {
+    "class": "bi-telephone-x",
+    "codepoint": "f5c0"
+  },
+  {
+    "class": "bi-telephone-x-fill",
+    "codepoint": "f5bf"
+  },
+  {
+    "class": "bi-tencent-qq",
+    "codepoint": "f8cb"
+  },
+  {
+    "class": "bi-terminal",
+    "codepoint": "f5c3"
+  },
+  {
+    "class": "bi-terminal-dash",
+    "codepoint": "f6c3"
+  },
+  {
+    "class": "bi-terminal-fill",
+    "codepoint": "f5c2"
+  },
+  {
+    "class": "bi-terminal-plus",
+    "codepoint": "f6c4"
+  },
+  {
+    "class": "bi-terminal-split",
+    "codepoint": "f6c5"
+  },
+  {
+    "class": "bi-terminal-x",
+    "codepoint": "f6ff"
+  },
+  {
+    "class": "bi-text-center",
+    "codepoint": "f5c4"
+  },
+  {
+    "class": "bi-text-indent-left",
+    "codepoint": "f5c5"
+  },
+  {
+    "class": "bi-text-indent-right",
+    "codepoint": "f5c6"
+  },
+  {
+    "class": "bi-text-left",
+    "codepoint": "f5c7"
+  },
+  {
+    "class": "bi-text-paragraph",
+    "codepoint": "f5c8"
+  },
+  {
+    "class": "bi-text-right",
+    "codepoint": "f5c9"
+  },
+  {
+    "class": "bi-text-wrap",
+    "codepoint": "f84e"
+  },
+  {
+    "class": "bi-textarea",
+    "codepoint": "f5cc"
+  },
+  {
+    "class": "bi-textarea-resize",
+    "codepoint": "f5ca"
+  },
+  {
+    "class": "bi-textarea-t",
+    "codepoint": "f5cb"
+  },
+  {
+    "class": "bi-thermometer",
+    "codepoint": "f5d2"
+  },
+  {
+    "class": "bi-thermometer-half",
+    "codepoint": "f5cd"
+  },
+  {
+    "class": "bi-thermometer-high",
+    "codepoint": "f5ce"
+  },
+  {
+    "class": "bi-thermometer-low",
+    "codepoint": "f5cf"
+  },
+  {
+    "class": "bi-thermometer-snow",
+    "codepoint": "f5d0"
+  },
+  {
+    "class": "bi-thermometer-sun",
+    "codepoint": "f5d1"
+  },
+  {
+    "class": "bi-threads",
+    "codepoint": "f8d9"
+  },
+  {
+    "class": "bi-threads-fill",
+    "codepoint": "f8d8"
+  },
+  {
+    "class": "bi-three-dots",
+    "codepoint": "f5d4"
+  },
+  {
+    "class": "bi-three-dots-vertical",
+    "codepoint": "f5d3"
+  },
+  {
+    "class": "bi-thunderbolt",
+    "codepoint": "f6f0"
+  },
+  {
+    "class": "bi-thunderbolt-fill",
+    "codepoint": "f6ef"
+  },
+  {
+    "class": "bi-ticket",
+    "codepoint": "f6cb"
+  },
+  {
+    "class": "bi-ticket-detailed",
+    "codepoint": "f6c7"
+  },
+  {
+    "class": "bi-ticket-detailed-fill",
+    "codepoint": "f6c6"
+  },
+  {
+    "class": "bi-ticket-fill",
+    "codepoint": "f6c8"
+  },
+  {
+    "class": "bi-ticket-perforated",
+    "codepoint": "f6ca"
+  },
+  {
+    "class": "bi-ticket-perforated-fill",
+    "codepoint": "f6c9"
+  },
+  {
+    "class": "bi-tiktok",
+    "codepoint": "f6cc"
+  },
+  {
+    "class": "bi-toggle-off",
+    "codepoint": "f5d5"
+  },
+  {
+    "class": "bi-toggle-on",
+    "codepoint": "f5d6"
+  },
+  {
+    "class": "bi-toggle2-off",
+    "codepoint": "f5d7"
+  },
+  {
+    "class": "bi-toggle2-on",
+    "codepoint": "f5d8"
+  },
+  {
+    "class": "bi-toggles",
+    "codepoint": "f5d9"
+  },
+  {
+    "class": "bi-toggles2",
+    "codepoint": "f5da"
+  },
+  {
+    "class": "bi-tools",
+    "codepoint": "f5db"
+  },
+  {
+    "class": "bi-tornado",
+    "codepoint": "f5dc"
+  },
+  {
+    "class": "bi-train-freight-front",
+    "codepoint": "f81b"
+  },
+  {
+    "class": "bi-train-freight-front-fill",
+    "codepoint": "f81a"
+  },
+  {
+    "class": "bi-train-front",
+    "codepoint": "f81d"
+  },
+  {
+    "class": "bi-train-front-fill",
+    "codepoint": "f81c"
+  },
+  {
+    "class": "bi-train-lightrail-front",
+    "codepoint": "f81f"
+  },
+  {
+    "class": "bi-train-lightrail-front-fill",
+    "codepoint": "f81e"
+  },
+  {
+    "class": "bi-translate",
+    "codepoint": "f658"
+  },
+  {
+    "class": "bi-transparency",
+    "codepoint": "f8da"
+  },
+  {
+    "class": "bi-trash",
+    "codepoint": "f5de"
+  },
+  {
+    "class": "bi-trash-fill",
+    "codepoint": "f5dd"
+  },
+  {
+    "class": "bi-trash2",
+    "codepoint": "f5e0"
+  },
+  {
+    "class": "bi-trash2-fill",
+    "codepoint": "f5df"
+  },
+  {
+    "class": "bi-trash3",
+    "codepoint": "f78b"
+  },
+  {
+    "class": "bi-trash3-fill",
+    "codepoint": "f78a"
+  },
+  {
+    "class": "bi-tree",
+    "codepoint": "f5e2"
+  },
+  {
+    "class": "bi-tree-fill",
+    "codepoint": "f5e1"
+  },
+  {
+    "class": "bi-trello",
+    "codepoint": "f84a"
+  },
+  {
+    "class": "bi-triangle",
+    "codepoint": "f5e5"
+  },
+  {
+    "class": "bi-triangle-fill",
+    "codepoint": "f5e3"
+  },
+  {
+    "class": "bi-triangle-half",
+    "codepoint": "f5e4"
+  },
+  {
+    "class": "bi-trophy",
+    "codepoint": "f5e7"
+  },
+  {
+    "class": "bi-trophy-fill",
+    "codepoint": "f5e6"
+  },
+  {
+    "class": "bi-tropical-storm",
+    "codepoint": "f5e8"
+  },
+  {
+    "class": "bi-truck",
+    "codepoint": "f5ea"
+  },
+  {
+    "class": "bi-truck-flatbed",
+    "codepoint": "f5e9"
+  },
+  {
+    "class": "bi-truck-front",
+    "codepoint": "f821"
+  },
+  {
+    "class": "bi-truck-front-fill",
+    "codepoint": "f820"
+  },
+  {
+    "class": "bi-tsunami",
+    "codepoint": "f5eb"
+  },
+  {
+    "class": "bi-tv",
+    "codepoint": "f5ed"
+  },
+  {
+    "class": "bi-tv-fill",
+    "codepoint": "f5ec"
+  },
+  {
+    "class": "bi-twitch",
+    "codepoint": "f5ee"
+  },
+  {
+    "class": "bi-twitter",
+    "codepoint": "f5ef"
+  },
+  {
+    "class": "bi-twitter-x",
+    "codepoint": "f8db"
+  },
+  {
+    "class": "bi-type",
+    "codepoint": "f5f7"
+  },
+  {
+    "class": "bi-type-bold",
+    "codepoint": "f5f0"
+  },
+  {
+    "class": "bi-type-h1",
+    "codepoint": "f5f1"
+  },
+  {
+    "class": "bi-type-h2",
+    "codepoint": "f5f2"
+  },
+  {
+    "class": "bi-type-h3",
+    "codepoint": "f5f3"
+  },
+  {
+    "class": "bi-type-h4",
+    "codepoint": "f8dc"
+  },
+  {
+    "class": "bi-type-h5",
+    "codepoint": "f8dd"
+  },
+  {
+    "class": "bi-type-h6",
+    "codepoint": "f8de"
+  },
+  {
+    "class": "bi-type-italic",
+    "codepoint": "f5f4"
+  },
+  {
+    "class": "bi-type-strikethrough",
+    "codepoint": "f5f5"
+  },
+  {
+    "class": "bi-type-underline",
+    "codepoint": "f5f6"
+  },
+  {
+    "class": "bi-ubuntu",
+    "codepoint": "f822"
+  },
+  {
+    "class": "bi-ui-checks",
+    "codepoint": "f5f9"
+  },
+  {
+    "class": "bi-ui-checks-grid",
+    "codepoint": "f5f8"
+  },
+  {
+    "class": "bi-ui-radios",
+    "codepoint": "f5fb"
+  },
+  {
+    "class": "bi-ui-radios-grid",
+    "codepoint": "f5fa"
+  },
+  {
+    "class": "bi-umbrella",
+    "codepoint": "f5fd"
+  },
+  {
+    "class": "bi-umbrella-fill",
+    "codepoint": "f5fc"
+  },
+  {
+    "class": "bi-unindent",
+    "codepoint": "f823"
+  },
+  {
+    "class": "bi-union",
+    "codepoint": "f5fe"
+  },
+  {
+    "class": "bi-unity",
+    "codepoint": "f824"
+  },
+  {
+    "class": "bi-universal-access",
+    "codepoint": "f826"
+  },
+  {
+    "class": "bi-universal-access-circle",
+    "codepoint": "f825"
+  },
+  {
+    "class": "bi-unlock",
+    "codepoint": "f600"
+  },
+  {
+    "class": "bi-unlock-fill",
+    "codepoint": "f5ff"
+  },
+  {
+    "class": "bi-upc",
+    "codepoint": "f602"
+  },
+  {
+    "class": "bi-upc-scan",
+    "codepoint": "f601"
+  },
+  {
+    "class": "bi-upload",
+    "codepoint": "f603"
+  },
+  {
+    "class": "bi-usb",
+    "codepoint": "f6de"
+  },
+  {
+    "class": "bi-usb-c",
+    "codepoint": "f6d9"
+  },
+  {
+    "class": "bi-usb-c-fill",
+    "codepoint": "f6d8"
+  },
+  {
+    "class": "bi-usb-drive",
+    "codepoint": "f6f2"
+  },
+  {
+    "class": "bi-usb-drive-fill",
+    "codepoint": "f6f1"
+  },
+  {
+    "class": "bi-usb-fill",
+    "codepoint": "f6da"
+  },
+  {
+    "class": "bi-usb-micro",
+    "codepoint": "f6f4"
+  },
+  {
+    "class": "bi-usb-micro-fill",
+    "codepoint": "f6f3"
+  },
+  {
+    "class": "bi-usb-mini",
+    "codepoint": "f6f6"
+  },
+  {
+    "class": "bi-usb-mini-fill",
+    "codepoint": "f6f5"
+  },
+  {
+    "class": "bi-usb-plug",
+    "codepoint": "f6dc"
+  },
+  {
+    "class": "bi-usb-plug-fill",
+    "codepoint": "f6db"
+  },
+  {
+    "class": "bi-usb-symbol",
+    "codepoint": "f6dd"
+  },
+  {
+    "class": "bi-valentine",
+    "codepoint": "f78c"
+  },
+  {
+    "class": "bi-valentine2",
+    "codepoint": "f78d"
+  },
+  {
+    "class": "bi-vector-pen",
+    "codepoint": "f604"
+  },
+  {
+    "class": "bi-view-list",
+    "codepoint": "f605"
+  },
+  {
+    "class": "bi-view-stacked",
+    "codepoint": "f606"
+  },
+  {
+    "class": "bi-vignette",
+    "codepoint": "f903"
+  },
+  {
+    "class": "bi-vimeo",
+    "codepoint": "f66a"
+  },
+  {
+    "class": "bi-vinyl",
+    "codepoint": "f608"
+  },
+  {
+    "class": "bi-vinyl-fill",
+    "codepoint": "f607"
+  },
+  {
+    "class": "bi-virus",
+    "codepoint": "f827"
+  },
+  {
+    "class": "bi-virus2",
+    "codepoint": "f828"
+  },
+  {
+    "class": "bi-voicemail",
+    "codepoint": "f609"
+  },
+  {
+    "class": "bi-volume-down",
+    "codepoint": "f60b"
+  },
+  {
+    "class": "bi-volume-down-fill",
+    "codepoint": "f60a"
+  },
+  {
+    "class": "bi-volume-mute",
+    "codepoint": "f60d"
+  },
+  {
+    "class": "bi-volume-mute-fill",
+    "codepoint": "f60c"
+  },
+  {
+    "class": "bi-volume-off",
+    "codepoint": "f60f"
+  },
+  {
+    "class": "bi-volume-off-fill",
+    "codepoint": "f60e"
+  },
+  {
+    "class": "bi-volume-up",
+    "codepoint": "f611"
+  },
+  {
+    "class": "bi-volume-up-fill",
+    "codepoint": "f610"
+  },
+  {
+    "class": "bi-vr",
+    "codepoint": "f612"
+  },
+  {
+    "class": "bi-wallet",
+    "codepoint": "f614"
+  },
+  {
+    "class": "bi-wallet-fill",
+    "codepoint": "f613"
+  },
+  {
+    "class": "bi-wallet2",
+    "codepoint": "f615"
+  },
+  {
+    "class": "bi-watch",
+    "codepoint": "f616"
+  },
+  {
+    "class": "bi-water",
+    "codepoint": "f617"
+  },
+  {
+    "class": "bi-webcam",
+    "codepoint": "f67d"
+  },
+  {
+    "class": "bi-webcam-fill",
+    "codepoint": "f67c"
+  },
+  {
+    "class": "bi-wechat",
+    "codepoint": "f829"
+  },
+  {
+    "class": "bi-whatsapp",
+    "codepoint": "f618"
+  },
+  {
+    "class": "bi-wifi",
+    "codepoint": "f61c"
+  },
+  {
+    "class": "bi-wifi-1",
+    "codepoint": "f619"
+  },
+  {
+    "class": "bi-wifi-2",
+    "codepoint": "f61a"
+  },
+  {
+    "class": "bi-wifi-off",
+    "codepoint": "f61b"
+  },
+  {
+    "class": "bi-wikipedia",
+    "codepoint": "f8cc"
+  },
+  {
+    "class": "bi-wind",
+    "codepoint": "f61d"
+  },
+  {
+    "class": "bi-window",
+    "codepoint": "f620"
+  },
+  {
+    "class": "bi-window-dash",
+    "codepoint": "f6cd"
+  },
+  {
+    "class": "bi-window-desktop",
+    "codepoint": "f6ce"
+  },
+  {
+    "class": "bi-window-dock",
+    "codepoint": "f61e"
+  },
+  {
+    "class": "bi-window-fullscreen",
+    "codepoint": "f6cf"
+  },
+  {
+    "class": "bi-window-plus",
+    "codepoint": "f6d0"
+  },
+  {
+    "class": "bi-window-sidebar",
+    "codepoint": "f61f"
+  },
+  {
+    "class": "bi-window-split",
+    "codepoint": "f6d1"
+  },
+  {
+    "class": "bi-window-stack",
+    "codepoint": "f6d2"
+  },
+  {
+    "class": "bi-window-x",
+    "codepoint": "f6d3"
+  },
+  {
+    "class": "bi-windows",
+    "codepoint": "f65e"
+  },
+  {
+    "class": "bi-wordpress",
+    "codepoint": "f669"
+  },
+  {
+    "class": "bi-wrench",
+    "codepoint": "f621"
+  },
+  {
+    "class": "bi-wrench-adjustable",
+    "codepoint": "f790"
+  },
+  {
+    "class": "bi-wrench-adjustable-circle",
+    "codepoint": "f78f"
+  },
+  {
+    "class": "bi-wrench-adjustable-circle-fill",
+    "codepoint": "f78e"
+  },
+  {
+    "class": "bi-x",
+    "codepoint": "f62a"
+  },
+  {
+    "class": "bi-x-circle",
+    "codepoint": "f623"
+  },
+  {
+    "class": "bi-x-circle-fill",
+    "codepoint": "f622"
+  },
+  {
+    "class": "bi-x-diamond",
+    "codepoint": "f625"
+  },
+  {
+    "class": "bi-x-diamond-fill",
+    "codepoint": "f624"
+  },
+  {
+    "class": "bi-x-lg",
+    "codepoint": "f659"
+  },
+  {
+    "class": "bi-x-octagon",
+    "codepoint": "f627"
+  },
+  {
+    "class": "bi-x-octagon-fill",
+    "codepoint": "f626"
+  },
+  {
+    "class": "bi-x-square",
+    "codepoint": "f629"
+  },
+  {
+    "class": "bi-x-square-fill",
+    "codepoint": "f628"
+  },
+  {
+    "class": "bi-xbox",
+    "codepoint": "f6d4"
+  },
+  {
+    "class": "bi-yelp",
+    "codepoint": "f82a"
+  },
+  {
+    "class": "bi-yin-yang",
+    "codepoint": "f67e"
+  },
+  {
+    "class": "bi-youtube",
+    "codepoint": "f62b"
+  },
+  {
+    "class": "bi-zoom-in",
+    "codepoint": "f62c"
+  },
+  {
+    "class": "bi-zoom-out",
+    "codepoint": "f62d"
+  }
+]
